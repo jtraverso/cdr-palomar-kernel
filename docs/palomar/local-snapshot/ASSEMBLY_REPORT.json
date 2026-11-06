@@ -1,0 +1,65 @@
+{
+  "status": "pass",
+  "modules": [
+    {
+      "module": "CDRBicolour/Base/Witnesses.lean",
+      "status": "pass",
+      "pid": 25540,
+      "started_utc": "2026-11-06T08:19:51.765259+00:00",
+      "source_sha256": "166556608e6c054ae1ed90bd232cee45ae7027a2b4c4b6858982d6aace491c95",
+      "exit_code": 0,
+      "seconds": 32.53,
+      "object_sha256": "ae5cfad3eacc9f253b625ad62daca96232effdbc9c82e2f895992f399e18f3a4"
+    },
+    {
+      "module": "CDRBicolour/Base/Cover.lean",
+      "status": "pass",
+      "pid": 19896,
+      "started_utc": "2026-11-06T08:20:24.330061+00:00",
+      "source_sha256": "a2439825de30488a8858dec8feae15073b13815790eef8878e1fda5b4ba2670a",
+      "exit_code": 0,
+      "seconds": 184.48,
+      "object_sha256": "1f0114f7973672d72ddefb6e4470bcb19cbddb434a365dea88d17397f13b3d01"
+    },
+    {
+      "module": "CDRBicolour/Route.lean",
+      "status": "pass",
+      "pid": 21912,
+      "started_utc": "2026-11-06T08:23:28.817931+00:00",
+      "source_sha256": "289d4cb194dada3f74de5e542a3b968683e7493ff953d0286be93b93e415c2b8",
+      "exit_code": 0,
+      "seconds": 215.55,
+      "object_sha256": "1fe9839a112c5f4c2d4b0fece9830c7f80a1b7ea66ad797e24d9b81f8ab6d0ca"
+    },
+    {
+      "module": "CDRBicolour/Characterization.lean",
+      "status": "pass",
+      "pid": 35608,
+      "started_utc": "2026-11-06T08:27:04.350895+00:00",
+      "source_sha256": "2a7625d4e05bb6af29e806e5824e119fc006792a9fe71e8e7bc78e452d094a00",
+      "exit_code": 0,
+      "seconds": 112.67,
+      "object_sha256": "aa4726bcbb3cbd00b034fc452e8f1022ebeb670f461c4db2826ad9ae50a4ed5a"
+    },
+    {
+      "module": "CDRPreprintsSolution.lean",
+      "status": "pass",
+      "pid": 36860,
+      "started_utc": "2026-11-06T08:28:57.202694+00:00",
+      "source_sha256": "4f1313849ca4b9762bd941bf6b05e18d9dfcc4a772aac6161a575d5a57ecb43e",
+      "exit_code": 0,
+      "seconds": 114.86,
+      "object_sha256": "ed0ac75560ecf0b082eba17e94014b78a4b322cf16c204e7a7c03ee35949854f"
+    },
+    {
+      "module": "CDRBicolour.lean",
+      "status": "pass",
+      "pid": 21668,
+      "started_utc": "2026-11-06T08:30:51.930706+00:00",
+      "source_sha256": "6f8bc291e97c3da938736228cc45cecb3161bd9f7d5657cc16cb580a12a8d821",
+      "exit_code": 0,
+      "seconds": 122.61,
+      "object_sha256": "852205ea6f202cb5c16c1224f3071dcffe1bfdd5a952ed8b2164526c323c3b3a"
+    }
+  ]
+}

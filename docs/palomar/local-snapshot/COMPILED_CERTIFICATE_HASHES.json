@@ -1,0 +1,1231 @@
+{
+  "status": "pass",
+  "witnesses": 49,
+  "artifacts": [
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_104_121_124.olean",
+      "sha256": "c6ffde8ced7f97aeac424ada3b9cf4d6a8841e1f1a2099b93a863d98427dd25e",
+      "bytes": 544208
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_104_121_124.olean.private",
+      "sha256": "7689503e5ee1ad476d4db4b1af96345f3841b9bd22b03880204bb7037bc24ac2",
+      "bytes": 1419304
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_104_121_124.olean.server",
+      "sha256": "f29852c1942ea60f50fce5d6500f88c372be8475e9c812d2d3efdbdddf5a8281",
+      "bytes": 163912
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_104_121_124.ir",
+      "sha256": "ba265ebb973102a4fef189566bed71555bdb4e431b81c639c1bbf14dfe1f7310",
+      "bytes": 419912
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_104_121_124.ir.sig",
+      "sha256": "0b8c46a1ab176a7b90deb6a1d82a18a96b41dc6cd36ba64be18c6bc2c743da20",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_10_12_17.olean",
+      "sha256": "d47b28e2e9aee580d3dd9d258bcec293c1fbe156bde41e38fdc55b4d7565fe54",
+      "bytes": 81344
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_10_12_17.olean.private",
+      "sha256": "4ef3631c234b26c45d63f565d3f64a7e9200526a53809dd43d8e849be9a59cdf",
+      "bytes": 1198568
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_10_12_17.olean.server",
+      "sha256": "f190da931d8e2167c3be60e142fad604e1e8472549941b70fd472f26431c1746",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_10_12_17.ir",
+      "sha256": "1ead014580686b54ed89b7e4bfd2016cc241452aa052ec019f51073a5ed888b4",
+      "bytes": 80768
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_10_12_17.ir.sig",
+      "sha256": "514d5d5779c835cccf2bc3c50a76adcc6bc5abefa83ccea5fc39645570699ec5",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_10_16_17.olean",
+      "sha256": "2edc642eaaaafd32c66fa81cdbd2ec64d677e9c5e395a68418b94669f55588fc",
+      "bytes": 94912
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_10_16_17.olean.private",
+      "sha256": "9ee84c1829ff2144473849cd54d8a9536c63d5a8d7c3d3fe96485d586da4d7ed",
+      "bytes": 1446248
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_10_16_17.olean.server",
+      "sha256": "2645a8c89ab85687ee825ee6b8f7e6f07be9fd17aef68fc646bcdd0c2650e9de",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_10_16_17.ir",
+      "sha256": "5b6d4a88a751db58360120ffdbc275074e7552f7cd346d1bc22709646260ca22",
+      "bytes": 95680
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_10_16_17.ir.sig",
+      "sha256": "82c5444fbb5e7eea7e11f1b09d38358d54fe8aaadb653416021d1a4bce9a86b6",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_112_121_134.olean",
+      "sha256": "43883b686e853cb61ed688284d9da142633cbe0789f1d9f1e72f79003f6a8e25",
+      "bytes": 577712
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_112_121_134.olean.private",
+      "sha256": "2ca101cd88c3df4e47d62d0da737829bc7b99994fe4b752cf78195c4547d7a35",
+      "bytes": 1492024
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_112_121_134.olean.server",
+      "sha256": "ebce6cf149ae9a40744b45cc053ccad2bb7f99f46e4691b7d8f57467b32cb0bc",
+      "bytes": 172264
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_112_121_134.ir",
+      "sha256": "844bb176af55497e882f623e9922e2cf3b232d62780a4fcc33b4becad6b4046f",
+      "bytes": 447368
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_112_121_134.ir.sig",
+      "sha256": "9a1e4fd2d85d11de390bce97c70397bc27b9055cc56509e886a7d477cdb9689f",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_114_129_136.olean",
+      "sha256": "4d4cee9f45bcf9ffa117629ebf6d2f098c159d5d8b7851a7fef0113c5542036f",
+      "bytes": 602304
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_114_129_136.olean.private",
+      "sha256": "d5380b2ed4f670c4ac231cbf838d248794e32237083962d6fac7a0fdc8a1ddee",
+      "bytes": 1540504
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_114_129_136.olean.server",
+      "sha256": "4073c676a54be3a5fd8182e96f014d39e99889387ca22a8d1d7fe5dc372c3a22",
+      "bytes": 177832
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_114_129_136.ir",
+      "sha256": "bf926357d65b1e3fcaba791d7b72240ac0527a9185e1f44cd2c7ef4a9d2ebb0f",
+      "bytes": 467928
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_114_129_136.ir.sig",
+      "sha256": "5af1f5e80aa11804e4de0fa941af23f43d203f1488e48fba2e9a553315f4fdef",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_12_17_20.olean",
+      "sha256": "9932e7b57882292671b3deea7477722738ad9ff29fac775f35c9fcd7c2141261",
+      "bytes": 116832
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_12_17_20.olean.private",
+      "sha256": "98b1c9ef80915146569284253dd154082acb46c3bf2c297832f55e8f88b27606",
+      "bytes": 1861928
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_12_17_20.olean.server",
+      "sha256": "8e2386e375e06726de33591c8105f0cbb074f3a203a42310d2a70c4fafe20f28",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_12_17_20.ir",
+      "sha256": "48712e73fe67cd779e4c167ee5a760d0584a04655faa3e43963ee860d963ae20",
+      "bytes": 120448
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_12_17_20.ir.sig",
+      "sha256": "1caa2552524658360066d37969520a5a2e60591dee1552531830238f75aabba7",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_132_145_156.olean",
+      "sha256": "b37caf241b5610e22a4d263d7a352f1a83bfe1f14a5c1b9603327650402a497c",
+      "bytes": 710792
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_132_145_156.olean.private",
+      "sha256": "dc045ee49d40d3cead6e06381b86ec2faeea36b3a9589c0a13fa82f3569c0bd3",
+      "bytes": 1758664
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_132_145_156.olean.server",
+      "sha256": "5e30d8cfc61a08d044216f4dd7b70aaf330df5e651aae7307d0afe5848e2e227",
+      "bytes": 202888
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_132_145_156.ir",
+      "sha256": "f49d0d173a65d057143aeaab774e6fab9205ceeb14ee0ea68ef0761e95ecb51f",
+      "bytes": 558272
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_132_145_156.ir.sig",
+      "sha256": "80ae826307780325996a3e9bba9b6e8124b16064889bee8eaaab4992590d191e",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_133_134_154.olean",
+      "sha256": "ff77d25ddd58f2e816d4f840bd3d6853d8e20c4a645f6fce8db8a6ea18ae38c8",
+      "bytes": 688032
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_133_134_154.olean.private",
+      "sha256": "f300772ab06685f2fdb370e647258b66f6495765bc1a94e027bd9e3253056e5a",
+      "bytes": 1710184
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_133_134_154.olean.server",
+      "sha256": "b4878a1972d5d986416c17972d688a0da25fe0d9a0379b1d874ab6745b2503a8",
+      "bytes": 197320
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_133_134_154.ir",
+      "sha256": "0ec6517125834eb3a7719499a4d047c0b28ef473922ba78cca7a32e49192d993",
+      "bytes": 539544
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_133_134_154.ir.sig",
+      "sha256": "a354dc8fce4f71779cb5a4c29d2c08d125ce644a93a77e9cdee1ba84ad21e664",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_137_142_160.olean",
+      "sha256": "4e9dab60b05483e708e2ec4125b1ad4526d475189c7e2587e30383fb17aae6be",
+      "bytes": 724000
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_137_142_160.olean.private",
+      "sha256": "371cfa7bcb34d9c13ea969e2e43f7c94a2631114073fbafb17abca83b4291afe",
+      "bytes": 1782904
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_137_142_160.olean.server",
+      "sha256": "a9399cf77ca22ddff277e86912e3ab8db6b8ca62c206cf284408469a2d645ce1",
+      "bytes": 205672
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_137_142_160.ir",
+      "sha256": "f27ac8a61fe1d69a288478c105e66d6ca487c57c871df4c14184f0f83abb3e67",
+      "bytes": 569464
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_137_142_160.ir.sig",
+      "sha256": "b31bfaa7e696b8ec4fe4e85d935311292e4fdff54795de149b5c8127eed69c67",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_142_149_166.olean",
+      "sha256": "97c1c0a9d3f825338aeb406567c3bb3c1c859749acfed8778fb5fc13bfa2c8fd",
+      "bytes": 764200
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_142_149_166.olean.private",
+      "sha256": "6d1d61e889b92f0816815fc78d36f916b5a67be7dc34ce34ff78a1fde6d4e108",
+      "bytes": 1855624
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_142_149_166.olean.server",
+      "sha256": "b3969683c65f5eff23f91567991acb9c74f306494daafce24b754d9a06c598b4",
+      "bytes": 214024
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_142_149_166.ir",
+      "sha256": "216b83c13f3aeaa3e848f03fbafd6d6c5f385730d95b0c00bab84140b31bafdc",
+      "bytes": 603616
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_142_149_166.ir.sig",
+      "sha256": "9cd6350780cb89c3c3419af9123969735a3978f18c0ff70d3a927f9e05bd0e57",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_14_14_21.olean",
+      "sha256": "cc710c1889e93668e04993da96a7165025bc06c8b05882e100a994ea51769440",
+      "bytes": 116928
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_14_14_21.olean.private",
+      "sha256": "414a243d7d8180d89bd36d79ff4416c570472e0ba5ffc5d126d1ee7dc8451f45",
+      "bytes": 1861800
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_14_14_21.olean.server",
+      "sha256": "6f0fcea0cb5099a3c8262c81cf03f1f4cafd626f0ce2b7af2baa8ca86ecbe900",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_14_14_21.ir",
+      "sha256": "aa2b15014b7030e70d627d41042fa5d75289822c216fdf2d5ad4087c35921a7d",
+      "bytes": 120448
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_14_14_21.ir.sig",
+      "sha256": "b5227d45a989228094cd1e416446ca1ac69bec7b7573022559b1c7e1b583e9ca",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_154_156_177.olean",
+      "sha256": "b14919ac48625852902b36a82191ae8462196221a10c800fde9f2346b1176926",
+      "bytes": 829224
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_154_156_177.olean.private",
+      "sha256": "d5e5edc0fb3cf4c822fb6f26f31426d82d34e1e5a77a3e3440425b410ab435e5",
+      "bytes": 1976824
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_154_156_177.olean.server",
+      "sha256": "895487c23666c25646025e0ada4c70bf0695fe0c3e1e88ec9a125656e33517d6",
+      "bytes": 227944
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_154_156_177.ir",
+      "sha256": "b283379f2a16356a4c029ed04421affb1156ba5f728a9d71450e552d66734221",
+      "bytes": 658560
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_154_156_177.ir.sig",
+      "sha256": "ab7d051819bd2df77a8e76ce35afb4150745b830a61c468553564b25021a1590",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_16_20_25.olean",
+      "sha256": "c61ef029002eae2c9a8349ef17d70e6ee9e1a8709eb9badcd8af8939260df603",
+      "bytes": 183792
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_16_20_25.olean.private",
+      "sha256": "7ffc252bd5937944f17be569bc39103eb39587c287588ec149160ec123d3c84d",
+      "bytes": 2852264
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_16_20_25.olean.server",
+      "sha256": "f3650b1a0f43effa5f9eb9148f8b25524da97b63211f5d3d0a57613e84bdecc5",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_16_20_25.ir",
+      "sha256": "95e2e89606ef2f0d8ce75a13a35f25a6dab724d9b4d5667cc754450381604192",
+      "bytes": 178624
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_16_20_25.ir.sig",
+      "sha256": "876a40befadcd65d0c3136c2580c6dda72093a98bee7735bd988ba78b0f54191",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_17_24_26.olean",
+      "sha256": "d87e28fd9ba5e07e4278e0a111635335cbd0b99f5814ada4b04a4071510866e9",
+      "bytes": 223552
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_17_24_26.olean.private",
+      "sha256": "9e669c952aa3cfea44501d01ae27ba5c3ca492def219325240cef9638c50b34c",
+      "bytes": 3426920
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_17_24_26.olean.server",
+      "sha256": "6c5a685eb3fc309444cee0ce18156c05d10101d4a6be69763f5f259ca2d6a513",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_17_24_26.ir",
+      "sha256": "4001c2a25a523efaad8573b0a05ae838807faf43ff46caba4bc1866a62b80f20",
+      "bytes": 212032
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_17_24_26.ir.sig",
+      "sha256": "732da77506eb1dc0c3bc90a0fa0e8f308534169fa143c44796d73b6ae2a7e22f",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_1_2_4.olean",
+      "sha256": "cafad006942cb4d2a07fac2bbbea1c118be2442b35737111b001537c86c6dbb3",
+      "bytes": 9352
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_1_2_4.olean.private",
+      "sha256": "fc51e63db3721b075cbe02cb937bf677ec0a37afd5b977e9f8eeeba730ec534c",
+      "bytes": 65104
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_1_2_4.olean.server",
+      "sha256": "3a5a4e560fbb97ceb0c96a087fa2b8198ca931623766e378a695dfb56d1e2cce",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_1_2_4.ir",
+      "sha256": "6a65ae37491d0915513737e4e0ae6c5c2861bfbd7ddea9378c38886aae0c302c",
+      "bytes": 7544
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_1_2_4.ir.sig",
+      "sha256": "72e9a170e78c2077ac78fba02cfca8c7cb28261e093fbe0fbf3a06611b9c944d",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_1_4_4.olean",
+      "sha256": "bf2baddfb2de12d75b510d737dd027936f1c2b2af18e306ad3b15893b5dedee5",
+      "bytes": 10904
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_1_4_4.olean.private",
+      "sha256": "a62dd10645be2c643377ef8e4574e81aca5a7dbb79473ce27817416e5d483327",
+      "bytes": 91664
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_1_4_4.olean.server",
+      "sha256": "b8b57334d2284a7d30a5cee20ef484eb87dc8fdc9cd479d2e234486d41be30eb",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_1_4_4.ir",
+      "sha256": "99939c1db444099a0de16b35d00ca1365a1b2bbd4bb9c85d0e38804409dba45b",
+      "bytes": 9720
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_1_4_4.ir.sig",
+      "sha256": "407dcfba98a3a00cfae48db98ea6f2a90f4346da6660ed5f6436934ca24f45d1",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_21_22_30.olean",
+      "sha256": "11353f732c9279e9c510f64a8cadcf451187ed72c3ed454cdeed98de6408beca",
+      "bytes": 257888
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_21_22_30.olean.private",
+      "sha256": "08c1be11f7f84d6e1ed0982af6ea1665cd181ad61a198a7ebc4f4206942a459c",
+      "bytes": 4054568
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_21_22_30.olean.server",
+      "sha256": "b04701de4d684f91cb4575bc23fd4c1531c058bd10fea5c586cb5eef07042190",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_21_22_30.ir",
+      "sha256": "1a32cbf9f6c5fda918fce2ca8ed0f0e0d8b12dbbe3d543a47f6c3b97d81108ed",
+      "bytes": 248320
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_21_22_30.ir.sig",
+      "sha256": "2ace13e6af909473ae3395fbf53b0794c87ffbc9b11b3c27fd61d8980f1ec9f6",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_22_25_32.olean",
+      "sha256": "f19b4e08689c2afc9832e29069a47316ee520dcb649d210c8c43cae1de27211b",
+      "bytes": 350264
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_22_25_32.olean.private",
+      "sha256": "215b3726ec615505e46a1cd6fef0b443b8a65c32f33cc4422c0c599d10e467d3",
+      "bytes": 2954304
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_22_25_32.olean.server",
+      "sha256": "afefdbb2ba2020209c5e04e24d70a96f9d24bce4e1c1c6902c52e63a9670c199",
+      "bytes": 39352
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_22_25_32.ir",
+      "sha256": "ad437690ed82664d65dbffaae1ca8bc4552dcb00b4f2451c1d6f670038f3f94a",
+      "bytes": 832080
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_22_25_32.ir.sig",
+      "sha256": "a4a7cf91c62000722d8f5c09b62597e9654cf91a44441a1c5b17cb2f7e706f12",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_26_34_37.olean",
+      "sha256": "d1ce7ffff48196238a86fa9112ab5ebd29aea50b836fe4c8a5a051ac6889d5c3",
+      "bytes": 483896
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_26_34_37.olean.private",
+      "sha256": "56199e029e0ae82014c283db8eb9556de4adc891358ba951dbdf72a59710a4c8",
+      "bytes": 4105240
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_26_34_37.olean.server",
+      "sha256": "e1680e4a7ab109931779a4cf307216d40c7bdebb758c755e118d5f4192347d3d",
+      "bytes": 47704
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_26_34_37.ir",
+      "sha256": "bf2869c5c7b7a67a1dc8a4752c752ac4195a874e66222ab1a639991677d7d9aa",
+      "bytes": 1230584
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_26_34_37.ir.sig",
+      "sha256": "484a90abc30a9f99b8ac78d12bb2c4e52b796826ce39ce8e6b2f38fc01153342",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_2_5_6.olean",
+      "sha256": "151b4c08c00627f53e7963716962dbdb0ece7467e6fe6a97de4e7894d9bec1ad",
+      "bytes": 14776
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_2_5_6.olean.private",
+      "sha256": "ca03ebb07790cf34d68d4d330f4228056a8b993c96e46fd28d64e0e496b3aab0",
+      "bytes": 162832
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_2_5_6.olean.server",
+      "sha256": "c9699096208633760051627b1358df673522dad6d8e90661d7629d3fd8d030e2",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_2_5_6.ir",
+      "sha256": "bfaded1f46858ccd655a1d2071a6a60584ea4b1adb02e0465d5f6be7780b6ade",
+      "bytes": 15032
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_2_5_6.ir.sig",
+      "sha256": "92c787ee016981dca8f895c508816e587c6db5223fdca2227b638231ed5508b5",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_30_32_41.olean",
+      "sha256": "d55ef4f4bff5007feac8cfc9f7ac770c01304a9fdcdbb8c6684038ec9b172314",
+      "bytes": 533048
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_30_32_41.olean.private",
+      "sha256": "4a4f729d4b618123ddfdacf38c8ba7f011364971869857921f0ff4d2f05ff3a6",
+      "bytes": 4535096
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_30_32_41.olean.server",
+      "sha256": "59492bf9970a9fe860d85a978c9e92cc60a2829a898295b5465aa37fe4f13f31",
+      "bytes": 50488
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_30_32_41.ir",
+      "sha256": "1a90358f6bbde6429fabcb3abe4b014caca042e2480306fa454f9bf1fbb66c7d",
+      "bytes": 1384464
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_30_32_41.ir.sig",
+      "sha256": "df0d119ed54762f7aacd390773c3339566b66fa66fb7e8e78811137e5acc7c60",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_30_37_42.olean",
+      "sha256": "ec1025786e9ddfc8424fb29fe3e8409abb12e82c98d20c5d7dc01b4214a10249",
+      "bytes": 584504
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_30_37_42.olean.private",
+      "sha256": "480002ee9cf345af2ba27c350298acdfc2da5697fdbcd3ae6d6729a7664727dc",
+      "bytes": 4984544
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_30_37_42.olean.server",
+      "sha256": "baf3acc0c24eacb155722b72d63a4537e1d1fefd6dcc1b9d4e1a02f73ceb6244",
+      "bytes": 53272
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_30_37_42.ir",
+      "sha256": "d0e6248151d3d44f2c70b94d4449cf0909629415ca4f03857b2513e58a3ce713",
+      "bytes": 1544960
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_30_37_42.ir.sig",
+      "sha256": "9b0c20966456b328bcbf4cdab1d8ecb911a524173a627355eb0d7ade2191ea7f",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_33_44_44.olean",
+      "sha256": "1f066abadaffc81fafe0958d6e03d92bc89eccf0f1f60843dc32399b25e92a3d",
+      "bytes": 694328
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_33_44_44.olean.private",
+      "sha256": "44ed441f398085671e5c80bbe78a566d61f173b6f42625e3353fee1659b0b064",
+      "bytes": 5927400
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_33_44_44.olean.server",
+      "sha256": "d480f8e60c23a425798390a9ab89d2cd286d741ccbb0161143a3dfceb034a225",
+      "bytes": 58840
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_33_44_44.ir",
+      "sha256": "d3b21dd17b2b9cc42e2cdfebf54412f6e1333a652c76d4f5f4f90223e711cf7c",
+      "bytes": 1891824
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_33_44_44.ir.sig",
+      "sha256": "c2ee226bd46d28459fd8ab662708878ba0d3b8ab302fe3d27ac8eb5da2849c54",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_36_42_49.olean",
+      "sha256": "c1b47ab4aa02d123e66177431c45f55736571e99919b06bf9ba6a3968fe4753b",
+      "bytes": 752696
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_36_42_49.olean.private",
+      "sha256": "d4b204a22ed2819c418a340c2520a189970794ced362a816da48420bc97e131d",
+      "bytes": 6439704
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_36_42_49.olean.server",
+      "sha256": "7a85917b98eef60eb5bdd402e88869f408c998dcb35e9ad177e9d71e69304ce5",
+      "bytes": 61624
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_36_42_49.ir",
+      "sha256": "363aa0d58f216b826db237fdaf9674200485001a454647b2920e8a7e513501a3",
+      "bytes": 2079104
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_36_42_49.ir.sig",
+      "sha256": "83197a40458886caaed6945e164e518ce771ffea89529e8c5c4f1c4b2b1fea83",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_41_44_54.olean",
+      "sha256": "2d59b2e7a9352287897d40112fbc961ab50127e5a93c4f2acab986e1f8b66ec3",
+      "bytes": 876344
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_41_44_54.olean.private",
+      "sha256": "155a65fc2422e4391d4dfe7def38079b1b71ad92052cc35956af298538a10e88",
+      "bytes": 7499616
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_41_44_54.olean.server",
+      "sha256": "132a761491feb0d488ae1a3906b39ded96e7d4d460b687f33a310a9febafc01d",
+      "bytes": 67192
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_41_44_54.ir",
+      "sha256": "d1d4dcbfd878515f6601f380b1ad244818a4517f19d5f0cfdff115edb2293294",
+      "bytes": 2473432
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_41_44_54.ir.sig",
+      "sha256": "3be22a6dc789283d72020a6604e75a26daad315c228f7e1c68896ba3367a5601",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_44_49_58.olean",
+      "sha256": "7a069e2a2c02c86c69e5d6e752f6078baa7d2a37a553abf966362ac7d6b4da57",
+      "bytes": 1009208
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_44_49_58.olean.private",
+      "sha256": "84aaf8495c80e625df27845d2f0bdb71b0cf2684ebbdfb91352441fce2d5bdc4",
+      "bytes": 8653520
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_44_49_58.olean.server",
+      "sha256": "9e60e82c310218666d61aeffbf12c8937d877d69bd7cc9193c6d89cf6332832e",
+      "bytes": 72760
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_44_49_58.ir",
+      "sha256": "d6ce6a996d2298bf0fed0531e1d8fdd8cdc9bf03885e6c8148dbc7013621ecd8",
+      "bytes": 2910896
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_44_49_58.ir.sig",
+      "sha256": "39f0248124ac68ce012c7b64d207c9f1b56a67589220d136a95deae62ca015de",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_44_56_57.olean",
+      "sha256": "5c9e6e9191c63bd44edb766d971b49f7f74a7f0d998077ab8ac91fb08d565ac4",
+      "bytes": 1079096
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_44_56_57.olean.private",
+      "sha256": "ad557fe8a0cf3cc22bf26d023089cc40965d38b573f33f06b3f55398f4ea7177",
+      "bytes": 9256288
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_44_56_57.olean.server",
+      "sha256": "3468f6501cccacc0155265612fab07fdae89633a2bddc36057da6635bb73d4b3",
+      "bytes": 75544
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_44_56_57.ir",
+      "sha256": "8119d017c7235ca47293db0e72969c15960ab1c99bad822fa96e6dfba014b93f",
+      "bytes": 3140552
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_44_56_57.ir.sig",
+      "sha256": "7a8b62ebdaa3d776a1b54c478531fa314e5c5866c05e6055329b8d314fec9c1c",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_46_57_60.olean",
+      "sha256": "dbd16606717c3134b1bce3e6ff95fed138c1a9015bf30cd701529189d288a664",
+      "bytes": 1151288
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_46_57_60.olean.private",
+      "sha256": "c985d7ad448cbaf23b5cf0236e434c98f6945ddffd15489dcd63383aa47b911e",
+      "bytes": 9878120
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_46_57_60.olean.server",
+      "sha256": "50091dd5618429029873a08a37a2059eeb5c8cfc8f23a9e23fcd9981dae92b6f",
+      "bytes": 78328
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_46_57_60.ir",
+      "sha256": "5a7b8b722a70d12e56aa33f9b33eb073116ae2552ab6fc892fdc2b1817a23d8d",
+      "bytes": 3380616
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_46_57_60.ir.sig",
+      "sha256": "8a1382f9c2761c016cc040720e15a7537d344e2ab5711d89c2065889fae6aab4",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_4_6_9.olean",
+      "sha256": "58d53a1f055bd10e2360e940996ad35365ef041a9f1706cabcc1c08d210a2280",
+      "bytes": 22504
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_4_6_9.olean.private",
+      "sha256": "f18c55788f201bf73949b3f9bbe850b854e8a29c29e970ce78680f46a53f406d",
+      "bytes": 313552
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_4_6_9.olean.server",
+      "sha256": "fffd3237130b8a67d404d9b7add09cfccce9c5877696bbaad465c2ebc8017bb3",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_4_6_9.ir",
+      "sha256": "5757cc25cfa82f611fc7393943a4c602ca7a4a6d71bff9c828ad2979cd8ce630",
+      "bytes": 25400
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_4_6_9.ir.sig",
+      "sha256": "ba804de919043670dc573810b4019b43fd6bffdc2789a4a1e16eaf86fb51331a",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_4_8_9.olean",
+      "sha256": "45db89ac144f0d913f7db2fa1f8f29d491b2eaca5bd336d48381a98728f9069d",
+      "bytes": 25592
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_4_8_9.olean.private",
+      "sha256": "54f1a9a229716cfa4d740d74c68fe152567b7b240d66692ce9f61d6922ae841b",
+      "bytes": 375568
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_4_8_9.olean.server",
+      "sha256": "b76dedee4af09a6bfdd5362bd223a71850c27d4ba5652700abf95a5af25458e4",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_4_8_9.ir",
+      "sha256": "fff0299bdd4c0d7c494bb5a84ec495b1cde23afd737d0997728d0c828a8dfc5a",
+      "bytes": 29496
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_4_8_9.ir.sig",
+      "sha256": "372e0a92b0914655220670784a0ba271a8d405680acb99c0ec75985965d09248",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_54_58_69.olean",
+      "sha256": "bda4ebbbedf5db0a6418e88d19b695232de88bfa41db46b0807015db849071de",
+      "bytes": 1381688
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_54_58_69.olean.private",
+      "sha256": "b9e71a631471c5e04c2713f2266d04988dd1b9949c54897f9a57c6338cf1bb38",
+      "bytes": 11875632
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_54_58_69.olean.server",
+      "sha256": "26cc1f2b02d1d70d26adc5672d713eaf745fa78c7bf4ea468d51a98910767924",
+      "bytes": 86680
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_54_58_69.ir",
+      "sha256": "e4d74b0a3359a50c78bbf44e6d9741ba0e0b7930f6a083640155048492c5a193",
+      "bytes": 4150320
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_54_58_69.ir.sig",
+      "sha256": "5a68beb54537ee6caaa5b30567b6199ac202cda3ec289906a38633baa1d874a6",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_56_65_72.olean",
+      "sha256": "219302280caaa6a5005584aed5f52c0dee3958f254e72a6e6de879fd887c8e18",
+      "bytes": 1546808
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_56_65_72.olean.private",
+      "sha256": "ce7041f487f558c2c28ad2dbd9e9497c4470f83b0165426ef0b73e9bd33f01b9",
+      "bytes": 13284432
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_56_65_72.olean.server",
+      "sha256": "d4f30addfe40e599beeff1c376725f43c442e38e6a884e69d5d2cf185ec4fb1c",
+      "bytes": 92248
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_56_65_72.ir",
+      "sha256": "814628eedc1ba573bebcd640561a852524d12bd41e5aa7e85620f5a2b6a65f43",
+      "bytes": 4705048
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_56_65_72.ir.sig",
+      "sha256": "34615e9397b785bbb28623171d7a009525c4484b1555d7741f96f79579ca8b26",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_57_70_72.olean",
+      "sha256": "4019086b663c11171d1141a7ed3997907834f1ebf296184b1e47dca1b61c125d",
+      "bytes": 1632824
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_57_70_72.olean.private",
+      "sha256": "d2092b5c8cc6f65a905c4cc0c7812e5296d4f45c51a5ecda3be393503af4a486",
+      "bytes": 14021688
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_57_70_72.olean.server",
+      "sha256": "04559915d28bdd568fd872547c2751eb8b891089234818556d96a46da1deb997",
+      "bytes": 95032
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_57_70_72.ir",
+      "sha256": "5cca313be4f8efd85b401340a69746d8f1b64f81a37bd6b9bdaa3d1ac265d238",
+      "bytes": 4996864
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_57_70_72.ir.sig",
+      "sha256": "39d96accb89d7b03298a6b85cffc35be1ba1727954073f343ba2b80d7ad632ec",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_5_10_10.olean",
+      "sha256": "0a999298a66937e103d9f1c6183e992e69e07814c0b22e76fd332d4535e5c391",
+      "bytes": 32552
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_5_10_10.olean.private",
+      "sha256": "30d2505296031985aca01d71672f7795db77695b9aa5fccbbfa22a3c602d3e42",
+      "bytes": 517144
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_5_10_10.olean.server",
+      "sha256": "17002ea332c0d644d33553862e81a3f95b2fd2fa0fb2532859d1c47b6d697973",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_5_10_10.ir",
+      "sha256": "8bd3e4ee53dd97c71b7ddcd5ff2f377d7114ed65bbceaa03e404eaa4fc20a857",
+      "bytes": 38656
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_5_10_10.ir.sig",
+      "sha256": "3b0b4fa288092e3a39e12066f03e5f088b23be806dda1aa2d48b7eca8978bd66",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_5_6_10.olean",
+      "sha256": "bfd4c5ef3253421a0b3969c7ac77b158e27d6575a399c711992214a598e6f2e1",
+      "bytes": 25600
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_5_6_10.olean.private",
+      "sha256": "681aa453e24a695cb39c597328eeabf98b4c293d4e12b5dbea66d0ed14c9418f",
+      "bytes": 375576
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_5_6_10.olean.server",
+      "sha256": "c7df5a4ac9ff61df001004e47ecbf4d74408387d4fecd4ab9555c3a873f697d6",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_5_6_10.ir",
+      "sha256": "fe916841cff0ac446be53b3cf527c7a840e6b935b4c33d1eefcea7542a5ea3d7",
+      "bytes": 29504
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_5_6_10.ir.sig",
+      "sha256": "66734520fb84167f748557912b5f61feaf3cf47fcd100edc371b7ccd4ab13296",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_65_66_80.olean",
+      "sha256": "00ce96596f1f2e32a4435ee765d52a5c3e72ed7df2de5571c1f15cd4f6031652",
+      "bytes": 1811768
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_65_66_80.olean.private",
+      "sha256": "c0fd9a4b9abbcaa85861b98145ebdd7455430229313be629407cc63d82140d4d",
+      "bytes": 15569704
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_65_66_80.olean.server",
+      "sha256": "f9e4b2d0d75a7a798a8172d9775640505ef51d2fb406f8dfb461f892280caa12",
+      "bytes": 100600
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_65_66_80.ir",
+      "sha256": "94caa6fdb4c1cbf1deda0f3eee6e18cc6d09a4942cbad59163f2972b582e7a6b",
+      "bytes": 5605720
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_65_66_80.ir.sig",
+      "sha256": "d9805254971cf23efeb9e9fd5d11da367953622642de0586b2f64b096c802f72",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_65_76_82.olean",
+      "sha256": "9d6a9c4f455d7754cd3a28d39b69124289b19c2f16b58d640626ea4c7fcad98e",
+      "bytes": 1999928
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_65_76_82.olean.private",
+      "sha256": "647d7d9b7c3c3a96b38838a6f2f4b73d596aa230aab806ec1c9f58994b39bbb0",
+      "bytes": 17197376
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_65_76_82.olean.server",
+      "sha256": "529c0f451848480ad4757b49094c5f255ac25e8cef47bf9b87c627a4d3cee981",
+      "bytes": 106168
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_65_76_82.ir",
+      "sha256": "0a07f4bd66170d9d40f940f5c5b740c11feb9b97c9178a8e918fd0adfd624bb6",
+      "bytes": 6252472
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_65_76_82.ir.sig",
+      "sha256": "17c8e6bfd1ca54ef5e4551b062f311b41b1a697f53ecdec864a537d3027b8558",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_69_74_86.olean",
+      "sha256": "d4f7dc094bc92d6dd9a8daf45aab805cb44324b082bac2564f1df85535ac5dcb",
+      "bytes": 2097464
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_69_74_86.olean.private",
+      "sha256": "b9bb300b47967d675065b8f5a9eaedfddcae1ce5f2b23cda1247a3bea2679f99",
+      "bytes": 18024384
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_69_74_86.olean.server",
+      "sha256": "11366059df77d7d8df3d5c90f0592962538d31de89cb3829403f183f6d9e13dc",
+      "bytes": 108952
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_69_74_86.ir",
+      "sha256": "f126622e5eb1ff3afdcbb1bc142d24704a05034c34b2a8980f551afdd83b51ce",
+      "bytes": 6583128
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_69_74_86.ir.sig",
+      "sha256": "2cdd53f9106cc1b3d8547835753d74e363e5eb32710997c68bc5950b3e71fd33",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_6_9_12.olean",
+      "sha256": "72c688e489e058680c9143f59772e8f1f910601975f607b61e3c7a88e245a33e",
+      "bytes": 36400
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_6_9_12.olean.private",
+      "sha256": "146cf9f815e6315170eca6006837f52f10fa5d6eebdb59a6fd1318ee45271746",
+      "bytes": 596952
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_6_9_12.olean.server",
+      "sha256": "da79ac7d28a97e44e98343e6ff7403ad17a79af31ff75fe2a58b3921c295b17a",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_6_9_12.ir",
+      "sha256": "45fc978d65df94eebba710977c0c8d7e4d29d7f72519020601229f835fc2d30e",
+      "bytes": 43712
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_6_9_12.ir.sig",
+      "sha256": "c198d44243f2724ae5d2c2363e2b2e7820a39ef31a86be7dad4515df23329a02",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_70_85_86.olean",
+      "sha256": "1698cf9bf1a7543f07dd39389e02cb76bb4f96da337d97f42c0c9cd4d3b112e1",
+      "bytes": 2299448
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_70_85_86.olean.private",
+      "sha256": "7f451a364696cfee494e409ed15bac9e6363d605efa4de5a853d2cba4e919cf8",
+      "bytes": 19789288
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_70_85_86.olean.server",
+      "sha256": "bf8a9f16c81bf8b9b01fd48276728a049f885e7c3922729e0f8adc7f935f9423",
+      "bytes": 114520
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_70_85_86.ir",
+      "sha256": "82da65b5ab8189ea7273bd4ac76bcf2a98ad1e89c6959bdb762ce3ec47b23e62",
+      "bytes": 7287904
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_70_85_86.ir.sig",
+      "sha256": "d32c42f699820541b5ab73256d53522006410a6abb801dc9dfab550bd9229569",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_81_90_100.olean",
+      "sha256": "96a34189cbde9b04729d65f5472d73d9cb60068d052b811ed9c518b093ce1ff7",
+      "bytes": 2844728
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_81_90_100.olean.private",
+      "sha256": "d6428d54b20d04e7347ed655c230ad9c5316e14a35a7fd8e70b982924a8678e9",
+      "bytes": 24487704
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_81_90_100.olean.server",
+      "sha256": "f04c4cca760a1a5548c2e66bc4738b8ab1c1e079a8963ba6386cf2d00e2376a3",
+      "bytes": 128440
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_81_90_100.ir",
+      "sha256": "b4e4e5ac86a9a1d3cdbac5b8f03edd5936c16a83fb1a1c5a1673a7741df20792",
+      "bytes": 9183936
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_81_90_100.ir.sig",
+      "sha256": "7b1f76cf44a1e78918198f1fc683921ce59aec7cb26248d3360aebd252c9055b",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_82_94_101.olean",
+      "sha256": "f7ef6115df0d5434e13078883134847acaaadb31ea6d4ffee586232cd3525f1a",
+      "bytes": 2960696
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_82_94_101.olean.private",
+      "sha256": "6b6dae0f998894ee218bc8504b4e172f81c0b9c76f97d463eda924ef6c54a278",
+      "bytes": 25489176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_82_94_101.olean.server",
+      "sha256": "2abdcee85f1f14a24c6db15d960a032fec1394804c7c85965c5507998ca432fd",
+      "bytes": 131224
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_82_94_101.ir",
+      "sha256": "c95de7ab17efedf434592730db8b8ca4c14723e993c7a4643f65e4193352f6ad",
+      "bytes": 9584328
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_82_94_101.ir.sig",
+      "sha256": "90c15a2e86cf0bf8a975698fa3ec0e4c6a6780441e4d6dad9f9341815759ad4d",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_85_102_102.olean",
+      "sha256": "275fb4cffb6074ced0ee1448c569b66d319bf7407e9896b44b14a2e2d3028041",
+      "bytes": 431848
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_85_102_102.olean.private",
+      "sha256": "ceee296236c9be250fbc77797bb527768acb657e1590ec0902dd164675188cfb",
+      "bytes": 1176776
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_85_102_102.olean.server",
+      "sha256": "32bf4250f071cf80ed207c1e3731b82264214659c73e24c9013ccd762620b245",
+      "bytes": 136072
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_85_102_102.ir",
+      "sha256": "a28f246df144795c3bb22daf0e0c1196c3f6eea6837d9bb9a2dbba8126964056",
+      "bytes": 327712
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_85_102_102.ir.sig",
+      "sha256": "e0c2d3319515d0043fcd8731f65ee2efad0aeda4d63466685ff2f77448489069",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_86_92_105.olean",
+      "sha256": "4106cb1d6c027b17d9027da18e04f3e16657741de2057f93fff19bcd2354116c",
+      "bytes": 420848
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_86_92_105.olean.private",
+      "sha256": "ed1481c9caed5c4b89be4d6a7c629d141fcf915bc560b9eb3f6583a1bcbe538f",
+      "bytes": 1152664
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_86_92_105.olean.server",
+      "sha256": "ebb3c11be0818bdbfd7ea135674cdc23895a501bc2a4e193bdd93346940ef4e3",
+      "bytes": 133288
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_86_92_105.ir",
+      "sha256": "66ee9acee64952cdc666b68d00f22919b676710d6718bd859a3caa8a140fe90b",
+      "bytes": 318728
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_86_92_105.ir.sig",
+      "sha256": "ec9c599154f699c3b92e7b0640c57019d8c2d5822be003b5871dc30a48149eff",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_8_9_14.olean",
+      "sha256": "f86aa0ff46e0364ee127104841156e282b41dea094007a2333d2ab6f16c29676",
+      "bytes": 44880
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_8_9_14.olean.private",
+      "sha256": "2a8aa3ffa4232037de8ab098a0f6ff2300f45eabe500efd358e374aeb37e88d5",
+      "bytes": 773976
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_8_9_14.olean.server",
+      "sha256": "8ac799f92aa1a2233dfcd409eaee4673a85049fe1deb46c03e3b342e872e9934",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_8_9_14.ir",
+      "sha256": "461144fc815961dc031f7b1dad69d70e47ce89a0187baf622c60a48781d1530d",
+      "bytes": 54784
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_8_9_14.ir.sig",
+      "sha256": "aea587fec89c2cd372635f91ec247256ed4cf5efa74a2b41e90b35cfff1c2e23",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_96_97_114.olean",
+      "sha256": "a7eeb200d22f4d0cf930a15904c33f8deee70f2c273d54c56c09655a306ae69a",
+      "bytes": 465424
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_96_97_114.olean.private",
+      "sha256": "0395011a424711ce72b22c23a705ab40db5a8fd518087915a01d7f4ab4809f8d",
+      "bytes": 1249624
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_96_97_114.olean.server",
+      "sha256": "77ba29dede044b6fe9de82803e02c1f586d0cc392be5fc7798e2eab2d67bfb50",
+      "bytes": 144424
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_96_97_114.ir",
+      "sha256": "fe841a4b21242601e39689f338cbfa50c16101717241196bad15e33b9dc3f068",
+      "bytes": 355240
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_96_97_114.ir.sig",
+      "sha256": "1ac944011c417e0033327a8fc0084b2428f2b5175fe0f607da5b03b00300becd",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_97_100_116.olean",
+      "sha256": "f9a5b792a89452b5ac95d8459949f0f6947cd05729ddfa9b7ed06226cc2c4df2",
+      "bytes": 474760
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_97_100_116.olean.private",
+      "sha256": "030126eeca7b7f14f4a9a0debc801fda5ffc047644c61584998f91f105b4d7a6",
+      "bytes": 1273864
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_97_100_116.olean.server",
+      "sha256": "1d744f4c1b4512216a5d0b3860860d662f8ca957fb47595e1fbdad3ffdfe01a2",
+      "bytes": 147208
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_97_100_116.ir",
+      "sha256": "a802720a22f72b70500cdc0154e65603209e437312fed78fbe4241952123bb3b",
+      "bytes": 362560
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_97_100_116.ir.sig",
+      "sha256": "f41c69878151b4945e44ec3c60042e8a38b5db29902bcc12df27ad99b2562b90",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_9_12_16.olean",
+      "sha256": "de987271de71b1604536ec6c8daaf9132304e76cf52c85c76edbae0edfde4975",
+      "bytes": 75520
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_9_12_16.olean.private",
+      "sha256": "63370cac2c851f0bcd7c7fa15ce2ccc54f33447c8f04ab32e26492cc5a83f4a6",
+      "bytes": 1083560
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_9_12_16.olean.server",
+      "sha256": "39657e2047ce37e9744de2bea633c89adee7e58791468ede9a4d3bbe8ba9635c",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_9_12_16.ir",
+      "sha256": "dbb570d4f1c1407f9352faae2d6744dfb01b5b24ab525fc3704eb9c2abd16c7c",
+      "bytes": 73792
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_9_12_16.ir.sig",
+      "sha256": "d604926bd7f73710d4ec4a5b2acb4006f9cb6b6462245e0e5d25bf5d0d311f2a",
+      "bytes": 176
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_9_14_16.olean",
+      "sha256": "d130dc5bd2616da0e66425664cead1bc97fdbe4ef3991746f388db669b634729",
+      "bytes": 81696
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_9_14_16.olean.private",
+      "sha256": "38f34fcfa69e84fcb1e0d7db4fbd42c351971dd0dbc5e9f6a9e77a8df8814704",
+      "bytes": 1198568
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_9_14_16.olean.server",
+      "sha256": "7a12082400f27682d6e96ddbb3676aa47edf0cac207cfefd0ba9e8f0517a749c",
+      "bytes": 1512
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_9_14_16.ir",
+      "sha256": "ceb79809b9b087dce1de9237db3154b7251b032d1835d5a05ef9c95da80f5451",
+      "bytes": 80768
+    },
+    {
+      "path": ".lake/build/lib/lean/CDRBicolour/Base/Data/W_9_14_16.ir.sig",
+      "sha256": "e64afd05c138f6cc475e4676527e86aed067639c77be8a5cc84f53a5cc2712ad",
+      "bytes": 176
+    }
+  ]
+}

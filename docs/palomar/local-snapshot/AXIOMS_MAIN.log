@@ -1,0 +1,3 @@
+'CDRBicolour.cdr_conjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CDRBicolour.cdr_characterization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CDRBicolour.Absorption.Corners.cdr_type_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]

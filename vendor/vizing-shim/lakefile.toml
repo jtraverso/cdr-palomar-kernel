@@ -1,0 +1,5 @@
+# Shim for the `vizing` dependency of ccjs_overfull (jtraverso/vizing @ 33b2de8, PALOMAR-2026-10-15-000004).
+# The modules it provides (LeanPool.Vizing.*) are taken from cdr_bicolour's vendored copy, byte-identical
+# (same git blob hashes) for every module in the import cone of Overfull.
+name = "vizing"
+version = "0.1.0"

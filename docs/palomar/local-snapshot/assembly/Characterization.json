@@ -1,0 +1,10 @@
+{
+  "module": "CDRBicolour/Characterization.lean",
+  "status": "pass",
+  "pid": 35608,
+  "started_utc": "2026-11-06T08:27:04.350895+00:00",
+  "source_sha256": "2a7625d4e05bb6af29e806e5824e119fc006792a9fe71e8e7bc78e452d094a00",
+  "exit_code": 0,
+  "seconds": 112.67,
+  "object_sha256": "aa4726bcbb3cbd00b034fc452e8f1022ebeb670f461c4db2826ad9ae50a4ed5a"
+}

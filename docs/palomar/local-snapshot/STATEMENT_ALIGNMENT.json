@@ -1,0 +1,127 @@
+{
+  "status": "pass",
+  "scope": "Types and defining expressions with typed proof irrelevance and normalization; not full Comparator",
+  "challenge_sha256": "2892c52ef5132c98d2456077ee93b6ec94384417c1724059ee3fdef68bde4e96",
+  "declarations": [
+    {
+      "name": "CDRBicolour.STS",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.STS.mk",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.STS.blocks",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.STS.card_eq_three",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.STS.existsUnique_block",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.IsStrictBicolouring",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.classSize",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.AdmissibleProfile",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.Realises",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.CDRConjecture",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.Prefix.col3",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.BlockTypes.cnt",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.BlockTypes.typeCount",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.Absorption.Corners.sz",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.Absorption.Corners.LowerNec",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.Absorption.Corners.ExactNec",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.Absorption.Corners.AACSpec",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.cdr_conjecture",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.cdr_characterization",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    },
+    {
+      "name": "CDRBicolour.Absorption.Corners.cdr_type_spectrum",
+      "kind_match": true,
+      "type_match": true,
+      "definition_match": true
+    }
+  ]
+}

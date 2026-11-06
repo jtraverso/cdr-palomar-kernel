@@ -1,0 +1,33 @@
+name = "cdr_bicolouring"
+version = "0.1.0"
+defaultTargets = ["CDR", "Konig", "CDRChallenge", "CDRSolution"]
+requiresModuleSystem = true
+
+[leanOptions]
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc3"
+
+[[require]]
+name = "vizing"
+git = "https://github.com/jtraverso/vizing"
+rev = "33b2de836095cf92bc1dec33b6f8787e4036bbc6"
+
+[[lean_lib]]
+name = "Konig"
+globs = ["Konig.+"]
+
+[[lean_lib]]
+name = "CDR"
+globs = ["CDR.+"]
+
+[[lean_lib]]
+name = "CDRChallenge"
+roots = ["CDRChallenge"]
+
+[[lean_lib]]
+name = "CDRSolution"
+roots = ["CDRSolution"]

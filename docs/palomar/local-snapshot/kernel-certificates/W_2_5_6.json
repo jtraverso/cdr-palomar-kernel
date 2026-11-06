@@ -1,0 +1,10 @@
+{
+  "module": "CDRBicolour/Base/Data/W_2_5_6.lean",
+  "status": "pass",
+  "pid": 33444,
+  "started_utc": "2026-11-06T06:30:19.880683+00:00",
+  "source_sha256": "eaf257eb6b33010c2320d2c54f4459948ce0a00627ed10499d9d7e6ecda93e96",
+  "exit_code": 0,
+  "seconds": 26.84,
+  "object_sha256": "151b4c08c00627f53e7963716962dbdb0ece7467e6fe6a97de4e7894d9bec1ad"
+}

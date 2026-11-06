@@ -1,0 +1,10 @@
+{
+  "module": "CDRBicolour/Route.lean",
+  "status": "pass",
+  "pid": 21912,
+  "started_utc": "2026-11-06T08:23:28.817931+00:00",
+  "source_sha256": "289d4cb194dada3f74de5e542a3b968683e7493ff953d0286be93b93e415c2b8",
+  "exit_code": 0,
+  "seconds": 215.55,
+  "object_sha256": "1fe9839a112c5f4c2d4b0fece9830c7f80a1b7ea66ad797e24d9b81f8ab6d0ca"
+}

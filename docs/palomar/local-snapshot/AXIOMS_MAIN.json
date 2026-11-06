@@ -1,0 +1,37 @@
+{
+  "status": "pass",
+  "query": "checks/AxiomsPalomar.lean",
+  "exit_code": 0,
+  "expected": 3,
+  "actual": 3,
+  "declarations": [
+    {
+      "declaration": "CDRBicolour.cdr_conjecture",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    },
+    {
+      "declaration": "CDRBicolour.cdr_characterization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    },
+    {
+      "declaration": "CDRBicolour.Absorption.Corners.cdr_type_spectrum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    }
+  ],
+  "checked_utc": "2026-11-06T08:34:48.009464+00:00"
+}

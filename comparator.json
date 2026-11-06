@@ -1,0 +1,12 @@
+{
+  "challenge_module": "CDRPreprintsChallenge",
+  "solution_module": "CDRPreprintsSolution",
+  "theorem_names": [
+    "CDRBicolour.cdr_conjecture",
+    "CDRBicolour.cdr_characterization",
+    "CDRBicolour.Absorption.Corners.cdr_type_spectrum"
+  ],
+  "definition_names": [],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"],
+  "enable_nanoda": true
+}

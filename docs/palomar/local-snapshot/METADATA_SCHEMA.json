@@ -1,0 +1,6 @@
+{
+  "status": "pass",
+  "source_sha256": "f82c07b37e7f16055ae0c15ea9ec7ef563407919ec63a0f0131ce3bef98d0f2a",
+  "schema": "https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json",
+  "errors": []
+}

@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "baseline": "76431935a1d61dbd7d512f32c941e37de38f6ba0",
+  "results": [
+    {
+      "path": "CDRBicolour/Basic.lean",
+      "unchanged": true,
+      "sha256": "e09a6dddeb73f985f22076953d945140278c412b33c99846130b735ede929128"
+    },
+    {
+      "path": "CDRBicolour/Prefix/P2Types.lean",
+      "unchanged": true,
+      "sha256": "08faff60e550d9b8881b65f49ca3a3c31430c35f5c5df8954f89dcbc715ef8af"
+    },
+    {
+      "path": "CDRBicolour/Extensions/BlockTypes.lean",
+      "unchanged": true,
+      "sha256": "d794f17011e1d8933c6dc22c16a49421ab1b226c7fe52467cd1ffad3c9cb806c"
+    },
+    {
+      "path": "CDRBicolour/Absorption/Corners/Lower.lean",
+      "unchanged": true,
+      "sha256": "093bf7cfafd57c4db49a09675d917483667c0d4a9200bace4e1b840ce1f8a9b3"
+    },
+    {
+      "path": "CDRBicolour/Absorption/Corners/Spectrum.lean",
+      "unchanged": true,
+      "sha256": "93a157e6d7444e97a29169f6b24efa57e944abfbf1f6ae86246c571cc001d020"
+    },
+    {
+      "path": "CDRBicolour/Characterization.lean",
+      "unchanged": true,
+      "sha256": "2a7625d4e05bb6af29e806e5824e119fc006792a9fe71e8e7bc78e452d094a00"
+    },
+    {
+      "path": "CDRBicolour/Route.lean",
+      "unchanged": true,
+      "sha256": "289d4cb194dada3f74de5e542a3b968683e7493ff953d0286be93b93e415c2b8"
+    },
+    {
+      "path": "CDRBicolour/Universal.lean",
+      "unchanged": true,
+      "sha256": "7f249cb191a6cb660eea7dbeaf517b5eee6de6c7664d09386fe576563a3ab766"
+    }
+  ]
+}

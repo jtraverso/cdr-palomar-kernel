@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-11-06T08:49:26.042472+00:00",
+  "scope": "Incremental local verification; unchanged dependency objects reused",
+  "witness_count": 49,
+  "compared_declarations": 3,
+  "axiom_queries": 12,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "full_palomar_preflight": "not run: public source access required",
+  "palomar_submission": "not submitted",
+  "reports": {
+    "TABLE_PROVENANCE.json": "b056625e8b21d5e402385862531a5b46c3a37c6fc6f5fd47c06679fcb5b50f15",
+    "METADATA_SCHEMA.json": "0a6eedcd9981fcd911051b6a57ee4b9367b60536be4c392808f9c54b2711ff30",
+    "STATEMENT_ALIGNMENT.json": "d9a9c926a5065b3ede848e8f4fb73daf25af1ac3ed5f623049dcbf715ef7269a",
+    "SOURCE_REQUIREMENTS.json": "57a8802ab4dc20a26ccd1d72371d80d189013b5560b0de702c1e4374ec769815",
+    "PROTECTED_MATHEMATICS.json": "3e7ffb03eef82562c0c7f6275767f0f89230d96f3763ac6c4c12d345a4158296",
+    "COMPILED_CERTIFICATE_HASHES.json": "5632500233128dbabce142e5ea3e025acc32b6f44e6cb1625c77f7116845d40c",
+    "CACHE_SOURCE_COMPARISON.json": "784a72141f798e8a3f1f42ace04f301591d9dc9f72f8bd849889e2879da49f6b",
+    "ASSEMBLY_REPORT.json": "12416325114ec06a545241d2858332065d32629287ed8379e8fbef1d3671a0cd",
+    "AXIOMS_MAIN.json": "bd8cd982e9cab44ca76cb7d26e08d578bf94a1c30af12db2b86cfd69410f3caa",
+    "AXIOMS_ALL.json": "d12623df599999e4e46879df0d1fe519403a321a47535073e90ac78957f10b14"
+  }
+}

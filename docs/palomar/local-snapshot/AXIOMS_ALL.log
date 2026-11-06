@@ -1,0 +1,14 @@
+'CDRBicolour.cdr_conjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CDRBicolour.cdr_characterization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CDRBicolour.cdr_characterization_bicolourable3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CDRBicolour.Absorption.cdr_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CDRBicolour.Absorption.cdr_completion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CDRBicolour.Absorption.Refined.cdr_prescribed_intersection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CDRBicolour.Absorption.PaschSeed.cdr_many_pasch_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CDRBicolour.Absorption.PaschSeed.cdr_many_nonisomorphic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CDRBicolour.Absorption.cdr_aac_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CDRBicolour.Absorption.Exact.cdr_aac_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CDRBicolour.Absorption.Corners.cdr_type_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CDRBicolour.Absorption.Count.Wilson.realCount_log_asymptotic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

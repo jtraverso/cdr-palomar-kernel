@@ -1,0 +1,118 @@
+{
+  "status": "pass",
+  "query": "checks/AxiomsFreeze.lean",
+  "exit_code": 0,
+  "expected": 12,
+  "actual": 12,
+  "declarations": [
+    {
+      "declaration": "CDRBicolour.cdr_conjecture",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    },
+    {
+      "declaration": "CDRBicolour.cdr_characterization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    },
+    {
+      "declaration": "CDRBicolour.cdr_characterization_bicolourable3",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    },
+    {
+      "declaration": "CDRBicolour.Absorption.cdr_eventually",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    },
+    {
+      "declaration": "CDRBicolour.Absorption.cdr_completion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    },
+    {
+      "declaration": "CDRBicolour.Absorption.Refined.cdr_prescribed_intersection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    },
+    {
+      "declaration": "CDRBicolour.Absorption.PaschSeed.cdr_many_pasch_counts",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    },
+    {
+      "declaration": "CDRBicolour.Absorption.PaschSeed.cdr_many_nonisomorphic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    },
+    {
+      "declaration": "CDRBicolour.Absorption.cdr_aac_dense",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    },
+    {
+      "declaration": "CDRBicolour.Absorption.Exact.cdr_aac_exact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    },
+    {
+      "declaration": "CDRBicolour.Absorption.Corners.cdr_type_spectrum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    },
+    {
+      "declaration": "CDRBicolour.Absorption.Count.Wilson.realCount_log_asymptotic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "status": "pass"
+    }
+  ],
+  "checked_utc": "2026-11-06T08:36:25.196451+00:00"
+}

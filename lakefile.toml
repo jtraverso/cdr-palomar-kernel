@@ -1,0 +1,68 @@
+name = "cdr_bicolour"
+version = "0.1.0"
+requiresModuleSystem = true
+defaultTargets = ["CDRPreprintsChallenge", "CDRPreprintsSolution"]
+
+[leanOptions]
+relaxedAutoImplicit = false
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "c55e6e786f49471c72fbddbec5415808896aec1e"
+
+# Vendored, unmodified: Lean Pool `LeanPool.Vizing` (Vizing + equitable edge colouring),
+# Palomar entry "Vizing + McDiarmid equitable" (see PROVENANCE.md).
+# Also vendored, unmodified: `LeanPool.ClassicalGraphColouring.Konig.Basic` (Kőnig edge colouring).
+[[lean_lib]]
+name = "LeanPool"
+globs = ["LeanPool.Vizing", "LeanPool.Vizing.+", "LeanPool.ClassicalGraphColouring.Konig.Basic"]
+
+[[lean_lib]]
+name = "CDRBicolour"
+globs = ["CDRBicolour", "CDRBicolour.+"]
+
+[[lean_lib]]
+name = "CDRPreprintsChallenge"
+
+[[lean_lib]]
+name = "CDRPreprintsSolution"
+
+# Paper III (Theorem T), local path dependency: physical-typed-absorption, same toolchain/Mathlib.
+[[require]]
+name = "PhysicalTypedAbsorption"
+path = "vendor/physical-typed-absorption"
+
+# CCJS v2 (jtraverso/overfull-critical-graphs @ b85da9a, Palomar): Cao–Chen–Jing–Shan Theorem 1.2.
+[[require]]
+name = "ccjs_overfull"
+path = "vendor/overfull-critical-graphs"
+
+# Its `vizing` requirement is served by our vendored LeanPool.Vizing (byte-identical cone).
+[[require]]
+name = "vizing"
+path = "vendor/vizing-shim"
+
+# Plantholt 2004 Theorem 1.2 + Chetwynd–Hilton 1985 (6/7) (jtraverso/plantholt-overfull-criterion @ f890094,
+# main; Palomar PALOMAR-2026-11-04-000016: v1 = 28ff33d (11/12), v2 = f890094 (6/7)).
+[[require]]
+name = "plantholt_overfull"
+path = "vendor/plantholt-overfull-criterion"
+
+# Colbourn–Dinitz–Rosa product and Dinitz–Stinson necessary conditions (jtraverso/cdr-bicolouring-sts @ a768a98, Palomar PALOMAR-2026-11-04-000014 v1).
+[[require]]
+name = "cdr_bicolouring"
+path = "vendor/cdr-bicolouring-sts"
+
+# Counting STS: Wilson 1974 + Linial-Luria 2013 + van der Waerden (jtraverso/counting-steiner-triple-systems @ 52fda83, Palomar PALOMAR-2026-10-22-000017 v2); isolated cone, module root renamed to CountingCone (see vendor/counting-sts-cone/SOURCES.sha256).
+[[require]]
+name = "counting_cone"
+path = "vendor/counting-sts-cone"
+
+# Balister-Kostochka-Li-Schelp 2004 Corollary 12 (jtraverso/balanced-edge-colourings @ 736c78e,
+# PALOMAR-2026-11-06-000002 v1).
+# Su requisito plantholt_overfull @ f890094 coincide con el nuestro (@ f890094).
+[[require]]
+name = "bkls_balanced"
+path = "vendor/balanced-edge-colourings"

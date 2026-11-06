@@ -1,0 +1,29 @@
+name = "bkls_balanced"
+version = "0.1.0"
+defaultTargets = ["Bkls", "BklsChallenge", "BklsSolution"]
+requiresModuleSystem = true
+
+[leanOptions]
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc3"
+
+[[require]]
+name = "plantholt_overfull"
+git = "https://github.com/jtraverso/plantholt-overfull-criterion"
+rev = "f8900944da7743b1facd771139c9ebdbfd8aaa28"
+
+[[lean_lib]]
+name = "Bkls"
+globs = ["Bkls.+"]
+
+[[lean_lib]]
+name = "BklsChallenge"
+roots = ["BklsChallenge"]
+
+[[lean_lib]]
+name = "BklsSolution"
+roots = ["BklsSolution"]

@@ -1,0 +1,495 @@
+{
+  "status": "pass",
+  "results": [
+    {
+      "module": "CDRBicolour/Base/Data/W_1_2_4.lean",
+      "status": "pass",
+      "pid": 34912,
+      "started_utc": "2026-11-06T06:29:52.431730+00:00",
+      "source_sha256": "429203028dc32624ff7ac05305632c65c8114c76b2b5f21c5de7dfb7b126ae50",
+      "exit_code": 0,
+      "seconds": 27.45,
+      "object_sha256": "cafad006942cb4d2a07fac2bbbea1c118be2442b35737111b001537c86c6dbb3"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_1_4_4.lean",
+      "status": "pass",
+      "pid": 34672,
+      "started_utc": "2026-11-06T06:29:52.423378+00:00",
+      "source_sha256": "5cfd3b3abbad179fca530810fa9ed2cb39b1202f9cdc5e8152735dae768a0201",
+      "exit_code": 0,
+      "seconds": 27.61,
+      "object_sha256": "bf2baddfb2de12d75b510d737dd027936f1c2b2af18e306ad3b15893b5dedee5"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_2_5_6.lean",
+      "status": "pass",
+      "pid": 33444,
+      "started_utc": "2026-11-06T06:30:19.880683+00:00",
+      "source_sha256": "eaf257eb6b33010c2320d2c54f4459948ce0a00627ed10499d9d7e6ecda93e96",
+      "exit_code": 0,
+      "seconds": 26.84,
+      "object_sha256": "151b4c08c00627f53e7963716962dbdb0ece7467e6fe6a97de4e7894d9bec1ad"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_4_6_9.lean",
+      "status": "pass",
+      "pid": 4636,
+      "started_utc": "2026-11-06T06:30:20.015559+00:00",
+      "source_sha256": "5062988a0c7400aee6a906e2606a839369d9b2739f204126f97ee7b4f6c88ca3",
+      "exit_code": 0,
+      "seconds": 27.62,
+      "object_sha256": "58d53a1f055bd10e2360e940996ad35365ef041a9f1706cabcc1c08d210a2280"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_5_6_10.lean",
+      "status": "pass",
+      "pid": 28428,
+      "started_utc": "2026-11-06T06:30:47.642810+00:00",
+      "source_sha256": "9bf4bf5d14a20ce40904eefbcdd9660b15e9518f6ad218ffa69d8954567087de",
+      "exit_code": 0,
+      "seconds": 28.06,
+      "object_sha256": "bfd4c5ef3253421a0b3969c7ac77b158e27d6575a399c711992214a598e6f2e1"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_4_8_9.lean",
+      "status": "pass",
+      "pid": 13876,
+      "started_utc": "2026-11-06T06:30:46.726317+00:00",
+      "source_sha256": "bb428bdbcb6d92e4d822715d6a785b9a95c420d46a2e0f077da40831686a06fc",
+      "exit_code": 0,
+      "seconds": 27.89,
+      "object_sha256": "45db89ac144f0d913f7db2fa1f8f29d491b2eaca5bd336d48381a98728f9069d"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_5_10_10.lean",
+      "status": "pass",
+      "pid": 21476,
+      "started_utc": "2026-11-06T06:31:14.622448+00:00",
+      "source_sha256": "9ef01ab8709e609f7e0005f9e8ffe297d2ccd1d82a7c92d9fa777c26d853a523",
+      "exit_code": 0,
+      "seconds": 29.5,
+      "object_sha256": "0a999298a66937e103d9f1c6183e992e69e07814c0b22e76fd332d4535e5c391"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_8_9_14.lean",
+      "status": "pass",
+      "pid": 3624,
+      "started_utc": "2026-11-06T06:31:44.157654+00:00",
+      "source_sha256": "13c1d946d6d4569f6d11dbe9cd948918a70be2a889db73fc64c88bd7dcf23127",
+      "exit_code": 0,
+      "seconds": 32.78,
+      "object_sha256": "f86aa0ff46e0364ee127104841156e282b41dea094007a2333d2ab6f16c29676"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_9_12_16.lean",
+      "status": "pass",
+      "pid": 26212,
+      "started_utc": "2026-11-06T06:31:47.129462+00:00",
+      "source_sha256": "81c568ed407bfc7090c16a727ea3885dd8ff89456226ba4c85ef7f6eb25d70a8",
+      "exit_code": 0,
+      "seconds": 37.84,
+      "object_sha256": "de987271de71b1604536ec6c8daaf9132304e76cf52c85c76edbae0edfde4975"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_10_12_17.lean",
+      "status": "pass",
+      "pid": 14200,
+      "started_utc": "2026-11-06T06:32:16.947339+00:00",
+      "source_sha256": "bba85eb3b37bb7bc5cb44d89f33150bb57412b8b1cbe9f77a3380187ffdabaf1",
+      "exit_code": 0,
+      "seconds": 38.27,
+      "object_sha256": "d47b28e2e9aee580d3dd9d258bcec293c1fbe156bde41e38fdc55b4d7565fe54"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_6_9_12.lean",
+      "status": "pass",
+      "pid": 35652,
+      "started_utc": "2026-11-06T06:31:15.708599+00:00",
+      "source_sha256": "616d3860216b4c52af934eecc855cca3a282063eb0fdf2ce8727a1b1aa53aaf1",
+      "exit_code": 0,
+      "seconds": 31.41,
+      "object_sha256": "72c688e489e058680c9143f59772e8f1f910601975f607b61e3c7a88e245a33e"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_9_14_16.lean",
+      "status": "pass",
+      "pid": 31212,
+      "started_utc": "2026-11-06T06:32:24.975493+00:00",
+      "source_sha256": "9284ffd0a907eee38f7749707f58b6eb2da7173ca995c9aa1817af6251a0721a",
+      "exit_code": 0,
+      "seconds": 38.83,
+      "object_sha256": "d130dc5bd2616da0e66425664cead1bc97fdbe4ef3991746f388db669b634729"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_12_17_20.lean",
+      "status": "pass",
+      "pid": 412,
+      "started_utc": "2026-11-06T06:33:03.803635+00:00",
+      "source_sha256": "555add3841b56b735b4e772d9bab9e621523c2b3a66625f13d8ffa649fc1cfbb",
+      "exit_code": 0,
+      "seconds": 55.97,
+      "object_sha256": "9932e7b57882292671b3deea7477722738ad9ff29fac775f35c9fcd7c2141261"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_10_16_17.lean",
+      "status": "pass",
+      "pid": 9172,
+      "started_utc": "2026-11-06T06:32:55.211428+00:00",
+      "source_sha256": "700ba115dd2a3bdb65b2cfba24bd6ed277523bdf9f025d4699803820e35c4246",
+      "exit_code": 0,
+      "seconds": 42.41,
+      "object_sha256": "2edc642eaaaafd32c66fa81cdbd2ec64d677e9c5e395a68418b94669f55588fc"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_14_14_21.lean",
+      "status": "pass",
+      "pid": 29548,
+      "started_utc": "2026-11-06T06:33:37.628368+00:00",
+      "source_sha256": "7f33bb231a2b4b3cac3807a6a3c5c64efe176a5e050b2e0e0873fa512bf08f4b",
+      "exit_code": 0,
+      "seconds": 59.36,
+      "object_sha256": "cc710c1889e93668e04993da96a7165025bc06c8b05882e100a994ea51769440"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_16_20_25.lean",
+      "status": "pass",
+      "pid": 31160,
+      "started_utc": "2026-11-06T06:33:59.766615+00:00",
+      "source_sha256": "62776897bf36fbd6b699331893c13e0981c7d20b1a1d8abdf7716ebe8a6c6480",
+      "exit_code": 0,
+      "seconds": 78.94,
+      "object_sha256": "c61ef029002eae2c9a8349ef17d70e6ee9e1a8709eb9badcd8af8939260df603"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_17_24_26.lean",
+      "status": "pass",
+      "pid": 6072,
+      "started_utc": "2026-11-06T06:34:36.968182+00:00",
+      "source_sha256": "02725974dc3268f78fd317ffe549b5bbf1a5f6bea2bd9b58b65223229f623311",
+      "exit_code": 0,
+      "seconds": 90.78,
+      "object_sha256": "d87e28fd9ba5e07e4278e0a111635335cbd0b99f5814ada4b04a4071510866e9"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_22_25_32.lean",
+      "status": "pass",
+      "pid": 12100,
+      "started_utc": "2026-11-06T06:43:51.413748+00:00",
+      "source_sha256": "932904a76f59e0d789fc9fd011452dc8750b3b7120d7cd3f295a5d9dafabbd25",
+      "exit_code": 0,
+      "seconds": 46.25,
+      "object_sha256": "f19b4e08689c2afc9832e29069a47316ee520dcb649d210c8c43cae1de27211b"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_21_22_30.lean",
+      "status": "pass",
+      "pid": 33296,
+      "started_utc": "2026-11-06T06:35:18.728007+00:00",
+      "source_sha256": "905c82ae4e4a86065ecdc8b7a761281e3739c498e635eca1451df24bbec93a49",
+      "exit_code": 0,
+      "seconds": 143.72,
+      "object_sha256": "11353f732c9279e9c510f64a8cadcf451187ed72c3ed454cdeed98de6408beca"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_26_34_37.lean",
+      "status": "pass",
+      "pid": 9608,
+      "started_utc": "2026-11-06T06:45:54.953872+00:00",
+      "source_sha256": "1db87ccea12f0fbf6574afa2bdd7e61a10795b12372a85771dd4050d90227be2",
+      "exit_code": 0,
+      "seconds": 68.23,
+      "object_sha256": "d1ce7ffff48196238a86fa9112ab5ebd29aea50b836fe4c8a5a051ac6889d5c3"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_30_32_41.lean",
+      "status": "pass",
+      "pid": 22920,
+      "started_utc": "2026-11-06T06:45:54.939904+00:00",
+      "source_sha256": "36927143b616af18effd043485df5b932315d85812124a54579f06def5136b51",
+      "exit_code": 0,
+      "seconds": 74.78,
+      "object_sha256": "d55ef4f4bff5007feac8cfc9f7ac770c01304a9fdcdbb8c6684038ec9b172314"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_30_37_42.lean",
+      "status": "pass",
+      "pid": 36184,
+      "started_utc": "2026-11-06T06:47:03.219155+00:00",
+      "source_sha256": "eb4d72c9a509cc22c59dbdffb6dd9a00e73c89e2e0bbcd3bc5a81e7b6e7b8d5b",
+      "exit_code": 0,
+      "seconds": 189.55,
+      "object_sha256": "ec1025786e9ddfc8424fb29fe3e8409abb12e82c98d20c5d7dc01b4214a10249"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_33_44_44.lean",
+      "status": "pass",
+      "pid": 27592,
+      "started_utc": "2026-11-06T06:47:09.727339+00:00",
+      "source_sha256": "8c601afbebb90394b342a31043030ba3e9e77058c49974940c4d125cb8092b07",
+      "exit_code": 0,
+      "seconds": 243.31,
+      "object_sha256": "1f066abadaffc81fafe0958d6e03d92bc89eccf0f1f60843dc32399b25e92a3d"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_36_42_49.lean",
+      "status": "pass",
+      "pid": 11896,
+      "started_utc": "2026-11-06T06:50:12.822740+00:00",
+      "source_sha256": "a26e02525e2b09070626bc607fedfec47b21b788a4a65d078ffb9cd88ec04995",
+      "exit_code": 0,
+      "seconds": 279.78,
+      "object_sha256": "c1b47ab4aa02d123e66177431c45f55736571e99919b06bf9ba6a3968fe4753b"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_41_44_54.lean",
+      "status": "pass",
+      "pid": 23396,
+      "started_utc": "2026-11-06T06:51:13.115681+00:00",
+      "source_sha256": "3a1ce14585e48b2eeaadbbe717758b42777b971a61b2ed842d17249f940f24e5",
+      "exit_code": 0,
+      "seconds": 337.45,
+      "object_sha256": "2d59b2e7a9352287897d40112fbc961ab50127e5a93c4f2acab986e1f8b66ec3"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_44_49_58.lean",
+      "status": "pass",
+      "pid": 33768,
+      "started_utc": "2026-11-06T06:54:52.613076+00:00",
+      "source_sha256": "65609ad9f1bad9c56a008a07cd72abf99fa8339a599d85ef3cae27dbe95a908b",
+      "exit_code": 0,
+      "seconds": 444.14,
+      "object_sha256": "7a069e2a2c02c86c69e5d6e752f6078baa7d2a37a553abf966362ac7d6b4da57"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_44_56_57.lean",
+      "status": "pass",
+      "pid": 6660,
+      "started_utc": "2026-11-06T06:56:50.625731+00:00",
+      "source_sha256": "17446e8a9273933ea0e11dd526360f4f1078b921f608b1bd75874107dc430723",
+      "exit_code": 0,
+      "seconds": 495.16,
+      "object_sha256": "5c9e6e9191c63bd44edb766d971b49f7f74a7f0d998077ab8ac91fb08d565ac4"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_46_57_60.lean",
+      "status": "pass",
+      "pid": 22524,
+      "started_utc": "2026-11-06T07:02:16.909427+00:00",
+      "source_sha256": "27b01ddb41fc563001805124e141c7dcfed8e30f4030b8dd4587ad22c4b769f1",
+      "exit_code": 0,
+      "seconds": 572.48,
+      "object_sha256": "dbd16606717c3134b1bce3e6ff95fed138c1a9015bf30cd701529189d288a664"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_54_58_69.lean",
+      "status": "pass",
+      "pid": 33660,
+      "started_utc": "2026-11-06T07:05:05.836211+00:00",
+      "source_sha256": "2d195cd632a0ad9bd9fd422bad281f6bffba31e84eb93ab8fca000d0d694c500",
+      "exit_code": 0,
+      "seconds": 679.81,
+      "object_sha256": "bda4ebbbedf5db0a6418e88d19b695232de88bfa41db46b0807015db849071de"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_56_65_72.lean",
+      "status": "pass",
+      "pid": 3892,
+      "started_utc": "2026-11-06T07:11:49.365917+00:00",
+      "source_sha256": "deb38ce00cd95f2affef56028a966b5db50812b0b26234942cbc28d6dbd6de58",
+      "exit_code": 0,
+      "seconds": 675.36,
+      "object_sha256": "219302280caaa6a5005584aed5f52c0dee3958f254e72a6e6de879fd887c8e18"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_57_70_72.lean",
+      "status": "pass",
+      "pid": 26184,
+      "started_utc": "2026-11-06T07:16:26.828117+00:00",
+      "source_sha256": "ba0786fcd903a23bb96a065f234b4e4d930cbdf9f006dc2a44dae3a05040e705",
+      "exit_code": 0,
+      "seconds": 552.91,
+      "object_sha256": "4019086b663c11171d1141a7ed3997907834f1ebf296184b1e47dca1b61c125d"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_65_66_80.lean",
+      "status": "pass",
+      "pid": 29200,
+      "started_utc": "2026-11-06T07:23:04.638866+00:00",
+      "source_sha256": "c81bf2473d853389a6e66e13194895254f22fce160a41e0a9272ebc8df882d0d",
+      "exit_code": 0,
+      "seconds": 350.66,
+      "object_sha256": "00ce96596f1f2e32a4435ee765d52a5c3e72ed7df2de5571c1f15cd4f6031652"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_65_76_82.lean",
+      "status": "pass",
+      "pid": 6136,
+      "started_utc": "2026-11-06T07:25:38.480020+00:00",
+      "source_sha256": "2fd904d61a36404e9e74fb2bdf1435801f350c81c4fc76293f0b79ad4008902f",
+      "exit_code": 0,
+      "seconds": 376.26,
+      "object_sha256": "9d6a9c4f455d7754cd3a28d39b69124289b19c2f16b58d640626ea4c7fcad98e"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_69_74_86.lean",
+      "status": "pass",
+      "pid": 13940,
+      "started_utc": "2026-11-06T07:28:55.264009+00:00",
+      "source_sha256": "15529fbfbb782fc36ca466f32e77bca8921978b66df43c2bce95164972766bad",
+      "exit_code": 0,
+      "seconds": 397.33,
+      "object_sha256": "d4f7dc094bc92d6dd9a8daf45aab805cb44324b082bac2564f1df85535ac5dcb"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_70_85_86.lean",
+      "status": "pass",
+      "pid": 2364,
+      "started_utc": "2026-11-06T07:31:54.756316+00:00",
+      "source_sha256": "23ae8afa97cdcffef4e63ed86a1e567a5cb5fc807484113de635c17c399e07ee",
+      "exit_code": 0,
+      "seconds": 473.34,
+      "object_sha256": "1698cf9bf1a7543f07dd39389e02cb76bb4f96da337d97f42c0c9cd4d3b112e1"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_81_90_100.lean",
+      "status": "pass",
+      "pid": 9944,
+      "started_utc": "2026-11-06T07:35:32.598890+00:00",
+      "source_sha256": "b45a044a0bbb4ea204eebedd9f75ee91e4190a926be1b3f0f940fa907f67c383",
+      "exit_code": 0,
+      "seconds": 645.76,
+      "object_sha256": "96a34189cbde9b04729d65f5472d73d9cb60068d052b811ed9c518b093ce1ff7"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_82_94_101.lean",
+      "status": "pass",
+      "pid": 32496,
+      "started_utc": "2026-11-06T07:39:48.098296+00:00",
+      "source_sha256": "ca9b2fa3fd7f6c81d968ccf84201b07fbe6d5abcbad36686927a69b6bf02fd24",
+      "exit_code": 0,
+      "seconds": 661.11,
+      "object_sha256": "f7ef6115df0d5434e13078883134847acaaadb31ea6d4ffee586232cd3525f1a"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_86_92_105.lean",
+      "status": "pass",
+      "pid": 13152,
+      "started_utc": "2026-11-06T07:46:18.494391+00:00",
+      "source_sha256": "2960f08ee2845f348c417f92a8e3ec4eb86c7419aa93e0009d353a2f16f8f2e2",
+      "exit_code": 0,
+      "seconds": 158.08,
+      "object_sha256": "4106cb1d6c027b17d9027da18e04f3e16657741de2057f93fff19bcd2354116c"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_85_102_102.lean",
+      "status": "pass",
+      "pid": 32840,
+      "started_utc": "2026-11-06T07:48:56.455267+00:00",
+      "source_sha256": "0dfe8d12d8f870e9a367fd7daad5b144ebe7f9fc4377e3a85b238aeea05e9e18",
+      "exit_code": 0,
+      "seconds": 173.05,
+      "object_sha256": "275fb4cffb6074ced0ee1448c569b66d319bf7407e9896b44b14a2e2d3028041"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_96_97_114.lean",
+      "status": "pass",
+      "pid": 32676,
+      "started_utc": "2026-11-06T07:50:49.208376+00:00",
+      "source_sha256": "b056fd366a06efff21584972918d35a52e4f6ff4cb8dbdfb98d5851c6bab741b",
+      "exit_code": 0,
+      "seconds": 191.06,
+      "object_sha256": "a7eeb200d22f4d0cf930a15904c33f8deee70f2c273d54c56c09655a306ae69a"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_97_100_116.lean",
+      "status": "pass",
+      "pid": 20960,
+      "started_utc": "2026-11-06T07:51:49.511518+00:00",
+      "source_sha256": "ef31a1b6fbdca4264b9fa0101ec555ea9cc4e8f56671865aa24d64578a3150c7",
+      "exit_code": 0,
+      "seconds": 200.12,
+      "object_sha256": "f9a5b792a89452b5ac95d8459949f0f6947cd05729ddfa9b7ed06226cc2c4df2"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_104_121_124.lean",
+      "status": "pass",
+      "pid": 32124,
+      "started_utc": "2026-11-06T07:54:00.285033+00:00",
+      "source_sha256": "40e3d1071f65b3b959f8def494879ad805327653ad8d075492d97aaba844636b",
+      "exit_code": 0,
+      "seconds": 237.38,
+      "object_sha256": "c6ffde8ced7f97aeac424ada3b9cf4d6a8841e1f1a2099b93a863d98427dd25e"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_112_121_134.lean",
+      "status": "pass",
+      "pid": 30652,
+      "started_utc": "2026-11-06T07:55:09.640189+00:00",
+      "source_sha256": "b4c53cb07a2c2747fb96b872fa7f559eb5090222f9e75a70ebf05bc70beba41a",
+      "exit_code": 0,
+      "seconds": 257.25,
+      "object_sha256": "43883b686e853cb61ed688284d9da142633cbe0789f1d9f1e72f79003f6a8e25"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_114_129_136.lean",
+      "status": "pass",
+      "pid": 208,
+      "started_utc": "2026-11-06T07:57:57.646735+00:00",
+      "source_sha256": "8dd992d65262f4445635bde229d436b98d1d28a2e4c10bd42be5503c255c0fa5",
+      "exit_code": 0,
+      "seconds": 278.84,
+      "object_sha256": "4d4cee9f45bcf9ffa117629ebf6d2f098c159d5d8b7851a7fef0113c5542036f"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_133_134_154.lean",
+      "status": "pass",
+      "pid": 18856,
+      "started_utc": "2026-11-06T07:59:26.901584+00:00",
+      "source_sha256": "d1f0c030b0a21862f97dc2b8cb4c05286881b4ab1fed5e7d288005e3e593e4af",
+      "exit_code": 0,
+      "seconds": 335.52,
+      "object_sha256": "ff77d25ddd58f2e816d4f840bd3d6853d8e20c4a645f6fce8db8a6ea18ae38c8"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_132_145_156.lean",
+      "status": "pass",
+      "pid": 20848,
+      "started_utc": "2026-11-06T08:02:36.517718+00:00",
+      "source_sha256": "ea63857fde8d28ab602f44e29792d4be4b5f8d431f54739416421c1b8934005f",
+      "exit_code": 0,
+      "seconds": 363.38,
+      "object_sha256": "b37caf241b5610e22a4d263d7a352f1a83bfe1f14a5c1b9603327650402a497c"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_137_142_160.lean",
+      "status": "pass",
+      "pid": 19432,
+      "started_utc": "2026-11-06T08:05:02.419881+00:00",
+      "source_sha256": "aba3bc8f695f8f04b4aed765e76d88a062a82d01f26cdbfd56f0a38f07d442f2",
+      "exit_code": 0,
+      "seconds": 388.72,
+      "object_sha256": "4e9dab60b05483e708e2ec4125b1ad4526d475189c7e2587e30383fb17aae6be"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_142_149_166.lean",
+      "status": "pass",
+      "pid": 24384,
+      "started_utc": "2026-11-06T08:08:39.885723+00:00",
+      "source_sha256": "3417a086d239a71e69a4ee47e4a3e2f66911e2a698a7c5c7d09de4e913b0b7e0",
+      "exit_code": 0,
+      "seconds": 402.91,
+      "object_sha256": "97c1c0a9d3f825338aeb406567c3bb3c1c859749acfed8778fb5fc13bfa2c8fd"
+    },
+    {
+      "module": "CDRBicolour/Base/Data/W_154_156_177.lean",
+      "status": "pass",
+      "pid": 26736,
+      "started_utc": "2026-11-06T07:40:21.151316+00:00",
+      "source_sha256": "18ff0f2f01cb33082be856d6096932d57717b326c8328ca8f4897684a4972c85",
+      "exit_code": 0,
+      "seconds": 465.74,
+      "object_sha256": "b14919ac48625852902b36a82191ae8462196221a10c800fde9f2346b1176926"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "module": "CDRBicolour/Base/Witnesses.lean",
+  "status": "pass",
+  "pid": 25540,
+  "started_utc": "2026-11-06T08:19:51.765259+00:00",
+  "source_sha256": "166556608e6c054ae1ed90bd232cee45ae7027a2b4c4b6858982d6aace491c95",
+  "exit_code": 0,
+  "seconds": 32.53,
+  "object_sha256": "ae5cfad3eacc9f253b625ad62daca96232effdbc9c82e2f895992f399e18f3a4"
+}
