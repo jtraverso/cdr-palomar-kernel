@@ -24,6 +24,10 @@ name = "CDRBicolour"
 globs = ["CDRBicolour", "CDRBicolour.+"]
 
 [[lean_lib]]
+name = "CDRPreprintsStatements"
+globs = ["CDRPreprintsStatements.+"]
+
+[[lean_lib]]
 name = "CDRPreprintsChallenge"
 
 [[lean_lib]]
