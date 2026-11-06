@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "returncode": 0,
+  "checked_utc": "2026-11-06T13:37:57.432676+00:00",
+  "scope": "Local exact Lake structural comparison and axiom whitelist on existing exports; no isolated build or independent kernel run; not official Palomar preflight",
+  "external_kernels": "Not run; all independent kernel checks remain required in the official preflight",
+  "comparison_script_sha256": "bcef5e98c5955f5e5fbcf5326ed8a474df9ab01f9a4ac6755170b297d1074b8b",
+  "challenge_source_sha256": "a9450d8e99a06187f2c4c72ce5d12d079e77ba02512ac0ea7cfea9c978059a9f",
+  "challenge_export_sha256": "3cd5a083edb9321ae4b0624c2c629fac6c3b80d96d4c608d05a96e1990be541b",
+  "solution_export_sha256": "9b1fff1e5e7c5299613ad54832c20e0fbdad83370b6550dcc72cd3532ca6d750",
+  "solution_source_sha256": "4f1313849ca4b9762bd941bf6b05e18d9dfcc4a772aac6161a575d5a57ecb43e",
+  "log_sha256": "8e4aacdc42025b58b9b16008067e1f96ec0f13ea7fc2b093daa0241e673a84a1"
+}

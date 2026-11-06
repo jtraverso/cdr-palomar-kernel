@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "recorded_utc": "2026-11-06T13:32:50.921471+00:00",
+  "scope": "Successful isolated local compile observed before export; not official Palomar preflight",
+  "compiler_exit_code": 0,
+  "toolchain": "leanprover/lean4:v4.35.0-rc3",
+  "search_path": "Only the pinned Mathlib package and its pinned dependencies; no project or sibling modules",
+  "source_sha256": "a9450d8e99a06187f2c4c72ce5d12d079e77ba02512ac0ea7cfea9c978059a9f",
+  "object_sha256": "586a38ee3a39e1921ffbfe7086a8f0435bd235ba75a5cd8f80f9609545e0b8ac",
+  "direct_imports": [
+    "public import Mathlib.Data.Finset.Card",
+    "public import Mathlib.Data.Fintype.Card",
+    "public import Mathlib.Data.Fin.Basic",
+    "public import Mathlib.Data.Fin.VecNotation",
+    "public import Mathlib.Algebra.Ring.Int.Defs",
+    "public import Mathlib.Tactic.Ring"
+  ],
+  "intentional_target_proof_holes": 3,
+  "additional_axioms_in_solution": "none added; all proved solution sources unchanged"
+}

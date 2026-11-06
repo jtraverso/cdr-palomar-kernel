@@ -1,0 +1,3 @@
+Parsed both completed exports; comparing statements and primitive constants
+PASS: strict Lake structural comparison and standard-axiom whitelist
+Local diagnostic only; not the official sandboxed Palomar preflight
