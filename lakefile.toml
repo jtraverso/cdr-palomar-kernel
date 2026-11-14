@@ -33,6 +33,40 @@ name = "gale_hoffman"
 git = "https://github.com/jtraverso/gale-hoffman-feasibility"
 rev = "fa52c29c24edf7e9afdb487df3764affd43c51c7"
 
+[[require]]
+name = "bkls_balanced"
+git = "https://github.com/jtraverso/balanced-edge-colourings"
+rev = "736c78e6addcdb77e95cd83e4e44c5c0700f13ef"
+
+[[require]]
+name = "cdr_bicolouring"
+git = "https://github.com/jtraverso/cdr-bicolouring-sts"
+rev = "a768a98a648e94ad38d0d84501867c999927c546"
+
+[[require]]
+name = "plantholt_overfull"
+git = "https://github.com/jtraverso/plantholt-overfull-criterion"
+rev = "f8900944da7743b1facd771139c9ebdbfd8aaa28"
+
+[[require]]
+name = "ccjs_overfull"
+git = "https://github.com/jtraverso/overfull-critical-graphs"
+rev = "b85da9ac66e0fb8b9873a8bea0c057f78c9d186c"
+
+[[require]]
+name = "vizing"
+git = "https://github.com/jtraverso/vizing"
+rev = "33b2de836095cf92bc1dec33b6f8787e4036bbc6"
+
+[[require]]
+name = "counting_sts"
+git = "https://github.com/jtraverso/counting-steiner-triple-systems"
+rev = "52fda83038df7442c576e17edffba591db703cb8"
+
+[[require]]
+name = "counting_cone"
+path = "compat/counting-cone"
+
 [[lean_lib]]
 name = "CDRBicolour"
 globs = ["CDRBicolour.+"]

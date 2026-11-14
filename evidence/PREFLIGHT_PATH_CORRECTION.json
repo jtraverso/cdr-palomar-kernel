@@ -1,0 +1,10 @@
+{
+  "previous_commit": "c5f640de048e8ecd31017330bac83a905f0b7a9c",
+  "previous_run": "https://github.com/jtraverso/cdr-palomar-kernel/actions/runs/43651643614",
+  "previous_result": "candidate-setup failure; no proofs were checked and no intake was sent",
+  "diagnostic": "path package 'bkls_balanced' may not live under .lake",
+  "correction": "Override the registered kernel's nested path requirements by pinned Git packages. Retain only one repository-contained path package, compat/counting-cone, whose four modules merely import the registered counting originals.",
+  "counting_body_comparison": "Every formerly isolated counting source has exactly the original registered code after reversing its import-prefix rename and removing comments and whitespace.",
+  "mathematical_hypotheses_changed": false,
+  "local_full_build_performed": false
+}

@@ -57,7 +57,7 @@ sources:
     authors: ["Richard M. Wilson"]
     id: "doi:10.1007/BF01215371"
     relationship: background
-    note: "1974; the counting development is imported through the registered CDR kernel's CountingCone dependency."
+    note: "1974; the registered counting development is imported through proof-free CountingCone compatibility modules."
   - title: "An upper bound on the number of Steiner triple systems"
     authors: ["Nathan Linial", "Zur Luria"]
     id: "doi:10.1002/rsa.20487"
@@ -79,7 +79,7 @@ related_formalizations:
     note: "Registered Gale-Hoffman integral feasibility at fa52c29c24edf7e9afdb487df3764affd43c51c7."
   - id: "PALOMAR-2026-10-22-000017 v2"
     relationship: builds-on
-    note: "Registered STS counting, via the kernel's isolated CountingCone modules."
+    note: "Registered STS counting at 52fda83038df7442c576e17edffba591db703cb8, through import-only CountingCone compatibility modules."
 
 status:
   scope: >-
@@ -111,7 +111,9 @@ fidelity:
     No change to the four main hypotheses or conclusions is intended. The
     source freeze used copied dependency closures; this package requires their
     immutable registered Git repositories and retains only new CDR modules and
-    two explicit arithmetic adapters. The Solution uses the registered Siegel
+    two explicit arithmetic adapters. Import-only CountingCone compatibility
+    modules re-export the registered counting proofs without copying them.
+    The Solution uses the registered Siegel
     provider via DSP v2 rather than copying the earlier PNTPort analytic proof.
     The quantitative existence threshold remains ineffective. Local statement
     and axiom checks on the old compiled freeze do not replace verification of

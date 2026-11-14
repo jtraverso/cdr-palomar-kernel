@@ -1,0 +1,35 @@
+{
+  "definition_names": [
+    "TypedTriangle.Host",
+    "TypedTriangle.triEdges",
+    "TypedTriangle.edges",
+    "TypedTriangle.IsAllowed",
+    "TypedTriangle.IsDecomposition",
+    "STS.IsSTS",
+    "CDRBicolour.Absorption.nbL",
+    "CDRBicolour.Absorption.degL",
+    "CDRBicolour.KBicolor.bicF",
+    "CDRBicolour.KBicolor.kHost",
+    "CDRBicolour.KBicolor.ksz",
+    "CDRBicolour.KBicolor.kTypeCount",
+    "CDRBicolour.KBicolor.kBlocks",
+    "CDRBicolour.KBicolor.TypeCoord",
+    "CDRBicolour.KBicolor.typeVector",
+    "CDRBicolour.KBicolor.exactTypeFibre",
+    "CDRBicolour.KBicolor.exactTypeCount",
+    "TypedTriangle.Pasch.IsPasch",
+    "TypedTriangle.Pasch.decidableIsPasch",
+    "TypedTriangle.Pasch.configurations",
+    "TypedTriangle.Pasch.count",
+    "CDRBicolour.PaperIII.IsSTS",
+    "CDRBicolour.PaperIII.IsBicolouring",
+    "CDRBicolour.PaperIII.Bicolourable",
+    "CDRBicolour.PaperIII.Admissible"
+  ],
+  "theorem_names": [
+    "CDRBicolour.KBicolor.kbicolour_completion_types_exact",
+    "CDRBicolour.KBicolor.optimal_prescribed_type_count_of_three_le",
+    "CDRBicolour.KBicolor.kbicolour_types_exact_many_pasch_counts",
+    "CDRBicolour.PaperIII.bicolourable_eventually_unconditional"
+  ]
+}

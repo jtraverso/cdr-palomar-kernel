@@ -22,7 +22,9 @@ def main():
     config = json.loads((ROOT/"cdr-iii-comparator.json").read_text(encoding="utf-8"))
     assert config["challenge_module"] == "CDRIIIChallenge"
     assert config["solution_module"] == "CDRIIISolution"
-    assert len(config["theorem_names"]) == 4 and len(config["definition_names"]) == 25
+    assert len(config["theorem_names"]) == 4 and config["definition_names"] == []
+    audited = json.loads((ROOT/"evidence/STATEMENT_DECLARATIONS.json").read_text(encoding="utf-8"))
+    assert len(audited["definition_names"]) == 25
     assert set(config["permitted_axioms"]) == {"propext","Classical.choice","Quot.sound"}
     manifest = json.loads((ROOT/"lake-manifest.json").read_text(encoding="utf-8"))
     for package in manifest["packages"]:
@@ -31,7 +33,7 @@ def main():
             assert re.fullmatch("[0-9a-f]{40}",package["rev"])
         else:
             assert package["type"] == "path"
-            assert package["dir"].replace("\\","/").startswith(".lake/packages/cdr_bicolour/vendor/")
+            assert package["dir"].replace("\\","/") == "compat/counting-cone"
     alignment = json.loads((ROOT/"evidence/STATEMENT_ALIGNMENT.json").read_text(encoding="utf-8"))
     for item in alignment["evidence"]:
         assert hashlib.sha256((ROOT/item["path"]).read_bytes()).hexdigest() == item["sha256"]

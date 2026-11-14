@@ -1,7 +1,7 @@
 {
   "status": "PASS_STATIC_PACKAGING",
   "local_full_build": false,
-  "source_files": 152,
+  "source_files": 156,
   "resource_only_absorption_differences": [
     "RequestProject/TypedTriangle/ExplicitAnchoredSamplingParameters.lean",
     "RequestProject/TypedTriangle/ExplicitAutomaticCleanRawSample.lean",
@@ -75,6 +75,48 @@
   ],
   "dependencies": [
     {
+      "name": "counting_cone",
+      "type": "path",
+      "commit": null,
+      "dir": "compat/counting-cone"
+    },
+    {
+      "name": "counting_sts",
+      "type": "git",
+      "commit": "52fda83038df7442c576e17edffba591db703cb8",
+      "dir": null
+    },
+    {
+      "name": "vizing",
+      "type": "git",
+      "commit": "33b2de836095cf92bc1dec33b6f8787e4036bbc6",
+      "dir": null
+    },
+    {
+      "name": "ccjs_overfull",
+      "type": "git",
+      "commit": "b85da9ac66e0fb8b9873a8bea0c057f78c9d186c",
+      "dir": null
+    },
+    {
+      "name": "plantholt_overfull",
+      "type": "git",
+      "commit": "f8900944da7743b1facd771139c9ebdbfd8aaa28",
+      "dir": null
+    },
+    {
+      "name": "cdr_bicolouring",
+      "type": "git",
+      "commit": "a768a98a648e94ad38d0d84501867c999927c546",
+      "dir": null
+    },
+    {
+      "name": "bkls_balanced",
+      "type": "git",
+      "commit": "736c78e6addcdb77e95cd83e4e44c5c0700f13ef",
+      "dir": null
+    },
+    {
       "name": "gale_hoffman",
       "type": "git",
       "commit": "fa52c29c24edf7e9afdb487df3764affd43c51c7",
@@ -141,42 +183,6 @@
       "dir": null
     },
     {
-      "name": "bkls_balanced",
-      "type": "path",
-      "commit": null,
-      "dir": ".lake/packages/cdr_bicolour/vendor/balanced-edge-colourings"
-    },
-    {
-      "name": "counting_cone",
-      "type": "path",
-      "commit": null,
-      "dir": ".lake/packages/cdr_bicolour/vendor/counting-sts-cone"
-    },
-    {
-      "name": "cdr_bicolouring",
-      "type": "path",
-      "commit": null,
-      "dir": ".lake/packages/cdr_bicolour/vendor/cdr-bicolouring-sts"
-    },
-    {
-      "name": "plantholt_overfull",
-      "type": "path",
-      "commit": null,
-      "dir": ".lake/packages/cdr_bicolour/vendor/plantholt-overfull-criterion"
-    },
-    {
-      "name": "vizing",
-      "type": "path",
-      "commit": null,
-      "dir": ".lake/packages/cdr_bicolour/vendor/vizing-shim"
-    },
-    {
-      "name": "ccjs_overfull",
-      "type": "path",
-      "commit": null,
-      "dir": ".lake/packages/cdr_bicolour/vendor/overfull-critical-graphs"
-    },
-    {
       "name": "plausible",
       "type": "git",
       "commit": "fb13df72ecefd8ddbf9291021d7f33a8673eb57b",
@@ -225,8 +231,8 @@
       "dir": null
     }
   ],
-  "solution_non_mathlib_source_modules": 1282,
-  "solution_local_source_modules": 149,
+  "solution_non_mathlib_source_modules": 1286,
+  "solution_local_source_modules": 153,
   "solution_imports": {
     "CDRIIISolution": "CDRIIISolution.lean",
     "CDRIII": "CDRIII.lean",
@@ -1136,19 +1142,19 @@
     "CDRBicolour.Prefix.RowSystem": ".lake\\packages\\cdr_bicolour\\CDRBicolour\\Prefix\\RowSystem.lean",
     "CDRBicolour.EdgeColouring.Basic": ".lake\\packages\\cdr_bicolour\\CDRBicolour\\EdgeColouring\\Basic.lean",
     "CDRBicolour.EdgeColouring.Defs": ".lake\\packages\\cdr_bicolour\\CDRBicolour\\EdgeColouring\\Defs.lean",
-    "LeanPool.Vizing.LineGraphColouring": ".lake\\packages\\cdr_bicolour\\LeanPool\\Vizing\\LineGraphColouring.lean",
-    "LeanPool.Vizing.ColourClasses": ".lake\\packages\\cdr_bicolour\\LeanPool\\Vizing\\ColourClasses.lean",
-    "LeanPool.Vizing.Main": ".lake\\packages\\cdr_bicolour\\LeanPool\\Vizing\\Main.lean",
-    "LeanPool.Vizing.Step": ".lake\\packages\\cdr_bicolour\\LeanPool\\Vizing\\Step.lean",
-    "LeanPool.Vizing.Fan": ".lake\\packages\\cdr_bicolour\\LeanPool\\Vizing\\Fan.lean",
-    "LeanPool.Vizing.Kempe": ".lake\\packages\\cdr_bicolour\\LeanPool\\Vizing\\Kempe.lean",
-    "LeanPool.Vizing.Endpoints": ".lake\\packages\\cdr_bicolour\\LeanPool\\Vizing\\Endpoints.lean",
-    "LeanPool.Vizing.Basic": ".lake\\packages\\cdr_bicolour\\LeanPool\\Vizing\\Basic.lean",
-    "LeanPool.Vizing.EquitableDefinitions": ".lake\\packages\\cdr_bicolour\\LeanPool\\Vizing\\EquitableDefinitions.lean",
+    "LeanPool.Vizing.LineGraphColouring": ".lake\\packages\\vizing\\LeanPool\\Vizing\\LineGraphColouring.lean",
+    "LeanPool.Vizing.ColourClasses": ".lake\\packages\\vizing\\LeanPool\\Vizing\\ColourClasses.lean",
+    "LeanPool.Vizing.Main": ".lake\\packages\\vizing\\LeanPool\\Vizing\\Main.lean",
+    "LeanPool.Vizing.Step": ".lake\\packages\\vizing\\LeanPool\\Vizing\\Step.lean",
+    "LeanPool.Vizing.Fan": ".lake\\packages\\vizing\\LeanPool\\Vizing\\Fan.lean",
+    "LeanPool.Vizing.Kempe": ".lake\\packages\\vizing\\LeanPool\\Vizing\\Kempe.lean",
+    "LeanPool.Vizing.Endpoints": ".lake\\packages\\vizing\\LeanPool\\Vizing\\Endpoints.lean",
+    "LeanPool.Vizing.Basic": ".lake\\packages\\vizing\\LeanPool\\Vizing\\Basic.lean",
+    "LeanPool.Vizing.EquitableDefinitions": ".lake\\packages\\vizing\\LeanPool\\Vizing\\EquitableDefinitions.lean",
     "CDRBicolour.L184.Assembly": ".lake\\packages\\cdr_bicolour\\CDRBicolour\\L184\\Assembly.lean",
     "CDRBicolour.Basic": ".lake\\packages\\cdr_bicolour\\CDRBicolour\\Basic.lean",
     "CDRBicolour.L184.NearPerfect": ".lake\\packages\\cdr_bicolour\\CDRBicolour\\L184\\NearPerfect.lean",
-    "LeanPool.Vizing.Equitable": ".lake\\packages\\cdr_bicolour\\LeanPool\\Vizing\\Equitable.lean",
+    "LeanPool.Vizing.Equitable": ".lake\\packages\\vizing\\LeanPool\\Vizing\\Equitable.lean",
     "CDRBicolour.Combinatorics.Involution": ".lake\\packages\\cdr_bicolour\\CDRBicolour\\Combinatorics\\Involution.lean",
     "CDRBicolour.Absorption.Hinge": ".lake\\packages\\cdr_bicolour\\CDRBicolour\\Absorption\\Hinge.lean",
     "CDRBicolour.Absorption.Lattice": ".lake\\packages\\cdr_bicolour\\CDRBicolour\\Absorption\\Lattice.lean",
@@ -1182,33 +1188,35 @@
     "CDRBicolour.Absorption.BRIAverage": ".lake\\packages\\cdr_bicolour\\CDRBicolour\\Absorption\\BRIAverage.lean",
     "CDRBicolour.Absorption.BRIGadget": ".lake\\packages\\cdr_bicolour\\CDRBicolour\\Absorption\\BRIGadget.lean",
     "CDRBicolour.Absorption.ResidualSeed": ".lake\\packages\\cdr_bicolour\\CDRBicolour\\Absorption\\ResidualSeed.lean",
-    "CountingCone.VanDerWaerden.Full": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\VanDerWaerden\\Full.lean",
-    "CountingCone.LowerBound": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\LowerBound.lean",
-    "CountingCone.Analysis": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\Analysis.lean",
-    "CountingCone.Construction": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\Construction.lean",
-    "CountingCone.Core": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\Core.lean",
-    "CountingCone.Basic": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\Basic.lean",
-    "CountingCone.Defs": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\Defs.lean",
-    "CountingCone.Explicit": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\Explicit.lean",
-    "CountingCone.ExplicitData": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\ExplicitData.lean",
-    "CountingCone.STSKernel": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\STSKernel.lean",
-    "CountingCone.NatBits": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\NatBits.lean",
-    "CountingCone.UpperBound": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\UpperBound.lean",
-    "CountingCone.Latin": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\Latin.lean",
-    "CountingCone.Hall": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\Hall.lean",
-    "CountingCone.VanDerWaerden.Theorem": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\VanDerWaerden\\Theorem.lean",
-    "CountingCone.VanDerWaerden.Gurvits": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\VanDerWaerden\\Gurvits.lean",
-    "CountingCone.VanDerWaerden.Combinatorics": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\VanDerWaerden\\Combinatorics.lean",
-    "CountingCone.VanDerWaerden.Stable": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\VanDerWaerden\\Stable.lean",
-    "CountingCone.VanDerWaerden.Univariate": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\VanDerWaerden\\Univariate.lean",
-    "CountingCone.LL.STSMain": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\LL\\STSMain.lean",
-    "CountingCone.LL.Chain": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\LL\\Chain.lean",
-    "CountingCone.LL.STSExpect": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\LL\\STSExpect.lean",
-    "CountingCone.LL.STSReveal": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\LL\\STSReveal.lean",
-    "CountingCone.LL.Order": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\LL\\Order.lean",
-    "CountingCone.LL.Expect": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\LL\\Expect.lean",
-    "CountingCone.LL.Analysis": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\LL\\Analysis.lean",
-    "CountingCone.LL.Estimates": ".lake\\packages\\cdr_bicolour\\vendor\\counting-sts-cone\\CountingCone\\LL\\Estimates.lean",
+    "CountingCone.VanDerWaerden.Full": "compat\\counting-cone\\CountingCone\\VanDerWaerden\\Full.lean",
+    "RequestProject.VanDerWaerden.Full": ".lake\\packages\\counting_sts\\RequestProject\\VanDerWaerden\\Full.lean",
+    "RequestProject.LowerBound": ".lake\\packages\\counting_sts\\RequestProject\\LowerBound.lean",
+    "RequestProject.Analysis": ".lake\\packages\\counting_sts\\RequestProject\\Analysis.lean",
+    "RequestProject.Construction": ".lake\\packages\\counting_sts\\RequestProject\\Construction.lean",
+    "RequestProject.Core": ".lake\\packages\\counting_sts\\RequestProject\\Core.lean",
+    "RequestProject.Basic": ".lake\\packages\\counting_sts\\RequestProject\\Basic.lean",
+    "RequestProject.Defs": ".lake\\packages\\counting_sts\\RequestProject\\Defs.lean",
+    "RequestProject.Explicit": ".lake\\packages\\counting_sts\\RequestProject\\Explicit.lean",
+    "RequestProject.ExplicitData": ".lake\\packages\\counting_sts\\RequestProject\\ExplicitData.lean",
+    "RequestProject.STSKernel": ".lake\\packages\\counting_sts\\RequestProject\\STSKernel.lean",
+    "RequestProject.NatBits": ".lake\\packages\\counting_sts\\RequestProject\\NatBits.lean",
+    "RequestProject.UpperBound": ".lake\\packages\\counting_sts\\RequestProject\\UpperBound.lean",
+    "RequestProject.Latin": ".lake\\packages\\counting_sts\\RequestProject\\Latin.lean",
+    "RequestProject.Hall": ".lake\\packages\\counting_sts\\RequestProject\\Hall.lean",
+    "RequestProject.VanDerWaerden.Theorem": ".lake\\packages\\counting_sts\\RequestProject\\VanDerWaerden\\Theorem.lean",
+    "RequestProject.VanDerWaerden.Gurvits": ".lake\\packages\\counting_sts\\RequestProject\\VanDerWaerden\\Gurvits.lean",
+    "RequestProject.VanDerWaerden.Combinatorics": ".lake\\packages\\counting_sts\\RequestProject\\VanDerWaerden\\Combinatorics.lean",
+    "RequestProject.VanDerWaerden.Stable": ".lake\\packages\\counting_sts\\RequestProject\\VanDerWaerden\\Stable.lean",
+    "RequestProject.VanDerWaerden.Univariate": ".lake\\packages\\counting_sts\\RequestProject\\VanDerWaerden\\Univariate.lean",
+    "CountingCone.LL.STSMain": "compat\\counting-cone\\CountingCone\\LL\\STSMain.lean",
+    "RequestProject.LL.STSMain": ".lake\\packages\\counting_sts\\RequestProject\\LL\\STSMain.lean",
+    "RequestProject.LL.Chain": ".lake\\packages\\counting_sts\\RequestProject\\LL\\Chain.lean",
+    "RequestProject.LL.STSExpect": ".lake\\packages\\counting_sts\\RequestProject\\LL\\STSExpect.lean",
+    "RequestProject.LL.STSReveal": ".lake\\packages\\counting_sts\\RequestProject\\LL\\STSReveal.lean",
+    "RequestProject.LL.Order": ".lake\\packages\\counting_sts\\RequestProject\\LL\\Order.lean",
+    "RequestProject.LL.Expect": ".lake\\packages\\counting_sts\\RequestProject\\LL\\Expect.lean",
+    "RequestProject.LL.Analysis": ".lake\\packages\\counting_sts\\RequestProject\\LL\\Analysis.lean",
+    "RequestProject.LL.Estimates": ".lake\\packages\\counting_sts\\RequestProject\\LL\\Estimates.lean",
     "CDRBicolour.KBicolor.Pattern.Main": "CDRBicolour\\KBicolor\\Pattern\\Main.lean",
     "CDRBicolour.KBicolor.Pattern.ExistsMain": "CDRBicolour\\KBicolor\\Pattern\\ExistsMain.lean",
     "CDRBicolour.KBicolor.Pattern.Exists": "CDRBicolour\\KBicolor\\Pattern\\Exists.lean",
@@ -1273,6 +1281,7 @@
     "RequestProject.TypedTriangle.TriangleMonitorReservedActualChild": ".lake\\packages\\PhysicalTypedAbsorption\\RequestProject\\TypedTriangle\\TriangleMonitorReservedActualChild.lean",
     "RequestProject.TypedTriangle.VortexPrescribedRawPathsAmbientAssembly": ".lake\\packages\\PhysicalTypedAbsorption\\RequestProject\\TypedTriangle\\VortexPrescribedRawPathsAmbientAssembly.lean",
     "CDRBicolour.KBicolor.TypeIdentities": "CDRBicolour\\KBicolor\\TypeIdentities.lean",
+    "CountingCone.Construction": "compat\\counting-cone\\CountingCone\\Construction.lean",
     "CDRBicolour.KBicolor.Wilson.Placement": "CDRBicolour\\KBicolor\\Wilson\\Placement.lean",
     "CDRBicolour.KBicolor.Wilson.OptimizedLocalSeed": "CDRBicolour\\KBicolor\\Wilson\\OptimizedLocalSeed.lean",
     "CDRBicolour.KBicolor.Wilson.LocalCompatibility": "CDRBicolour\\KBicolor\\Wilson\\LocalCompatibility.lean",
@@ -1463,6 +1472,7 @@
     "CDRBicolour.KBicolor.PrescribedCounting.AllocationSplit": "CDRBicolour\\KBicolor\\PrescribedCounting\\AllocationSplit.lean",
     "CDRBicolour.KBicolor.PrescribedCounting.GroupEntropyAssembly": "CDRBicolour\\KBicolor\\PrescribedCounting\\GroupEntropyAssembly.lean",
     "CDRBicolour.KBicolor.PrescribedCounting.CoreBounds": "CDRBicolour\\KBicolor\\PrescribedCounting\\CoreBounds.lean",
+    "CountingCone.UpperBound": "compat\\counting-cone\\CountingCone\\UpperBound.lean",
     "CDRBicolour.KBicolor.PrescribedCounting.ReservedCore": "CDRBicolour\\KBicolor\\PrescribedCounting\\ReservedCore.lean",
     "CDRBicolour.KBicolor.Wilson.BalancedThreePattern": "CDRBicolour\\KBicolor\\Wilson\\BalancedThreePattern.lean",
     "CDRBicolour.KBicolor.PrescribedCounting.TargetSeedData": "CDRBicolour\\KBicolor\\PrescribedCounting\\TargetSeedData.lean",
@@ -2124,6 +2134,22 @@
     {
       "path": "checks/StatementsSolution.lean",
       "sha256": "253621b23f70b34c3dfa1ae2c32297a429b0728803d63c1eae68d259ac1c27d8"
+    },
+    {
+      "path": "compat/counting-cone/CountingCone/Construction.lean",
+      "sha256": "8b37b1aeb2922ecaa1ddfab654fb721ca6d9dd76443b3009cc89084c600a2a71"
+    },
+    {
+      "path": "compat/counting-cone/CountingCone/LL/STSMain.lean",
+      "sha256": "c3316d96e4c5f52654dacc010f8aaddbd3405fe15171d6daca07d601ae426037"
+    },
+    {
+      "path": "compat/counting-cone/CountingCone/UpperBound.lean",
+      "sha256": "8a716a50fd5b38305dfe4ee3eda07dfb2bdbc89bc0c67636549f8abebf42567d"
+    },
+    {
+      "path": "compat/counting-cone/CountingCone/VanDerWaerden/Full.lean",
+      "sha256": "79e1870278563d9b91d174700a494bf7d1cbaed6ad36b2fb70476df39d287a93"
     }
   ]
 }

@@ -29,8 +29,9 @@ ineffective because its proved analytic input uses Siegel's theorem.
 
 `CDRIIIChallenge.lean` is an independent Mathlib-only statement surface.
 `CDRIIISolution.lean` imports the proved declarations and never imports the
-Challenge. `cdr-iii-comparator.json` names all four theorems and the definitions
-needed to interpret them. Only `propext`, `Classical.choice`, and `Quot.sound`
+Challenge. `cdr-iii-comparator.json` names all four theorems, with no replaceable
+definition holes. The 25 concrete helper definitions are independently checked
+against the published freeze with `pp.all`. Only `propext`, `Classical.choice`, and `Quot.sound`
 are permitted. The Challenge contains four intentional proof holes; Solution
 proofs must contain none.
 

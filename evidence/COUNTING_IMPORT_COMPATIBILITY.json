@@ -1,0 +1,249 @@
+{
+  "status": "PASS_SOURCE_COMPARISON",
+  "all_registered_body_comparisons": [
+    {
+      "shim": "compat/counting-cone/CountingCone/Analysis.lean",
+      "upstream_module": "RequestProject.Analysis",
+      "registered_kernel_source_sha256": "f55acadc27d8f88159a5e5b1039ee05661c250d98dcd329e11a0fe13cefcc91c",
+      "original_counting_source_sha256": "f55acadc27d8f88159a5e5b1039ee05661c250d98dcd329e11a0fe13cefcc91c",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/Basic.lean",
+      "upstream_module": "RequestProject.Basic",
+      "registered_kernel_source_sha256": "7b65380aaa46114ce1a222e84e6ba80e444fb4242d7653efdd0f0e6d21357911",
+      "original_counting_source_sha256": "8014d68cef755d120f4360496b6cfa35e2d07b258f5829a484be4157fe88eef8",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/Construction.lean",
+      "upstream_module": "RequestProject.Construction",
+      "registered_kernel_source_sha256": "ad215036434b026aab785c5f549ce643f261dae528ec76e481a7fd6bdaced077",
+      "original_counting_source_sha256": "b0552a91fc4a2b479e81e2bef1f213530df9cd39adb1f77322622ea4c320f81e",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/Core.lean",
+      "upstream_module": "RequestProject.Core",
+      "registered_kernel_source_sha256": "fae1224f4b530b4de5fa24adb12ea21014b6736c04ac5a7a9a12f6cfe4d9b28c",
+      "original_counting_source_sha256": "ab7b499b5212df5af9fe048cf09e795464db1f9a56da7d7e45fe9e8cf8b9e6bc",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/Defs.lean",
+      "upstream_module": "RequestProject.Defs",
+      "registered_kernel_source_sha256": "86adcd854fa708bef3c43170cfb6716a6483228d89e4b1337c84a45b8f62684e",
+      "original_counting_source_sha256": "86adcd854fa708bef3c43170cfb6716a6483228d89e4b1337c84a45b8f62684e",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/Explicit.lean",
+      "upstream_module": "RequestProject.Explicit",
+      "registered_kernel_source_sha256": "edc61c6f8606fdcddc494682071bd08e04086afbfb2015184db0492d2bfb18e8",
+      "original_counting_source_sha256": "88e66388605004816a7f35bab346f04cf24d7d6d936208685faef01229e7730e",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/ExplicitData.lean",
+      "upstream_module": "RequestProject.ExplicitData",
+      "registered_kernel_source_sha256": "5a86f27549cf4c27ed58fbc6fea188eb5dc7fa14325d47a07c97d63384c162b2",
+      "original_counting_source_sha256": "f06619ff7d7751c1ca0115a856e952ab6e911784569f57c057a79e9ac8594c08",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/Hall.lean",
+      "upstream_module": "RequestProject.Hall",
+      "registered_kernel_source_sha256": "b3daa53f5d45bc80069517ef5add7aee1e1cbdb8594769cc7657cb98c9a94a64",
+      "original_counting_source_sha256": "36c8034c0ae52e1a572302a96a0de01581a1b5225ebc2707078fa80722f3b4dd",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/Latin.lean",
+      "upstream_module": "RequestProject.Latin",
+      "registered_kernel_source_sha256": "13ba48a3aa499888adc55fccfe378495a4018be83a5cb315835867e2e7cb4c00",
+      "original_counting_source_sha256": "b753bf3f1704686f8e56a409155163415cfbf3c235b9c45681bb6b38fd1b8433",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/LL/Analysis.lean",
+      "upstream_module": "RequestProject.LL.Analysis",
+      "registered_kernel_source_sha256": "a25417a2c4a96c31ffb2eb3554ec010ea752b56c38dad6684c4c60bdc842f833",
+      "original_counting_source_sha256": "a25417a2c4a96c31ffb2eb3554ec010ea752b56c38dad6684c4c60bdc842f833",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/LL/Chain.lean",
+      "upstream_module": "RequestProject.LL.Chain",
+      "registered_kernel_source_sha256": "3bee02948f226a4c3475c7abefc7d65ea7e8a86f8b507fe92b00621d9d832e8c",
+      "original_counting_source_sha256": "3bee02948f226a4c3475c7abefc7d65ea7e8a86f8b507fe92b00621d9d832e8c",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/LL/Estimates.lean",
+      "upstream_module": "RequestProject.LL.Estimates",
+      "registered_kernel_source_sha256": "9e28e05eb43152cb5a7059bedb9a576cd3f0257ffcdc68dc8e320b6d30e20d47",
+      "original_counting_source_sha256": "8e99462f4266d3bcd48f73bab0b557261b253962de33afbb1996b2d076fb2b2c",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/LL/Expect.lean",
+      "upstream_module": "RequestProject.LL.Expect",
+      "registered_kernel_source_sha256": "a94b4972b717a92d7680c4a6a87edb8432fea88dd885d8b19d3733dad02e49bc",
+      "original_counting_source_sha256": "64bffc48be792eea71980def488087c60ddbd45078eff67ce211f29153897aeb",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/LL/Order.lean",
+      "upstream_module": "RequestProject.LL.Order",
+      "registered_kernel_source_sha256": "97c0de8659ce5b1475be2c3a0c75ce393e60330f17d6242ff94f9bcc611c4f66",
+      "original_counting_source_sha256": "97c0de8659ce5b1475be2c3a0c75ce393e60330f17d6242ff94f9bcc611c4f66",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/LL/STSExpect.lean",
+      "upstream_module": "RequestProject.LL.STSExpect",
+      "registered_kernel_source_sha256": "71c039239f5bdf8cf8cebc18c9fbe418ee1c235c89f90fa9c9e8e2951a176866",
+      "original_counting_source_sha256": "9fb6ad9c31f90990212d05285f86e2179b56477902bfc3c3b8f77c9cfe3503ba",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/LL/STSMain.lean",
+      "upstream_module": "RequestProject.LL.STSMain",
+      "registered_kernel_source_sha256": "98aee36a9dfb97bfc85990315294c4cc305e64ebc04fda6f711626895299e919",
+      "original_counting_source_sha256": "5cf69b4dc9cded1f6f96758796c9a2bc8d3c28ccf3f06cdc54aa79b67ab57f40",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/LL/STSReveal.lean",
+      "upstream_module": "RequestProject.LL.STSReveal",
+      "registered_kernel_source_sha256": "8cba3e844af52f11676232c8ef9b9d528a6f3c644f7e8b5189cdb58aa5484faf",
+      "original_counting_source_sha256": "bb98acdafb00ea3b4b097515092293c47478be0fa659a928b567cb48a0aa35ef",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/LowerBound.lean",
+      "upstream_module": "RequestProject.LowerBound",
+      "registered_kernel_source_sha256": "fcb4a066c4e2a24f8dd224a46ace78d756aafc72c0f16d17858f0fbb9e69beac",
+      "original_counting_source_sha256": "159b52bd5f5981310a7a5e786102b8860e68f61a802d703a14e122a32578276c",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/NatBits.lean",
+      "upstream_module": "RequestProject.NatBits",
+      "registered_kernel_source_sha256": "9e39cb05b324c0692d81160c3a8b4db47a0332231c7546fa23b4bc395fc5ac16",
+      "original_counting_source_sha256": "9e39cb05b324c0692d81160c3a8b4db47a0332231c7546fa23b4bc395fc5ac16",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/STSKernel.lean",
+      "upstream_module": "RequestProject.STSKernel",
+      "registered_kernel_source_sha256": "1dcdde8f408d36797e38a5cbedaf0e8ba6a3ba0d346eb058fdee890779a45b0f",
+      "original_counting_source_sha256": "91762748557d499a54ced593f09d7d8517a8461d34ebe8aa6d9d9cc75a81cc60",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/UpperBound.lean",
+      "upstream_module": "RequestProject.UpperBound",
+      "registered_kernel_source_sha256": "3183987e4ca7c61cdfc5553a75b3b8418240efe97380a41d30a6696b7ec29c19",
+      "original_counting_source_sha256": "d313abc1496022d6e5fda5ba32067f555625b5f2ecaaa2d71b1bc7b0f4b6194d",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/VanDerWaerden/Combinatorics.lean",
+      "upstream_module": "RequestProject.VanDerWaerden.Combinatorics",
+      "registered_kernel_source_sha256": "93dd213592a1098324ea705b085bd07899ab212bafab677304b380200961d96d",
+      "original_counting_source_sha256": "06013e646917745d405817506fb8577ca6aeb2819118ecda1ba207aba1bac1df",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/VanDerWaerden/Full.lean",
+      "upstream_module": "RequestProject.VanDerWaerden.Full",
+      "registered_kernel_source_sha256": "8c7a1d4811c91baa75d90065ec00dfa82f232f40fd3b4909ebf3ca292862a21f",
+      "original_counting_source_sha256": "63234d4d294f9ecf4ba2086a113fc0541515bbeb51122d84ff164e36c29057d7",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/VanDerWaerden/Gurvits.lean",
+      "upstream_module": "RequestProject.VanDerWaerden.Gurvits",
+      "registered_kernel_source_sha256": "3783323cf084300277fe91af8810c6ecd138a68cc6a36e2ef907c6b58c99ebc3",
+      "original_counting_source_sha256": "4ae1f24fd35f90b4daf45180dbc93805d4a52e87fea36d98d35424c993c5e9f1",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/VanDerWaerden/Stable.lean",
+      "upstream_module": "RequestProject.VanDerWaerden.Stable",
+      "registered_kernel_source_sha256": "efe17dcd40c9777aca2db102e1e2b1c8f58f0d5551444077a0582ade75196d8f",
+      "original_counting_source_sha256": "e7ac6c61d01aed9d8a3bb35b50d147c588e2e529405e9cf7d5d02483f6fc3be8",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/VanDerWaerden/Theorem.lean",
+      "upstream_module": "RequestProject.VanDerWaerden.Theorem",
+      "registered_kernel_source_sha256": "880f81ab0a1a5cd0a9ba3451eff78b5171ffcc9daa16087691b30360db8038d6",
+      "original_counting_source_sha256": "35daca3b11f4031b4122f0b2e8829916fd7443a89cc5cbe2b642ba4087594b87",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/VanDerWaerden/Univariate.lean",
+      "upstream_module": "RequestProject.VanDerWaerden.Univariate",
+      "registered_kernel_source_sha256": "e98148253d596445c6e6df344baf1317e338b3a9bc8e37837be8a160a5ffdaeb",
+      "original_counting_source_sha256": "e98148253d596445c6e6df344baf1317e338b3a9bc8e37837be8a160a5ffdaeb",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    }
+  ],
+  "shims": [
+    {
+      "shim": "compat/counting-cone/CountingCone/Construction.lean",
+      "upstream_module": "RequestProject.Construction",
+      "registered_kernel_source_sha256": "ad215036434b026aab785c5f549ce643f261dae528ec76e481a7fd6bdaced077",
+      "original_counting_source_sha256": "b0552a91fc4a2b479e81e2bef1f213530df9cd39adb1f77322622ea4c320f81e",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/LL/STSMain.lean",
+      "upstream_module": "RequestProject.LL.STSMain",
+      "registered_kernel_source_sha256": "98aee36a9dfb97bfc85990315294c4cc305e64ebc04fda6f711626895299e919",
+      "original_counting_source_sha256": "5cf69b4dc9cded1f6f96758796c9a2bc8d3c28ccf3f06cdc54aa79b67ab57f40",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/UpperBound.lean",
+      "upstream_module": "RequestProject.UpperBound",
+      "registered_kernel_source_sha256": "3183987e4ca7c61cdfc5553a75b3b8418240efe97380a41d30a6696b7ec29c19",
+      "original_counting_source_sha256": "d313abc1496022d6e5fda5ba32067f555625b5f2ecaaa2d71b1bc7b0f4b6194d",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    },
+    {
+      "shim": "compat/counting-cone/CountingCone/VanDerWaerden/Full.lean",
+      "upstream_module": "RequestProject.VanDerWaerden.Full",
+      "registered_kernel_source_sha256": "8c7a1d4811c91baa75d90065ec00dfa82f232f40fd3b4909ebf3ca292862a21f",
+      "original_counting_source_sha256": "63234d4d294f9ecf4ba2086a113fc0541515bbeb51122d84ff164e36c29057d7",
+      "proof_body_comparison": "exact after stripping comments, whitespace and reversing the module-import prefix rename"
+    }
+  ],
+  "unused_import_bridges_removed": [
+    "compat/counting-cone/CountingCone/Analysis.lean",
+    "compat/counting-cone/CountingCone/Basic.lean",
+    "compat/counting-cone/CountingCone/Core.lean",
+    "compat/counting-cone/CountingCone/Defs.lean",
+    "compat/counting-cone/CountingCone/Explicit.lean",
+    "compat/counting-cone/CountingCone/ExplicitData.lean",
+    "compat/counting-cone/CountingCone/Hall.lean",
+    "compat/counting-cone/CountingCone/Latin.lean",
+    "compat/counting-cone/CountingCone/LL/Analysis.lean",
+    "compat/counting-cone/CountingCone/LL/Chain.lean",
+    "compat/counting-cone/CountingCone/LL/Estimates.lean",
+    "compat/counting-cone/CountingCone/LL/Expect.lean",
+    "compat/counting-cone/CountingCone/LL/Order.lean",
+    "compat/counting-cone/CountingCone/LL/STSExpect.lean",
+    "compat/counting-cone/CountingCone/LL/STSReveal.lean",
+    "compat/counting-cone/CountingCone/LowerBound.lean",
+    "compat/counting-cone/CountingCone/NatBits.lean",
+    "compat/counting-cone/CountingCone/STSKernel.lean",
+    "compat/counting-cone/CountingCone/VanDerWaerden/Combinatorics.lean",
+    "compat/counting-cone/CountingCone/VanDerWaerden/Gurvits.lean",
+    "compat/counting-cone/CountingCone/VanDerWaerden/Stable.lean",
+    "compat/counting-cone/CountingCone/VanDerWaerden/Theorem.lean",
+    "compat/counting-cone/CountingCone/VanDerWaerden/Univariate.lean"
+  ]
+}

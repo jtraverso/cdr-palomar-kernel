@@ -9,8 +9,7 @@ record <https://doi.org/10.5281/zenodo.24201563>.
 
 * `jtraverso/cdr-palomar-kernel` at
   `5d1e6fe301e5fc01c92f6145aa34fddfe9c2bd10`: CDR I-II and their auxiliary
-  development; PALOMAR-2026-11-07-000002. Its contained dependencies supply,
-  among other inputs, the already isolated CountingCone development.
+  development; PALOMAR-2026-11-07-000002.
 * `jtraverso/physical-typed-absorption` at
   `9d36e80d75d81d9eabbfacd370dc4394b54e3d52`: theorems T and T+ of Triangle
   decompositions III and the Latin/Pasch library. The root dependency selects
@@ -23,9 +22,15 @@ record <https://doi.org/10.5281/zenodo.24201563>.
   `fa52c29c24edf7e9afdb487df3764affd43c51c7`: integral flow feasibility,
   with pinned Baranyai and Dross dependencies.
 
-Every direct Git requirement has a full commit SHA and no `subDir`. Contained
-path requirements of the registered CDR kernel stay within that pinned Git
-checkout. No local drive path is a submitted dependency.
+Every Git requirement has a full commit SHA and no `subDir`. The kernel's
+transitive path requirements are overridden by the corresponding pinned Git
+packages. The sole local path package, `compat/counting-cone`, contains only
+import bridges to the registered `counting-steiner-triple-systems` source at
+`52fda83038df7442c576e17edffba591db703cb8`. Its four modules contain no definitions
+or proofs. A source comparison verifies that the isolated CountingCone bodies
+are identical to those originals after reversing the import-prefix rename.
+No path dependency lives under `.lake` or points to a local drive directory.
+See [evidence/COUNTING_IMPORT_COMPATIBILITY.json](evidence/COUNTING_IMPORT_COMPATIBILITY.json).
 
 ## What is new here
 
