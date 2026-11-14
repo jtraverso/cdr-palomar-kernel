@@ -1,0 +1,149 @@
+version: "v0.4"
+
+project:
+  name: "Prescribed block types and abundance in bicolored Steiner triple systems"
+  description: >-
+    Four Lean results for bicolored Steiner triple systems. For each fixed
+    number k >= 3 of color classes, sufficiently large compatible labelled
+    profiles with positive class and type margins admit exact prescribed
+    block-type counts while completing any sufficiently sparse allowed packing.
+    Uniformly over such prescribed matrices, the logarithm of the number of
+    realizations has optimal leading coefficient 1/6 in n squared times log n.
+    For any fixed K, the same exact type matrix has K realizations with distinct
+    Pasch counts. For every fixed k >= 4, all sufficiently large admissible
+    orders admit a k-bicoloring. The final threshold is ineffective.
+  authors: ["Juan Pablo Traverso Gianini"]
+  license: "Apache-2.0"
+  responsible_maintainers: ["Juan Pablo Traverso Gianini"]
+
+classification:
+  arxiv: ["math.CO"]
+  msc2020: ["05B07", "05C15"]
+
+sources:
+  - title: "Prescribed block types and abundance in bicolored Steiner triple systems"
+    authors: ["Juan Pablo Traverso Gianini"]
+    id: "doi:10.5281/zenodo.24201563"
+    location: "https://doi.org/10.5281/zenodo.24201563"
+    relationship: formalizes
+    note: "CDR Paper III, preprint 1.0, Theorems 1.1-1.4."
+  - title: "Bicoloring Steiner triple systems"
+    authors: ["Charles J. Colbourn", "Jeffrey H. Dinitz", "Alexander Rosa"]
+    id: "doi:10.37236/1457"
+    relationship: background
+    note: "1999; Conjectures 3.5 and 3.6 concern four and five colors."
+  - title: "Triangle decompositions III: Physical typed absorption and prescribed statistics"
+    authors: ["Juan Pablo Traverso Gianini"]
+    id: "doi:10.5281/zenodo.23867836"
+    relationship: background
+    note: "Theorems T and T+ are imported, not re-presented as new results here."
+  - title: "The exact block-type spectrum in the Colbourn-Dinitz-Rosa problem"
+    authors: ["Juan Pablo Traverso Gianini"]
+    id: "doi:10.5281/zenodo.23987251"
+    relationship: background
+    note: "CDR Paper I; the k-class constructions extend its absorption route."
+  - title: "A theorem on flows in networks"
+    authors: ["David Gale"]
+    location: "Pacific Journal of Mathematics 7 (1957), 1073-1082"
+    id: "https://msp.org/pjm/1957/7-2/pjm-v7-n2-p04-s.pdf"
+    relationship: background
+    note: "Integral feasibility is provided by the registered Gale-Hoffman development."
+  - title: "Hyperbolic distribution problems and half-integral weight Maass forms"
+    authors: ["William Duke"]
+    id: "doi:10.1007/BF01393993"
+    relationship: background
+    note: "1988, Inventiones Mathematicae 92; squarefree three-square cap input supplied by registered DSP v2."
+  - title: "Nonisomorphic Steiner triple systems"
+    authors: ["Richard M. Wilson"]
+    id: "doi:10.1007/BF01215371"
+    relationship: background
+    note: "1974; the counting development is imported through the registered CDR kernel's CountingCone dependency."
+  - title: "An upper bound on the number of Steiner triple systems"
+    authors: ["Nathan Linial", "Zur Luria"]
+    id: "doi:10.1002/rsa.20487"
+    relationship: background
+    note: "Upper-counting input from the same imported counting development."
+
+related_formalizations:
+  - id: "PALOMAR-2026-11-07-000002 v1"
+    relationship: builds-on
+    note: "Registered cdr-palomar-kernel at 5d1e6fe301e5fc01c92f6145aa34fddfe9c2bd10."
+  - id: "PALOMAR-2026-11-07-000007 v2"
+    relationship: builds-on
+    note: "Registered DSP v2 at 21575ff924c98165ea1b451f7cbcc27c016ebd3e; includes H1."
+  - id: "PALOMAR-2026-11-08-000002 v1"
+    relationship: builds-on
+    note: "Registered four-square caps and Jacobi, through DSP v2's pinned dependency."
+  - id: "PALOMAR-2026-11-06-000015 v1"
+    relationship: builds-on
+    note: "Registered Gale-Hoffman integral feasibility at fa52c29c24edf7e9afdb487df3764affd43c51c7."
+  - id: "PALOMAR-2026-10-22-000017 v2"
+    relationship: builds-on
+    note: "Registered STS counting, via the kernel's isolated CountingCone modules."
+
+status:
+  scope: >-
+    Four compared main endpoints of CDR Paper III only. General boundary
+    spectra, all-order exact three-color spectra and numerical universal
+    thresholds are outside this submission. Those CDR IV research tasks are
+    not copied into this tree. The new packaging requires its own official
+    Palomar preflight and review; the earlier published freeze is separately
+    source-bound and audited. No new full local reconstruction is claimed.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+
+automation:
+  methods:
+    - method: manual
+    - method: agent
+      models: ["Claude", "ChatGPT/Codex"]
+      tool_setup: "Human-directed mathematical development, Lean tactics, proof implementation, and editorial assistance."
+  notes: >-
+    AI assistance is disclosed. The Challenge has four deliberate statement
+    holes; the proved Solution may depend only on propext, Classical.choice and
+    Quot.sound. No native_decide or extra mathematical axiom is permitted in
+    the compared proofs. External analytic and combinatorial results are proved
+    dependencies, not hypotheses added to the final statements.
+
+fidelity:
+  divergences: >-
+    No change to the four main hypotheses or conclusions is intended. The
+    source freeze used copied dependency closures; this package requires their
+    immutable registered Git repositories and retains only new CDR modules and
+    two explicit arithmetic adapters. The Solution uses the registered Siegel
+    provider via DSP v2 rather than copying the earlier PNTPort analytic proof.
+    The quantitative existence threshold remains ineffective. Local statement
+    and axiom checks on the old compiled freeze do not replace verification of
+    this repackaged commit by Palomar.
+
+review:
+  status: "agent-reviewed"
+  reviewers: ["Codex, acting under the author's direction"]
+  notes: >-
+    The published source freeze passed its internal source-bound reconstruction
+    and four endpoint axiom audits, and the manuscripts received external
+    feedback. Repackaging is checked separately for dependency provenance and
+    statement alignment. These checks are not journal peer review, a new
+    specialist audit of analytic inputs, or a completed Palomar review.
+
+alignment:
+  namespace: "CDRBicolour"
+  statements:
+    - source: "CDR Paper III, Theorem 1.1"
+      lean: "CDRBicolour.KBicolor.kbicolour_completion_types_exact"
+      module: "CDRBicolour.KBicolor.CompletionExact"
+      status: proved
+    - source: "CDR Paper III, Theorem 1.2"
+      lean: "CDRBicolour.KBicolor.optimal_prescribed_type_count_of_three_le"
+      module: "CDRBicolour.KBicolor.PrescribedCounting.OptimalPrescribed"
+      status: proved
+    - source: "CDR Paper III, Theorem 1.3"
+      lean: "CDRBicolour.KBicolor.kbicolour_types_exact_many_pasch_counts"
+      module: "CDRBicolour.KBicolor.ExactTypesPasch"
+      status: proved
+    - source: "CDR Paper III, Theorem 1.4"
+      lean: "CDRBicolour.PaperIII.bicolourable_eventually_unconditional"
+      module: "CDRBicolour.PaperIII.Unconditional"
+      status: proved
+

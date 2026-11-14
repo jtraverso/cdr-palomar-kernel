@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "label": "challenge",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\jtraverso\\.elan\\toolchains\\leanprover--lean4---v4.35.0-rc3\\bin\\lean.exe",
+        "-j",
+        "3",
+        "-M",
+        "24576",
+        "-DautoImplicit=false",
+        "-DrelaxedAutoImplicit=false",
+        "-DmaxSynthPendingDepth=3",
+        "--incr-load=C:\\nw\\cdr-iii-palomar-work-20261114\\local-checks\\ChallengeHeader.snap",
+        "--incr-header-save=C:\\nw\\cdr-iii-palomar-work-20261114\\local-checks\\ChallengeHeader.snap",
+        "-o",
+        "C:\\nw\\cdr-iii-palomar-work-20261114\\package\\.lake\\build\\lib\\lean\\CDRIIIChallenge.olean",
+        "CDRIIIChallenge.lean"
+      ],
+      "source_sha256": "b9b991fbc13838227036b90ddfd119c66597ed80f63e58c24d5241f923ad3283",
+      "log_sha256": "6db776e06809e52ebbf20fbc51bbcdc61017066c0601793055a90f928f9c12b9"
+    },
+    {
+      "label": "challenge_surface",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\jtraverso\\.elan\\toolchains\\leanprover--lean4---v4.35.0-rc3\\bin\\lean.exe",
+        "-j",
+        "3",
+        "-M",
+        "24576",
+        "-DautoImplicit=false",
+        "-DrelaxedAutoImplicit=false",
+        "-DmaxSynthPendingDepth=3",
+        "checks\\StatementsChallenge.lean"
+      ],
+      "source_sha256": "449e45d8eef310c7c8403863fcf387518e5cea6570c810cc1ba8ef2838f3fa90",
+      "log_sha256": "c0e5236e80b5e580fa05c88e64e6086a612c59f784527849f92eaaae77172efe"
+    },
+    {
+      "label": "freeze_surface",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\jtraverso\\.elan\\toolchains\\leanprover--lean4---v4.35.0-rc3\\bin\\lean.exe",
+        "-j",
+        "3",
+        "-M",
+        "24576",
+        "-DautoImplicit=false",
+        "-DrelaxedAutoImplicit=false",
+        "-DmaxSynthPendingDepth=3",
+        "--incr-header-save=C:\\nw\\cdr-iii-palomar-work-20261114\\local-checks\\FreezeHeader.snap",
+        "OriginalFreezeStatements.lean"
+      ],
+      "source_sha256": "80263919cd5c34fe0e0ae83324a69df80566900db6351758e6a0dbd3116afbe5",
+      "log_sha256": "eb560ea067e6a6ed3cfa5dce1bb47daf9e00a9fc0558be1d715f8c52373aa530"
+    }
+  ]
+}

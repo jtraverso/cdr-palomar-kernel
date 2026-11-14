@@ -1,0 +1,4 @@
+CDRIIIChallenge.lean:140:8: warning: declaration uses `sorry`
+CDRIIIChallenge.lean:158:8: warning: declaration uses `sorry`
+CDRIIIChallenge.lean:174:8: warning: declaration uses `sorry`
+CDRIIIChallenge.lean:194:8: warning: declaration uses `sorry`

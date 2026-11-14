@@ -1,0 +1,937 @@
+structure TypedTriangle.Host.{u_1, u_2} (V : Type u_1) (I : Type u_2) : Type (max u_1 u_2)
+number of parameters: 2
+fields:
+  TypedTriangle.Host.G.{u_1, u_2} : SimpleGraph.{u_1} V
+  TypedTriangle.Host.lab.{u_1, u_2} : V → I
+constructor:
+  TypedTriangle.Host.mk.{u_1, u_2} {V : Type u_1} {I : Type u_2} (G : SimpleGraph.{u_1} V) (lab : V → I) :
+    TypedTriangle.Host.{u_1, u_2} V I
+@[expose] def TypedTriangle.triEdges.{u_1} : {V : Type u_1} → (T : Finset.{u_1} V) → Finset.{u_1} (Sym2.{u_1} V) :=
+fun {V : Type u_1} (T : Finset.{u_1} V) =>
+  @Finset.filter.{u_1} (Sym2.{u_1} V) (fun (e : Sym2.{u_1} V) => Not (@Sym2.IsDiag.{u_1} V e))
+    (fun (a : Sym2.{u_1} V) =>
+      @instDecidableNot (@Sym2.IsDiag.{u_1} V a)
+        (@Sym2.IsDiag.decidablePred.{u_1} V (fun (a b : V) => Classical.propDecidable (@Eq.{u_1 + 1} V a b)) a))
+    (@Finset.sym2.{u_1} V T)
+@[expose] def TypedTriangle.edges.{u_1, u_2} : {V : Type u_1} →
+  {I : Type u_2} → [Fintype.{u_1} V] → (H : TypedTriangle.Host.{u_1, u_2} V I) → Finset.{u_1} (Sym2.{u_1} V) :=
+fun {V : Type u_1} {I : Type u_2} [inst : Fintype.{u_1} V] (H : TypedTriangle.Host.{u_1, u_2} V I) =>
+  @Finset.filter.{u_1} (Sym2.{u_1} V)
+    (fun (e : Sym2.{u_1} V) =>
+      @Membership.mem.{u_1, u_1} (Sym2.{u_1} V) (Set.{u_1} (Sym2.{u_1} V)) (@Set.instMembership.{u_1} (Sym2.{u_1} V))
+        (@SimpleGraph.edgeSet.{u_1} V (@TypedTriangle.Host.G.{u_1, u_2} V I H)) e)
+    (fun (a : Sym2.{u_1} V) =>
+      @SimpleGraph.decidableMemEdgeSet.{u_1} V (@TypedTriangle.Host.G.{u_1, u_2} V I H)
+        (fun (a b : V) =>
+          Classical.propDecidable (@SimpleGraph.Adj.{u_1} V (@TypedTriangle.Host.G.{u_1, u_2} V I H) a b))
+        a)
+    (@Finset.univ.{u_1} (Sym2.{u_1} V) (@Sym2.instFintype.{u_1} V inst))
+@[expose] def TypedTriangle.IsAllowed.{u_1, u_2} : {V : Type u_1} →
+  {I : Type u_2} →
+    (H : TypedTriangle.Host.{u_1, u_2} V I) → (F : Set.{u_2} (Multiset.{u_2} I)) → (T : Finset.{u_1} V) → Prop :=
+fun {V : Type u_1} {I : Type u_2} (H : TypedTriangle.Host.{u_1, u_2} V I) (F : Set.{u_2} (Multiset.{u_2} I))
+    (T : Finset.{u_1} V) =>
+  And (@Eq.{1} Nat (@Finset.card.{u_1} V T) (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+    (And
+      (∀ (x : V),
+        @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V)) T x →
+          ∀ (y : V),
+            @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V)) T y →
+              @Ne.{u_1 + 1} V x y → @SimpleGraph.Adj.{u_1} V (@TypedTriangle.Host.G.{u_1, u_2} V I H) x y)
+      (@Membership.mem.{u_2, u_2} (Multiset.{u_2} I) (Set.{u_2} (Multiset.{u_2} I))
+        (@Set.instMembership.{u_2} (Multiset.{u_2} I)) F
+        (@Multiset.map.{u_2, u_1} V I (@TypedTriangle.Host.lab.{u_1, u_2} V I H) (@Finset.val.{u_1} V T))))
+@[expose] def TypedTriangle.IsDecomposition.{u_1, u_2} : {V : Type u_1} →
+  {I : Type u_2} →
+    (H : TypedTriangle.Host.{u_1, u_2} V I) →
+      (F : Set.{u_2} (Multiset.{u_2} I)) →
+        (J : Finset.{u_1} (Sym2.{u_1} V)) → (D : Finset.{u_1} (Finset.{u_1} V)) → Prop :=
+fun {V : Type u_1} {I : Type u_2} (H : TypedTriangle.Host.{u_1, u_2} V I) (F : Set.{u_2} (Multiset.{u_2} I))
+    (J : Finset.{u_1} (Sym2.{u_1} V)) (D : Finset.{u_1} (Finset.{u_1} V)) =>
+  And
+    (∀ (T : Finset.{u_1} V),
+      @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+            (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+          D T →
+        @TypedTriangle.IsAllowed.{u_1, u_2} V I H F T)
+    (And
+      (@Set.PairwiseDisjoint.{u_1, u_1} (Finset.{u_1} (Sym2.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instPartialOrder.{u_1} (Sym2.{u_1} V)) (@Finset.instOrderBot.{u_1} (Sym2.{u_1} V))
+        (@SetLike.coe.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)) D)
+        (@TypedTriangle.triEdges.{u_1} V))
+      (@Eq.{u_1 + 1} (Finset.{u_1} (Sym2.{u_1} V))
+        (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) (Sym2.{u_1} V)
+          (fun (a b : Sym2.{u_1} V) =>
+            @Sym2.instDecidableEq.{u_1} V (fun (a b : V) => Classical.propDecidable (@Eq.{u_1 + 1} V a b)) a b)
+          D (@TypedTriangle.triEdges.{u_1} V))
+        J))
+@[expose] def STS.IsSTS.{u_1} : {α : Type u_1} → (B : Finset.{u_1} (Finset.{u_1} α)) → Prop :=
+fun {α : Type u_1} (B : Finset.{u_1} (Finset.{u_1} α)) =>
+  And
+    (∀ (A : Finset.{u_1} α),
+      @Membership.mem.{u_1, u_1} (Finset.{u_1} α) (Finset.{u_1} (Finset.{u_1} α))
+          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} α)) (Finset.{u_1} α)
+            (@Finset.instSetLike.{u_1} (Finset.{u_1} α)))
+          B A →
+        @Eq.{1} Nat (@Finset.card.{u_1} α A) (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+    (∀ (x y : α),
+      @Ne.{u_1 + 1} α x y →
+        @ExistsUnique.{u_1 + 1} (Finset.{u_1} α) fun (A : Finset.{u_1} α) =>
+          And
+            (@Membership.mem.{u_1, u_1} (Finset.{u_1} α) (Finset.{u_1} (Finset.{u_1} α))
+              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} α)) (Finset.{u_1} α)
+                (@Finset.instSetLike.{u_1} (Finset.{u_1} α)))
+              B A)
+            (And
+              (@Membership.mem.{u_1, u_1} α (Finset.{u_1} α)
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} α) α (@Finset.instSetLike.{u_1} α)) A x)
+              (@Membership.mem.{u_1, u_1} α (Finset.{u_1} α)
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} α) α (@Finset.instSetLike.{u_1} α)) A y)))
+@[expose] def CDRBicolour.Absorption.nbL.{u_1} : {V : Type u_1} →
+  [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → (L : Finset.{u_1} (Sym2.{u_1} V)) → (p : V) → Finset.{u_1} V :=
+fun {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] (L : Finset.{u_1} (Sym2.{u_1} V))
+    (p : V) =>
+  @Finset.filter.{u_1} V
+    (fun (w : V) =>
+      @Membership.mem.{u_1, u_1} (Sym2.{u_1} V) (Finset.{u_1} (Sym2.{u_1} V))
+        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Sym2.{u_1} V)) (Sym2.{u_1} V)
+          (@Finset.instSetLike.{u_1} (Sym2.{u_1} V)))
+        L (@Sym2.mk.{u_1} V w p))
+    (fun (a : V) =>
+      @Finset.decidableMem.{u_1} (Sym2.{u_1} V) (fun (a b : Sym2.{u_1} V) => @Sym2.instDecidableEq.{u_1} V inst_1 a b)
+        (@Sym2.mk.{u_1} V a p) L)
+    (@Finset.univ.{u_1} V inst)
+@[expose] def CDRBicolour.Absorption.degL.{u_1} : {V : Type u_1} →
+  [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → (L : Finset.{u_1} (Sym2.{u_1} V)) → (p : V) → Nat :=
+fun {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] (L : Finset.{u_1} (Sym2.{u_1} V))
+    (p : V) =>
+  @Finset.card.{u_1} V (@CDRBicolour.Absorption.nbL.{u_1} V inst inst_1 L p)
+@[expose] def CDRBicolour.KBicolor.bicF : (k : Nat) → Set.{0} (Multiset.{0} (Fin k)) :=
+fun (k : Nat) =>
+  @Set.ofPred.{0} (Multiset.{0} (Fin k)) fun (m : Multiset.{0} (Fin k)) =>
+    And (@Eq.{1} Nat (@Multiset.card.{0} (Fin k) m) (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+      (@Eq.{1} Nat (@Finset.card.{0} (Fin k) (@Multiset.toFinset.{0} (Fin k) (instDecidableEqFin k) m))
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+@[reducible, expose] def CDRBicolour.KBicolor.kHost.{u_1} : {k : Nat} →
+  {V : Type u_1} → (lab : V → Fin k) → TypedTriangle.Host.{u_1, 0} V (Fin k) :=
+fun {k : Nat} {V : Type u_1} (lab : V → Fin k) =>
+  @TypedTriangle.Host.mk.{u_1, 0} V (Fin k)
+    (@Top.top.{u_1} (SimpleGraph.{u_1} V)
+      (@BooleanAlgebra.toTop.{u_1} (SimpleGraph.{u_1} V)
+        (@CompleteBooleanAlgebra.toBooleanAlgebra.{u_1} (SimpleGraph.{u_1} V)
+          (@CompleteAtomicBooleanAlgebra.toCompleteBooleanAlgebra.{u_1} (SimpleGraph.{u_1} V)
+            (@SimpleGraph.completeAtomicBooleanAlgebra.{u_1} V)))))
+    lab
+@[expose] def CDRBicolour.KBicolor.ksz.{u_1} : {k : Nat} →
+  {V : Type u_1} → [Fintype.{u_1} V] → (lab : V → Fin k) → (X : Fin k) → Nat :=
+fun {k : Nat} {V : Type u_1} [inst : Fintype.{u_1} V] (lab : V → Fin k) (X : Fin k) =>
+  @Finset.card.{u_1} V
+    (@Finset.filter.{u_1} V (fun (v : V) => @Eq.{1} (Fin k) (lab v) X) (fun (a : V) => instDecidableEqFin k (lab a) X)
+      (@Finset.univ.{u_1} V inst))
+@[expose] def CDRBicolour.KBicolor.kTypeCount.{u_1} : {k : Nat} →
+  {V : Type u_1} → (lab : V → Fin k) → (D : Finset.{u_1} (Finset.{u_1} V)) → (X Y : Fin k) → Nat :=
+fun {k : Nat} {V : Type u_1} (lab : V → Fin k) (D : Finset.{u_1} (Finset.{u_1} V)) (X Y : Fin k) =>
+  @Finset.card.{u_1} (Finset.{u_1} V)
+    (@Finset.filter.{u_1} (Finset.{u_1} V)
+      (fun (T : Finset.{u_1} V) =>
+        @Eq.{1} (Multiset.{0} (Fin k)) (@Multiset.map.{0, u_1} V (Fin k) lab (@Finset.val.{u_1} V T))
+          (@Insert.insert.{0, 0} (Fin k) (Multiset.{0} (Fin k)) (@Multiset.instInsert.{0} (Fin k)) X
+            (@Insert.insert.{0, 0} (Fin k) (Multiset.{0} (Fin k)) (@Multiset.instInsert.{0} (Fin k)) X
+              (@Singleton.singleton.{0, 0} (Fin k) (Multiset.{0} (Fin k)) (@Multiset.instSingleton.{0} (Fin k)) Y))))
+      (fun (a : Finset.{u_1} V) =>
+        @Multiset.decidableEq.{0} (Fin k) (instDecidableEqFin k)
+          (@Multiset.map.{0, u_1} V (Fin k) lab (@Finset.val.{u_1} V a))
+          (@Insert.insert.{0, 0} (Fin k) (Multiset.{0} (Fin k)) (@Multiset.instInsert.{0} (Fin k)) X
+            (@Insert.insert.{0, 0} (Fin k) (Multiset.{0} (Fin k)) (@Multiset.instInsert.{0} (Fin k)) X
+              (@Singleton.singleton.{0, 0} (Fin k) (Multiset.{0} (Fin k)) (@Multiset.instSingleton.{0} (Fin k)) Y))))
+      D)
+@[expose] def CDRBicolour.KBicolor.kBlocks : {k n : Nat} →
+  (lab : Fin n → Fin k) → Finset.{0} (Finset.{0} (Finset.{0} (Fin n))) :=
+fun {k n : Nat} (lab : Fin n → Fin k) =>
+  @Finset.filter.{0} (Finset.{0} (Finset.{0} (Fin n)))
+    (fun (X : Finset.{0} (Finset.{0} (Fin n))) =>
+      And (@STS.IsSTS.{0} (Fin n) X)
+        (∀ (B : Finset.{0} (Fin n)),
+          @Membership.mem.{0, 0} (Finset.{0} (Fin n)) (Finset.{0} (Finset.{0} (Fin n)))
+              (@SetLike.instMembership.{0, 0} (Finset.{0} (Finset.{0} (Fin n))) (Finset.{0} (Fin n))
+                (@Finset.instSetLike.{0} (Finset.{0} (Fin n))))
+              X B →
+            @Eq.{1} Nat (@Finset.card.{0} (Fin k) (@Finset.image.{0, 0} (Fin n) (Fin k) (instDecidableEqFin k) lab B))
+              (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+    (fun (a : Finset.{0} (Finset.{0} (Fin n))) =>
+      @instDecidableAnd (@STS.IsSTS.{0} (Fin n) a)
+        (∀ (B : Finset.{0} (Fin n)),
+          @Membership.mem.{0, 0} (Finset.{0} (Fin n)) (Finset.{0} (Finset.{0} (Fin n)))
+              (@SetLike.instMembership.{0, 0} (Finset.{0} (Finset.{0} (Fin n))) (Finset.{0} (Fin n))
+                (@Finset.instSetLike.{0} (Finset.{0} (Fin n))))
+              a B →
+            @Eq.{1} Nat (@Finset.card.{0} (Fin k) (@Finset.image.{0, 0} (Fin n) (Fin k) (instDecidableEqFin k) lab B))
+              (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+        (Classical.propDecidable (@STS.IsSTS.{0} (Fin n) a))
+        (@Fintype.decidableForallFintype.{0} (Finset.{0} (Fin n))
+          (fun (B : Finset.{0} (Fin n)) =>
+            @Membership.mem.{0, 0} (Finset.{0} (Fin n)) (Finset.{0} (Finset.{0} (Fin n)))
+                (@SetLike.instMembership.{0, 0} (Finset.{0} (Finset.{0} (Fin n))) (Finset.{0} (Fin n))
+                  (@Finset.instSetLike.{0} (Finset.{0} (Fin n))))
+                a B →
+              @Eq.{1} Nat (@Finset.card.{0} (Fin k) (@Finset.image.{0, 0} (Fin n) (Fin k) (instDecidableEqFin k) lab B))
+                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+          (fun (a_1 : Finset.{0} (Fin n)) =>
+            @forall_prop_decidable
+              (@Membership.mem.{0, 0} (Finset.{0} (Fin n)) (Finset.{0} (Finset.{0} (Fin n)))
+                (@SetLike.instMembership.{0, 0} (Finset.{0} (Finset.{0} (Fin n))) (Finset.{0} (Fin n))
+                  (@Finset.instSetLike.{0} (Finset.{0} (Fin n))))
+                a a_1)
+              (fun
+                  (a :
+                    @Membership.mem.{0, 0} (Finset.{0} (Fin n)) (Finset.{0} (Finset.{0} (Fin n)))
+                      (@SetLike.instMembership.{0, 0} (Finset.{0} (Finset.{0} (Fin n))) (Finset.{0} (Fin n))
+                        (@Finset.instSetLike.{0} (Finset.{0} (Fin n))))
+                      a a_1) =>
+                @Eq.{1} Nat
+                  (@Finset.card.{0} (Fin k) (@Finset.image.{0, 0} (Fin n) (Fin k) (instDecidableEqFin k) lab a_1))
+                  (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+              (@Finset.decidableMem.{0} (Finset.{0} (Fin n))
+                (fun (a b : Finset.{0} (Fin n)) => @Finset.decidableEq.{0} (Fin n) (instDecidableEqFin n) a b) a_1 a)
+              fun
+                (h :
+                  @Membership.mem.{0, 0} (Finset.{0} (Fin n)) (Finset.{0} (Finset.{0} (Fin n)))
+                    (@SetLike.instMembership.{0, 0} (Finset.{0} (Finset.{0} (Fin n))) (Finset.{0} (Fin n))
+                      (@Finset.instSetLike.{0} (Finset.{0} (Fin n))))
+                    a a_1) =>
+              (fun (a : Finset.{0} (Fin n)) =>
+                  instDecidableEqNat
+                    (@Finset.card.{0} (Fin k) (@Finset.image.{0, 0} (Fin n) (Fin k) (instDecidableEqFin k) lab a))
+                    (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                a_1)
+          (@Finset.fintype.{0} (Fin n) (Fin.fintype n))))
+    (@Finset.univ.{0} (Finset.{0} (Finset.{0} (Fin n)))
+      (@Finset.fintype.{0} (Finset.{0} (Fin n)) (@Finset.fintype.{0} (Fin n) (Fin.fintype n))))
+@[reducible, expose] def CDRBicolour.KBicolor.TypeCoord : (k : Nat) → Type :=
+fun (k : Nat) =>
+  @Subtype.{1} (Prod.{0, 0} (Fin k) (Fin k)) fun (x : Prod.{0, 0} (Fin k) (Fin k)) =>
+    @Membership.mem.{0, 0} (Prod.{0, 0} (Fin k) (Fin k)) (Finset.{0} (Prod.{0, 0} (Fin k) (Fin k)))
+      (@SetLike.instMembership.{0, 0} (Finset.{0} (Prod.{0, 0} (Fin k) (Fin k))) (Prod.{0, 0} (Fin k) (Fin k))
+        (@Finset.instSetLike.{0} (Prod.{0, 0} (Fin k) (Fin k))))
+      (@Finset.offDiag.{0} (Fin k) (@Finset.univ.{0} (Fin k) (Fin.fintype k))) x
+@[expose] def CDRBicolour.KBicolor.typeVector : {n k : Nat} →
+  (lab : Fin n → Fin k) → (D : Finset.{0} (Finset.{0} (Fin n))) → CDRBicolour.KBicolor.TypeCoord k → Nat :=
+fun {n k : Nat} (lab : Fin n → Fin k) (D : Finset.{0} (Finset.{0} (Fin n))) (p : CDRBicolour.KBicolor.TypeCoord k) =>
+  @CDRBicolour.KBicolor.kTypeCount.{0} k (Fin n) lab D
+    (@Prod.fst.{0, 0} (Fin k) (Fin k)
+      (@Subtype.val.{1} (Prod.{0, 0} (Fin k) (Fin k))
+        (fun (x : Prod.{0, 0} (Fin k) (Fin k)) =>
+          @Membership.mem.{0, 0} (Prod.{0, 0} (Fin k) (Fin k)) (Finset.{0} (Prod.{0, 0} (Fin k) (Fin k)))
+            (@SetLike.instMembership.{0, 0} (Finset.{0} (Prod.{0, 0} (Fin k) (Fin k))) (Prod.{0, 0} (Fin k) (Fin k))
+              (@Finset.instSetLike.{0} (Prod.{0, 0} (Fin k) (Fin k))))
+            (@Finset.offDiag.{0} (Fin k) (@Finset.univ.{0} (Fin k) (Fin.fintype k))) x)
+        p))
+    (@Prod.snd.{0, 0} (Fin k) (Fin k)
+      (@Subtype.val.{1} (Prod.{0, 0} (Fin k) (Fin k))
+        (fun (x : Prod.{0, 0} (Fin k) (Fin k)) =>
+          @Membership.mem.{0, 0} (Prod.{0, 0} (Fin k) (Fin k)) (Finset.{0} (Prod.{0, 0} (Fin k) (Fin k)))
+            (@SetLike.instMembership.{0, 0} (Finset.{0} (Prod.{0, 0} (Fin k) (Fin k))) (Prod.{0, 0} (Fin k) (Fin k))
+              (@Finset.instSetLike.{0} (Prod.{0, 0} (Fin k) (Fin k))))
+            (@Finset.offDiag.{0} (Fin k) (@Finset.univ.{0} (Fin k) (Fin.fintype k))) x)
+        p))
+@[expose] def CDRBicolour.KBicolor.exactTypeFibre : {n k : Nat} →
+  (lab : Fin n → Fin k) → (t : CDRBicolour.KBicolor.TypeCoord k → Nat) → Finset.{0} (Finset.{0} (Finset.{0} (Fin n))) :=
+fun {n k : Nat} (lab : Fin n → Fin k) (t : CDRBicolour.KBicolor.TypeCoord k → Nat) =>
+  @Finset.filter.{0} (Finset.{0} (Finset.{0} (Fin n)))
+    (fun (D : Finset.{0} (Finset.{0} (Fin n))) =>
+      @Eq.{1} (CDRBicolour.KBicolor.TypeCoord k → Nat) (@CDRBicolour.KBicolor.typeVector n k lab D) t)
+    (fun (a : Finset.{0} (Finset.{0} (Fin n))) =>
+      @Fintype.decidablePiFintype.{0, 0} (CDRBicolour.KBicolor.TypeCoord k)
+        (fun (a : CDRBicolour.KBicolor.TypeCoord k) => Nat)
+        (fun (a : CDRBicolour.KBicolor.TypeCoord k) => instDecidableEqNat)
+        (@Finset.Subtype.fintype.{0} (Prod.{0, 0} (Fin k) (Fin k))
+          (@Finset.offDiag.{0} (Fin k) (@Finset.univ.{0} (Fin k) (Fin.fintype k))))
+        (@CDRBicolour.KBicolor.typeVector n k lab a) t)
+    (@CDRBicolour.KBicolor.kBlocks k n lab)
+@[expose] def CDRBicolour.KBicolor.exactTypeCount : {n k : Nat} →
+  (lab : Fin n → Fin k) → (t : CDRBicolour.KBicolor.TypeCoord k → Nat) → Nat :=
+fun {n k : Nat} (lab : Fin n → Fin k) (t : CDRBicolour.KBicolor.TypeCoord k → Nat) =>
+  @Finset.card.{0} (Finset.{0} (Finset.{0} (Fin n))) (@CDRBicolour.KBicolor.exactTypeFibre n k lab t)
+@[expose] def TypedTriangle.Pasch.IsPasch.{u_1} : {V : Type u_1} →
+  [DecidableEq.{u_1 + 1} V] → (S : Finset.{u_1} (Finset.{u_1} V)) → Prop :=
+fun {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] (S : Finset.{u_1} (Finset.{u_1} V)) =>
+  And
+    (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) S) (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))
+    (And
+      (∀ (T : Finset.{u_1} V),
+        @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+              (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+            S T →
+          @Eq.{1} Nat (@Finset.card.{u_1} V T) (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+      (And
+        (@Eq.{1} Nat
+          (@Finset.card.{u_1} V (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V))))
+          (@OfNat.ofNat.{0} Nat (nat_lit 6) (instOfNatNat (nat_lit 6))))
+        (And
+          (∀ (v : V),
+            @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V))
+                (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V))) v →
+              @Eq.{1} Nat
+                (@Finset.card.{u_1} (Finset.{u_1} V)
+                  (@Finset.filter.{u_1} (Finset.{u_1} V)
+                    (fun (T : Finset.{u_1} V) =>
+                      @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V)) T v)
+                    (fun (a : Finset.{u_1} V) => @Finset.decidableMem.{u_1} V inst v a) S))
+                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+          (@Set.Pairwise.{u_1} (Finset.{u_1} V)
+            (@SetLike.coe.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+              (@Finset.instSetLike.{u_1} (Finset.{u_1} V)) S)
+            fun (A B : Finset.{u_1} V) =>
+            @LE.le.{0} Nat instLENat
+              (@Finset.card.{u_1} V (@Inter.inter.{u_1} (Finset.{u_1} V) (@Finset.instInter.{u_1} V inst) A B))
+              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+@[instance_reducible, expose] def TypedTriangle.Pasch.decidableIsPasch.{u_1} : {V : Type u_1} →
+  [inst : DecidableEq.{u_1 + 1} V] →
+    (S : Finset.{u_1} (Finset.{u_1} V)) → Decidable (@TypedTriangle.Pasch.IsPasch.{u_1} V inst S) :=
+fun {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] (S : Finset.{u_1} (Finset.{u_1} V)) =>
+  @id.{1} (Decidable (@TypedTriangle.Pasch.IsPasch.{u_1} V inst S))
+    (@inferInstance.{1}
+      (Decidable
+        (And
+          (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) S)
+            (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))
+          (And
+            (∀ (T : Finset.{u_1} V),
+              @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                    (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                  S T →
+                @Eq.{1} Nat (@Finset.card.{u_1} V T) (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+            (And
+              (@Eq.{1} Nat
+                (@Finset.card.{u_1} V
+                  (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V))))
+                (@OfNat.ofNat.{0} Nat (nat_lit 6) (instOfNatNat (nat_lit 6))))
+              (And
+                (∀ (v : V),
+                  @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V))
+                      (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V))) v →
+                    @Eq.{1} Nat
+                      (@Finset.card.{u_1} (Finset.{u_1} V)
+                        (@Finset.filter.{u_1} (Finset.{u_1} V)
+                          (fun (T : Finset.{u_1} V) =>
+                            @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V)) T v)
+                          (fun (a : Finset.{u_1} V) => @Finset.decidableMem.{u_1} V inst v a) S))
+                      (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                (@Set.Pairwise.{u_1} (Finset.{u_1} V)
+                  (@SetLike.coe.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                    (@Finset.instSetLike.{u_1} (Finset.{u_1} V)) S)
+                  fun (A B : Finset.{u_1} V) =>
+                  @LE.le.{0} Nat instLENat
+                    (@Finset.card.{u_1} V (@Inter.inter.{u_1} (Finset.{u_1} V) (@Finset.instInter.{u_1} V inst) A B))
+                    (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))))
+      (@instDecidableAnd
+        (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) S)
+          (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))
+        (And
+          (∀ (T : Finset.{u_1} V),
+            @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                S T →
+              @Eq.{1} Nat (@Finset.card.{u_1} V T) (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+          (And
+            (@Eq.{1} Nat
+              (@Finset.card.{u_1} V
+                (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V))))
+              (@OfNat.ofNat.{0} Nat (nat_lit 6) (instOfNatNat (nat_lit 6))))
+            (And
+              (∀ (v : V),
+                @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V))
+                    (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V))) v →
+                  @Eq.{1} Nat
+                    (@Finset.card.{u_1} (Finset.{u_1} V)
+                      (@Finset.filter.{u_1} (Finset.{u_1} V)
+                        (fun (T : Finset.{u_1} V) =>
+                          @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V)) T v)
+                        (fun (a : Finset.{u_1} V) => @Finset.decidableMem.{u_1} V inst v a) S))
+                    (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+              (@Set.Pairwise.{u_1} (Finset.{u_1} V)
+                (@SetLike.coe.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)) S)
+                fun (A B : Finset.{u_1} V) =>
+                @LE.le.{0} Nat instLENat
+                  (@Finset.card.{u_1} V (@Inter.inter.{u_1} (Finset.{u_1} V) (@Finset.instInter.{u_1} V inst) A B))
+                  (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))))
+        (instDecidableEqNat (@Finset.card.{u_1} (Finset.{u_1} V) S)
+          (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))
+        (@instDecidableAnd
+          (∀ (T : Finset.{u_1} V),
+            @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                S T →
+              @Eq.{1} Nat (@Finset.card.{u_1} V T) (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+          (And
+            (@Eq.{1} Nat
+              (@Finset.card.{u_1} V
+                (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V))))
+              (@OfNat.ofNat.{0} Nat (nat_lit 6) (instOfNatNat (nat_lit 6))))
+            (And
+              (∀ (v : V),
+                @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V))
+                    (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V))) v →
+                  @Eq.{1} Nat
+                    (@Finset.card.{u_1} (Finset.{u_1} V)
+                      (@Finset.filter.{u_1} (Finset.{u_1} V)
+                        (fun (T : Finset.{u_1} V) =>
+                          @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V)) T v)
+                        (fun (a : Finset.{u_1} V) => @Finset.decidableMem.{u_1} V inst v a) S))
+                    (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+              (@Set.Pairwise.{u_1} (Finset.{u_1} V)
+                (@SetLike.coe.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)) S)
+                fun (A B : Finset.{u_1} V) =>
+                @LE.le.{0} Nat instLENat
+                  (@Finset.card.{u_1} V (@Inter.inter.{u_1} (Finset.{u_1} V) (@Finset.instInter.{u_1} V inst) A B))
+                  (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))
+          (@Finset.decidableDforallFinset.{u_1} (Finset.{u_1} V) S
+            (fun (T : Finset.{u_1} V)
+                (a :
+                  @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                      (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                    S T) =>
+              @Eq.{1} Nat (@Finset.card.{u_1} V T) (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+            fun (a : Finset.{u_1} V)
+              (h :
+                @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                    (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                  S a) =>
+            (fun (a : Finset.{u_1} V) =>
+                instDecidableEqNat (@Finset.card.{u_1} V a)
+                  (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+              a)
+          (@instDecidableAnd
+            (@Eq.{1} Nat
+              (@Finset.card.{u_1} V
+                (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V))))
+              (@OfNat.ofNat.{0} Nat (nat_lit 6) (instOfNatNat (nat_lit 6))))
+            (And
+              (∀ (v : V),
+                @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V))
+                    (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V))) v →
+                  @Eq.{1} Nat
+                    (@Finset.card.{u_1} (Finset.{u_1} V)
+                      (@Finset.filter.{u_1} (Finset.{u_1} V)
+                        (fun (T : Finset.{u_1} V) =>
+                          @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V)) T v)
+                        (fun (a : Finset.{u_1} V) => @Finset.decidableMem.{u_1} V inst v a) S))
+                    (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+              (@Set.Pairwise.{u_1} (Finset.{u_1} V)
+                (@SetLike.coe.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)) S)
+                fun (A B : Finset.{u_1} V) =>
+                @LE.le.{0} Nat instLENat
+                  (@Finset.card.{u_1} V (@Inter.inter.{u_1} (Finset.{u_1} V) (@Finset.instInter.{u_1} V inst) A B))
+                  (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))
+            (instDecidableEqNat
+              (@Finset.card.{u_1} V
+                (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V))))
+              (@OfNat.ofNat.{0} Nat (nat_lit 6) (instOfNatNat (nat_lit 6))))
+            (@instDecidableAnd
+              (∀ (v : V),
+                @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V))
+                    (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V))) v →
+                  @Eq.{1} Nat
+                    (@Finset.card.{u_1} (Finset.{u_1} V)
+                      (@Finset.filter.{u_1} (Finset.{u_1} V)
+                        (fun (T : Finset.{u_1} V) =>
+                          @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V)) T v)
+                        (fun (a : Finset.{u_1} V) => @Finset.decidableMem.{u_1} V inst v a) S))
+                    (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+              (@Set.Pairwise.{u_1} (Finset.{u_1} V)
+                (@SetLike.coe.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)) S)
+                fun (A B : Finset.{u_1} V) =>
+                @LE.le.{0} Nat instLENat
+                  (@Finset.card.{u_1} V (@Inter.inter.{u_1} (Finset.{u_1} V) (@Finset.instInter.{u_1} V inst) A B))
+                  (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+              (@Finset.decidableDforallFinset.{u_1} V
+                (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V)))
+                (fun (v : V)
+                    (a :
+                      @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V))
+                        (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V))) v) =>
+                  @Eq.{1} Nat
+                    (@Finset.card.{u_1} (Finset.{u_1} V)
+                      (@Finset.filter.{u_1} (Finset.{u_1} V)
+                        (fun (T : Finset.{u_1} V) =>
+                          @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V)) T v)
+                        (fun (a : Finset.{u_1} V) => @Finset.decidableMem.{u_1} V inst v a) S))
+                    (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                fun (a : V)
+                  (h :
+                    @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V))
+                      (@Finset.biUnion.{u_1, u_1} (Finset.{u_1} V) V inst S (@id.{u_1 + 1} (Finset.{u_1} V))) a) =>
+                (fun (a : V) =>
+                    instDecidableEqNat
+                      (@Finset.card.{u_1} (Finset.{u_1} V)
+                        (@Finset.filter.{u_1} (Finset.{u_1} V)
+                          (fun (T : Finset.{u_1} V) =>
+                            @Membership.mem.{u_1, u_1} V (Finset.{u_1} V)
+                              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V)) T a)
+                          (fun (a_1 : Finset.{u_1} V) => @Finset.decidableMem.{u_1} V inst a a_1) S))
+                      (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                  a)
+              (@instDecidablePairwiseCoeFinsetOfDecidableEqOfDecidableRel.{u_1} (Finset.{u_1} V)
+                (fun (a b : Finset.{u_1} V) => @Finset.decidableEq.{u_1} V inst a b)
+                (fun (A B : Finset.{u_1} V) =>
+                  @LE.le.{0} Nat instLENat
+                    (@Finset.card.{u_1} V (@Inter.inter.{u_1} (Finset.{u_1} V) (@Finset.instInter.{u_1} V inst) A B))
+                    (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+                (fun (a b : Finset.{u_1} V) =>
+                  Nat.decLe
+                    (@Finset.card.{u_1} V (@Inter.inter.{u_1} (Finset.{u_1} V) (@Finset.instInter.{u_1} V inst) a b))
+                    (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+                S))))))
+@[expose] def TypedTriangle.Pasch.configurations.{u_1} : {V : Type u_1} →
+  [DecidableEq.{u_1 + 1} V] → (D : Finset.{u_1} (Finset.{u_1} V)) → Finset.{u_1} (Finset.{u_1} (Finset.{u_1} V)) :=
+fun {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] (D : Finset.{u_1} (Finset.{u_1} V)) =>
+  @Finset.filter.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@TypedTriangle.Pasch.IsPasch.{u_1} V inst)
+    (@TypedTriangle.Pasch.decidableIsPasch.{u_1} V inst)
+    (@Finset.powersetCard.{u_1} (Finset.{u_1} V) (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))) D)
+@[expose] def TypedTriangle.Pasch.count.{u_1} : {V : Type u_1} →
+  [DecidableEq.{u_1 + 1} V] → (D : Finset.{u_1} (Finset.{u_1} V)) → Nat :=
+fun {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] (D : Finset.{u_1} (Finset.{u_1} V)) =>
+  @Finset.card.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@TypedTriangle.Pasch.configurations.{u_1} V inst D)
+@[expose] def CDRBicolour.PaperIII.IsSTS : {v : Nat} → (B : Finset.{0} (Finset.{0} (Fin v))) → Prop :=
+fun {v : Nat} (B : Finset.{0} (Finset.{0} (Fin v))) =>
+  And
+    (∀ (b : Finset.{0} (Fin v)),
+      @Membership.mem.{0, 0} (Finset.{0} (Fin v)) (Finset.{0} (Finset.{0} (Fin v)))
+          (@SetLike.instMembership.{0, 0} (Finset.{0} (Finset.{0} (Fin v))) (Finset.{0} (Fin v))
+            (@Finset.instSetLike.{0} (Finset.{0} (Fin v))))
+          B b →
+        @Eq.{1} Nat (@Finset.card.{0} (Fin v) b) (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+    (∀ (x y : Fin v),
+      @Ne.{1} (Fin v) x y →
+        @ExistsUnique.{1} (Finset.{0} (Fin v)) fun (b : Finset.{0} (Fin v)) =>
+          And
+            (@Membership.mem.{0, 0} (Finset.{0} (Fin v)) (Finset.{0} (Finset.{0} (Fin v)))
+              (@SetLike.instMembership.{0, 0} (Finset.{0} (Finset.{0} (Fin v))) (Finset.{0} (Fin v))
+                (@Finset.instSetLike.{0} (Finset.{0} (Fin v))))
+              B b)
+            (And
+              (@Membership.mem.{0, 0} (Fin v) (Finset.{0} (Fin v))
+                (@SetLike.instMembership.{0, 0} (Finset.{0} (Fin v)) (Fin v) (@Finset.instSetLike.{0} (Fin v))) b x)
+              (@Membership.mem.{0, 0} (Fin v) (Finset.{0} (Fin v))
+                (@SetLike.instMembership.{0, 0} (Finset.{0} (Fin v)) (Fin v) (@Finset.instSetLike.{0} (Fin v))) b y)))
+@[expose] def CDRBicolour.PaperIII.IsBicolouring : {v m : Nat} →
+  (B : Finset.{0} (Finset.{0} (Fin v))) → (col : Fin v → Fin m) → Prop :=
+fun {v m : Nat} (B : Finset.{0} (Finset.{0} (Fin v))) (col : Fin v → Fin m) =>
+  And (@Function.Surjective.{1, 1} (Fin v) (Fin m) col)
+    (∀ (b : Finset.{0} (Fin v)),
+      @Membership.mem.{0, 0} (Finset.{0} (Fin v)) (Finset.{0} (Finset.{0} (Fin v)))
+          (@SetLike.instMembership.{0, 0} (Finset.{0} (Finset.{0} (Fin v))) (Finset.{0} (Fin v))
+            (@Finset.instSetLike.{0} (Finset.{0} (Fin v))))
+          B b →
+        @Eq.{1} Nat (@Finset.card.{0} (Fin m) (@Finset.image.{0, 0} (Fin v) (Fin m) (instDecidableEqFin m) col b))
+          (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+@[expose] def CDRBicolour.PaperIII.Bicolourable : (v m : Nat) → Prop :=
+fun (v m : Nat) =>
+  @Exists.{1} (Finset.{0} (Finset.{0} (Fin v))) fun (B : Finset.{0} (Finset.{0} (Fin v))) =>
+    @Exists.{1} (Fin v → Fin m) fun (col : Fin v → Fin m) =>
+      And (@CDRBicolour.PaperIII.IsSTS v B) (@CDRBicolour.PaperIII.IsBicolouring v m B col)
+@[expose] def CDRBicolour.PaperIII.Admissible : (v : Nat) → Prop :=
+fun (v : Nat) =>
+  Or
+    (@Eq.{1} Nat
+      (@HMod.hMod.{0, 0, 0} Nat Nat Nat (@instHMod.{0} Nat Nat.instMod) v
+        (@OfNat.ofNat.{0} Nat (nat_lit 6) (instOfNatNat (nat_lit 6))))
+      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+    (@Eq.{1} Nat
+      (@HMod.hMod.{0, 0, 0} Nat Nat Nat (@instHMod.{0} Nat Nat.instMod) v
+        (@OfNat.ofNat.{0} Nat (nat_lit 6) (instOfNatNat (nat_lit 6))))
+      (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+CDRBicolour.KBicolor.kbicolour_completion_types_exact : ∀ (k : Nat)
+  (hk : @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) k) {δ ε : Real}
+  (hδ : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) δ)
+  (hδ1 : @LE.le.{0} Real Real.instLE δ (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (hε : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) ε),
+  @Exists.{1} Real fun (γ : Real) =>
+    And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) γ)
+      (@Exists.{1} Nat fun (n₀ : Nat) =>
+        ∀ (n : Nat) (lab : Fin n → Fin k),
+          @LE.le.{0} Nat instLENat n₀ n →
+            @Odd.{0} Nat Nat.instSemiring n →
+              (∀ (X : Fin k),
+                  @LE.le.{0} Real Real.instLE
+                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) δ
+                      (@Nat.cast.{0} Real Real.instNatCast n))
+                    (@Nat.cast.{0} Real Real.instNatCast
+                      (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X))) →
+                (∀ (X Y : Fin k),
+                    @Ne.{1} (Fin k) X Y →
+                      @Even.{0} Nat instAddNat
+                        (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                          (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X)
+                          (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab Y))) →
+                  @Eq.{1} Nat
+                      (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                        (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                        (@Finset.sum.{0, 0} (Fin k) Nat Nat.instAddCommMonoid (@Finset.univ.{0} (Fin k) (Fin.fintype k))
+                          fun (X : Fin k) =>
+                          @HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                            (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X)
+                            (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat)
+                              (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X)
+                              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))
+                      (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat) n
+                        (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) n
+                          (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))) →
+                    ∀ (t : Fin k → Fin k → Nat),
+                      (∀ (X Y : Fin k),
+                          @Ne.{1} (Fin k) X Y →
+                            @Eq.{1} Nat
+                              (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) (t X Y) (t Y X)))
+                              (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                                (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X)
+                                (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab Y))) →
+                        (∀ (X : Fin k),
+                            @Eq.{1} Nat
+                              (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                (@Finset.sum.{0, 0} (Fin k) Nat Nat.instAddCommMonoid
+                                  (@Finset.filter.{0} (Fin k) (fun (Y : Fin k) => @Ne.{1} (Fin k) Y X)
+                                    (fun (a : Fin k) =>
+                                      @instDecidableNot (@Eq.{1} (Fin k) a X) (instDecidableEqFin k a X))
+                                    (@Finset.univ.{0} (Fin k) (Fin.fintype k)))
+                                  fun (Y : Fin k) => t X Y))
+                              (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                                (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X)
+                                (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat)
+                                  (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X)
+                                  (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))) →
+                          (∀ (X Y : Fin k),
+                              @Ne.{1} (Fin k) X Y →
+                                @LE.le.{0} Real Real.instLE
+                                  (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) ε
+                                    (@HPow.hPow.{0, 0, 0} Real Nat Real
+                                      (@instHPow.{0, 0} Real Nat
+                                        (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+                                      (@Nat.cast.{0} Real Real.instNatCast n)
+                                      (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+                                  (@Nat.cast.{0} Real Real.instNatCast (t X Y))) →
+                            ∀ (Q : Finset.{0} (Finset.{0} (Fin n))) (ΔQ : Nat),
+                              (∀ (T : Finset.{0} (Fin n)),
+                                  @Membership.mem.{0, 0} (Finset.{0} (Fin n)) (Finset.{0} (Finset.{0} (Fin n)))
+                                      (@SetLike.instMembership.{0, 0} (Finset.{0} (Finset.{0} (Fin n)))
+                                        (Finset.{0} (Fin n)) (@Finset.instSetLike.{0} (Finset.{0} (Fin n))))
+                                      Q T →
+                                    @TypedTriangle.IsAllowed.{0, 0} (Fin n) (Fin k)
+                                      (@CDRBicolour.KBicolor.kHost.{0} k (Fin n) lab) (CDRBicolour.KBicolor.bicF k) T) →
+                                @Set.PairwiseDisjoint.{0, 0} (Finset.{0} (Sym2.{0} (Fin n))) (Finset.{0} (Fin n))
+                                    (@Finset.instPartialOrder.{0} (Sym2.{0} (Fin n)))
+                                    (@Finset.instOrderBot.{0} (Sym2.{0} (Fin n)))
+                                    (@SetLike.coe.{0, 0} (Finset.{0} (Finset.{0} (Fin n))) (Finset.{0} (Fin n))
+                                      (@Finset.instSetLike.{0} (Finset.{0} (Fin n))) Q)
+                                    (@TypedTriangle.triEdges.{0} (Fin n)) →
+                                  (∀ (p : Fin n),
+                                      @LE.le.{0} Nat instLENat
+                                        (@CDRBicolour.Absorption.degL.{0} (Fin n) (Fin.fintype n) (instDecidableEqFin n)
+                                          (@Finset.biUnion.{0, 0} (Finset.{0} (Fin n)) (Sym2.{0} (Fin n))
+                                            (fun (a b : Sym2.{0} (Fin n)) =>
+                                              @Sym2.instDecidableEq.{0} (Fin n) (instDecidableEqFin n) a b)
+                                            Q (@TypedTriangle.triEdges.{0} (Fin n)))
+                                          p)
+                                        ΔQ) →
+                                    @LE.le.{0} Real Real.instLE (@Nat.cast.{0} Real Real.instNatCast ΔQ)
+                                        (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) γ
+                                          (@Nat.cast.{0} Real Real.instNatCast n)) →
+                                      @Exists.{1} (Finset.{0} (Finset.{0} (Fin n)))
+                                        fun (D : Finset.{0} (Finset.{0} (Fin n))) =>
+                                        And
+                                          (@TypedTriangle.IsDecomposition.{0, 0} (Fin n) (Fin k)
+                                            (@CDRBicolour.KBicolor.kHost.{0} k (Fin n) lab)
+                                            (CDRBicolour.KBicolor.bicF k)
+                                            (@TypedTriangle.edges.{0, 0} (Fin n) (Fin k) (Fin.fintype n)
+                                              (@CDRBicolour.KBicolor.kHost.{0} k (Fin n) lab))
+                                            D)
+                                          (And
+                                            (@LE.le.{0} (Finset.{0} (Finset.{0} (Fin n)))
+                                              (@Preorder.toLE.{0} (Finset.{0} (Finset.{0} (Fin n)))
+                                                (@PartialOrder.toPreorder.{0} (Finset.{0} (Finset.{0} (Fin n)))
+                                                  (@Finset.instPartialOrder.{0} (Finset.{0} (Fin n)))))
+                                              Q D)
+                                            (∀ (X Y : Fin k),
+                                              @Ne.{1} (Fin k) X Y →
+                                                @Eq.{1} Nat (@CDRBicolour.KBicolor.kTypeCount.{0} k (Fin n) lab D X Y)
+                                                  (t X Y))))
+'CDRBicolour.KBicolor.kbicolour_completion_types_exact' depends on axioms: [propext,
+ sorryAx.{u},
+ Classical.choice.{u},
+ Quot.sound.{u}]
+CDRBicolour.KBicolor.optimal_prescribed_type_count_of_three_le : ∀ (k : Nat)
+  (hk : @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) k) {δ ζ ε : Real}
+  (hδ : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) δ)
+  (hζ : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) ζ)
+  (hε : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) ε),
+  @Exists.{1} Nat fun (n₀ : Nat) =>
+    ∀ (n : Nat) (lab : Fin n → Fin k),
+      @LE.le.{0} Nat instLENat n₀ n →
+        @Odd.{0} Nat Nat.instSemiring n →
+          (∀ (i : Fin k),
+              @LE.le.{0} Real Real.instLE
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) δ
+                  (@Nat.cast.{0} Real Real.instNatCast n))
+                (@Nat.cast.{0} Real Real.instNatCast (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab i))) →
+            (∀ (i j : Fin k),
+                @Ne.{1} (Fin k) i j →
+                  @Even.{0} Nat instAddNat
+                    (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                      (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab i)
+                      (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab j))) →
+              @Eq.{1} Nat
+                  (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                    (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                    (@Finset.sum.{0, 0} (Fin k) Nat Nat.instAddCommMonoid (@Finset.univ.{0} (Fin k) (Fin.fintype k))
+                      fun (i : Fin k) =>
+                      @HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                        (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab i)
+                        (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat)
+                          (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab i)
+                          (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))
+                  (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat) n
+                    (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) n
+                      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))) →
+                ∀ (target : Fin k → Fin k → Nat),
+                  (∀ (i j : Fin k),
+                      @Ne.{1} (Fin k) i j →
+                        @Eq.{1} Nat
+                          (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                            (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) (target i j) (target j i)))
+                          (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                            (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab i)
+                            (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab j))) →
+                    (∀ (i : Fin k),
+                        @Eq.{1} Nat
+                          (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                            (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                            (@Finset.sum.{0, 0} (Fin k) Nat Nat.instAddCommMonoid
+                              (@Finset.filter.{0} (Fin k) (fun (j : Fin k) => @Ne.{1} (Fin k) j i)
+                                (fun (a : Fin k) => @instDecidableNot (@Eq.{1} (Fin k) a i) (instDecidableEqFin k a i))
+                                (@Finset.univ.{0} (Fin k) (Fin.fintype k)))
+                              fun (j : Fin k) => target i j))
+                          (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                            (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab i)
+                            (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat)
+                              (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab i)
+                              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))) →
+                      (∀ (i j : Fin k),
+                          @Ne.{1} (Fin k) i j →
+                            @LE.le.{0} Real Real.instLE
+                              (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) ζ
+                                (@HPow.hPow.{0, 0, 0} Real Nat Real
+                                  (@instHPow.{0, 0} Real Nat
+                                    (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+                                  (@Nat.cast.{0} Real Real.instNatCast n)
+                                  (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+                              (@Nat.cast.{0} Real Real.instNatCast (target i j))) →
+                        have tv : CDRBicolour.KBicolor.TypeCoord k → Nat :=
+                          fun (q : CDRBicolour.KBicolor.TypeCoord k) =>
+                          target
+                            (@Prod.fst.{0, 0} (Fin k) (Fin k)
+                              (@Subtype.val.{1} (Prod.{0, 0} (Fin k) (Fin k))
+                                (fun (x : Prod.{0, 0} (Fin k) (Fin k)) =>
+                                  @Membership.mem.{0, 0} (Prod.{0, 0} (Fin k) (Fin k))
+                                    (Finset.{0} (Prod.{0, 0} (Fin k) (Fin k)))
+                                    (@SetLike.instMembership.{0, 0} (Finset.{0} (Prod.{0, 0} (Fin k) (Fin k)))
+                                      (Prod.{0, 0} (Fin k) (Fin k))
+                                      (@Finset.instSetLike.{0} (Prod.{0, 0} (Fin k) (Fin k))))
+                                    (@Finset.offDiag.{0} (Fin k) (@Finset.univ.{0} (Fin k) (Fin.fintype k))) x)
+                                q))
+                            (@Prod.snd.{0, 0} (Fin k) (Fin k)
+                              (@Subtype.val.{1} (Prod.{0, 0} (Fin k) (Fin k))
+                                (fun (x : Prod.{0, 0} (Fin k) (Fin k)) =>
+                                  @Membership.mem.{0, 0} (Prod.{0, 0} (Fin k) (Fin k))
+                                    (Finset.{0} (Prod.{0, 0} (Fin k) (Fin k)))
+                                    (@SetLike.instMembership.{0, 0} (Finset.{0} (Prod.{0, 0} (Fin k) (Fin k)))
+                                      (Prod.{0, 0} (Fin k) (Fin k))
+                                      (@Finset.instSetLike.{0} (Prod.{0, 0} (Fin k) (Fin k))))
+                                    (@Finset.offDiag.{0} (Fin k) (@Finset.univ.{0} (Fin k) (Fin.fintype k))) x)
+                                q));
+                        And
+                          (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+                            (@CDRBicolour.KBicolor.exactTypeCount n k lab tv))
+                          (And
+                            (@LE.le.{0} Real Real.instLE
+                              (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                  (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+                                    (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                      (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+                                      (@OfNat.ofNat.{0} Real (nat_lit 6)
+                                        (@instOfNatAtLeastTwo.{0} Real (nat_lit 6) Real.instNatCast
+                                          (@Nat.instAtLeastTwoHAddOfNat
+                                            (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5)))
+                                            (@Nat.instNeZeroSucc
+                                              (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))))))
+                                    ε)
+                                  (@HPow.hPow.{0, 0, 0} Real Nat Real
+                                    (@instHPow.{0, 0} Real Nat
+                                      (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+                                    (@Nat.cast.{0} Real Real.instNatCast n)
+                                    (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+                                (Real.log (@Nat.cast.{0} Real Real.instNatCast n)))
+                              (Real.log
+                                (@Nat.cast.{0} Real Real.instNatCast
+                                  (@CDRBicolour.KBicolor.exactTypeCount n k lab tv))))
+                            (@LE.le.{0} Real Real.instLE
+                              (Real.log
+                                (@Nat.cast.{0} Real Real.instNatCast (@CDRBicolour.KBicolor.exactTypeCount n k lab tv)))
+                              (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                  (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+                                    (@HDiv.hDiv.{0, 0, 0} Real Real Real
+                                      (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+                                      (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+                                      (@OfNat.ofNat.{0} Real (nat_lit 6)
+                                        (@instOfNatAtLeastTwo.{0} Real (nat_lit 6) Real.instNatCast
+                                          (@Nat.instAtLeastTwoHAddOfNat
+                                            (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5)))
+                                            (@Nat.instNeZeroSucc
+                                              (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))))))
+                                    ε)
+                                  (@HPow.hPow.{0, 0, 0} Real Nat Real
+                                    (@instHPow.{0, 0} Real Nat
+                                      (@NPow.toPow.{0} Real (@Monoid.toNPow.{0} Real Real.instMonoid)))
+                                    (@Nat.cast.{0} Real Real.instNatCast n)
+                                    (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+                                (Real.log (@Nat.cast.{0} Real Real.instNatCast n)))))
+'CDRBicolour.KBicolor.optimal_prescribed_type_count_of_three_le' depends on axioms: [propext,
+ sorryAx.{u},
+ Classical.choice.{u},
+ Quot.sound.{u}]
+CDRBicolour.KBicolor.kbicolour_types_exact_many_pasch_counts : ∀ (K k : Nat)
+  (hk : @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) k) {δ η : Real}
+  (hδ : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) δ)
+  (hδ1 : @LE.le.{0} Real Real.instLE δ (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+  (hη : @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) η),
+  @Exists.{1} Nat fun (n₀ : Nat) =>
+    ∀ (n : Nat) (lab : Fin n → Fin k),
+      @LE.le.{0} Nat instLENat n₀ n →
+        @Odd.{0} Nat Nat.instSemiring n →
+          (∀ (X : Fin k),
+              @LE.le.{0} Real Real.instLE
+                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) δ
+                  (@Nat.cast.{0} Real Real.instNatCast n))
+                (@Nat.cast.{0} Real Real.instNatCast (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X))) →
+            (∀ (X Y : Fin k),
+                @Ne.{1} (Fin k) X Y →
+                  @Even.{0} Nat instAddNat
+                    (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                      (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X)
+                      (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab Y))) →
+              @Eq.{1} Nat
+                  (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                    (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                    (@Finset.sum.{0, 0} (Fin k) Nat Nat.instAddCommMonoid (@Finset.univ.{0} (Fin k) (Fin.fintype k))
+                      fun (X : Fin k) =>
+                      @HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                        (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X)
+                        (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat)
+                          (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X)
+                          (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))
+                  (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat) n
+                    (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) n
+                      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))) →
+                ∀ (t : Fin k → Fin k → Nat),
+                  (∀ (X Y : Fin k),
+                      @Ne.{1} (Fin k) X Y →
+                        @Eq.{1} Nat
+                          (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                            (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) (t X Y) (t Y X)))
+                          (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                            (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X)
+                            (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab Y))) →
+                    (∀ (X : Fin k),
+                        @Eq.{1} Nat
+                          (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                            (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                            (@Finset.sum.{0, 0} (Fin k) Nat Nat.instAddCommMonoid
+                              (@Finset.filter.{0} (Fin k) (fun (Y : Fin k) => @Ne.{1} (Fin k) Y X)
+                                (fun (a : Fin k) => @instDecidableNot (@Eq.{1} (Fin k) a X) (instDecidableEqFin k a X))
+                                (@Finset.univ.{0} (Fin k) (Fin.fintype k)))
+                              fun (Y : Fin k) => t X Y))
+                          (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                            (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X)
+                            (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat)
+                              (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X)
+                              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))) →
+                      (∀ (X Y : Fin k),
+                          @Ne.{1} (Fin k) X Y →
+                            @LE.le.{0} Real Real.instLE
+                              (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) η
+                                  (@Nat.cast.{0} Real Real.instNatCast
+                                    (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab X)))
+                                (@Nat.cast.{0} Real Real.instNatCast
+                                  (@CDRBicolour.KBicolor.ksz.{0} k (Fin n) (Fin.fintype n) lab Y)))
+                              (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul)
+                                (@OfNat.ofNat.{0} Real (nat_lit 2)
+                                  (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+                                    (@Nat.instAtLeastTwoHAddOfNat
+                                      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+                                      (@Nat.instNeZeroSucc
+                                        (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))))))
+                                (@Nat.cast.{0} Real Real.instNatCast (t X Y)))) →
+                        @Exists.{1} (Fin K → Finset.{0} (Finset.{0} (Fin n)))
+                          fun (D : Fin K → Finset.{0} (Finset.{0} (Fin n))) =>
+                          And
+                            (∀ (i : Fin K),
+                              @TypedTriangle.IsDecomposition.{0, 0} (Fin n) (Fin k)
+                                (@CDRBicolour.KBicolor.kHost.{0} k (Fin n) lab) (CDRBicolour.KBicolor.bicF k)
+                                (@TypedTriangle.edges.{0, 0} (Fin n) (Fin k) (Fin.fintype n)
+                                  (@CDRBicolour.KBicolor.kHost.{0} k (Fin n) lab))
+                                (D i))
+                            (And
+                              (∀ (i : Fin K) (X Y : Fin k),
+                                @Ne.{1} (Fin k) X Y →
+                                  @Eq.{1} Nat (@CDRBicolour.KBicolor.kTypeCount.{0} k (Fin n) lab (D i) X Y) (t X Y))
+                              (@Function.Injective.{1, 1} (Fin K) Nat fun (i : Fin K) =>
+                                @TypedTriangle.Pasch.count.{0} (Fin n) (instDecidableEqFin n) (D i)))
+'CDRBicolour.KBicolor.kbicolour_types_exact_many_pasch_counts' depends on axioms: [propext,
+ sorryAx.{u},
+ Classical.choice.{u},
+ Quot.sound.{u}]
+@CDRBicolour.PaperIII.bicolourable_eventually_unconditional : ∀ {k : Nat}
+  (hk : @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))) k),
+  @Exists.{1} Nat fun (v₀ : Nat) =>
+    ∀ (v : Nat),
+      @LE.le.{0} Nat instLENat v₀ v → CDRBicolour.PaperIII.Admissible v → CDRBicolour.PaperIII.Bicolourable v k
+'CDRBicolour.PaperIII.bicolourable_eventually_unconditional' depends on axioms: [propext,
+ sorryAx.{u},
+ Classical.choice.{u},
+ Quot.sound.{u}]

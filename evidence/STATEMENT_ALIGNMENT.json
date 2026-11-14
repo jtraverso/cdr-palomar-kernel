@@ -1,0 +1,789 @@
+{
+  "status": "PASS_STATEMENT_ALIGNMENT_WITH_PUBLISHED_FREEZE",
+  "comparison": "The full pp.all logs, including 25 definition bodies and all four theorem types, are byte-for-byte identical after removing exactly the four intentional Challenge sorryAx lines. No binder, universe, proof-name or value normalization is used.",
+  "definitions_compared": 25,
+  "theorem_types_compared": 4,
+  "axioms_from_existing_freeze": [
+    {
+      "declaration": "CDRBicolour.KBicolor.kbicolour_completion_types_exact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CDRBicolour.KBicolor.optimal_prescribed_type_count_of_three_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CDRBicolour.KBicolor.kbicolour_types_exact_many_pasch_counts",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CDRBicolour.PaperIII.bicolourable_eventually_unconditional",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "source_object_bindings_verified": [
+    {
+      "module": "CDRBicolour.Absorption.BRIRatio",
+      "source_sha256": "f3b52629dae17591c70a78fe7e48c2254fdb435b163bbaad829b4f4e00bc011e",
+      "cached_object_sha256": "b8b177b2f0c934b356c4f14724c4e9bd4c9598d3c42427a54626f0dd14f94b61"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.BRIk",
+      "source_sha256": "1c1c7814b1f595008e4dbec25fe086a3e9db2d6f5b2a0d16485c623e4a35e0cd",
+      "cached_object_sha256": "b0b2d4e5a1bc705b50ed04a20a0de46134abc9ea642ef00eac63505d7a81ee2a"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.BRIkGlue",
+      "source_sha256": "d14cb047c7b7f67bf44408270f52c7824eabd27df50673c4fce0a37424767f2a",
+      "cached_object_sha256": "178ad3a4b9871bc423011de33b5972ee9dc5dce478c64e9a7c77d68594232059"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Completion",
+      "source_sha256": "44e7ef375033fb520cf98248104ac7190a748cebbae320936829ee5f4f0f081e",
+      "cached_object_sha256": "ed1ab54ff1e1732c813ab2b7715b034a01f4db6664b99b09bd35c425626deb7c"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.CompletionExact",
+      "source_sha256": "98a8902321316edcd6cd057317f1fa7cfc288a7b38e92c04363734dce1f11ff2",
+      "cached_object_sha256": "fd472067eda0e6c906a1c705955175815760cd31724f652a453ce214741fd4e3"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Copies",
+      "source_sha256": "0739fc9f2d05c63afbe96282f57f98f97d7b41274f642e599a5074aa104939f9",
+      "cached_object_sha256": "ba5312e5b3a57e057d5c964531f9ec6c63e5980914dec30280eba75d66dbdabc"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Counting",
+      "source_sha256": "4f95950e869656de214016aa1ac723527d2559603936a1999b1cd80596c380ce",
+      "cached_object_sha256": "5559eec316fd03a9b920cc66ead182f7aebadd27f4612b29464249352deed2f8"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.CountingConsequencesFinite",
+      "source_sha256": "fe10d0a57f1dcc5065674cc5a01654d277741983902a29b5f747850cec41fb77",
+      "cached_object_sha256": "2a8b097bf77b43e138c3b96b86b90f092890fab027079c6a0f358d77fcf81c93"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.DyadicLatinFamily",
+      "source_sha256": "06f22791e255b3cf2944e182a452670dcf8b61786576951c6caa640c05497112",
+      "cached_object_sha256": "a2c3791a257a0cc7d3fe5f069b307e2f55c4b542758727448e4791d39ea57b19"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.DyadicLatinSize",
+      "source_sha256": "fc9a8acb39e128222183512dc6ee22715076ab39a3f9eecc2a69ce0d06ed548c",
+      "cached_object_sha256": "dab5a4f0d05f5d1b8125727ea92b36f1c75356293efd789ec044b36fa9bbffba"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.ExactMass",
+      "source_sha256": "f7b346b8004dd6eb4c2cb251fc2cd08712e07da8c07c49a3b20882b228463dbf",
+      "cached_object_sha256": "6f98ee7909f053b208695eaa75eaff2074295992e3b5768eb5cef1d388d40f2b"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.ExactSeedK",
+      "source_sha256": "aef463b99217176c9b9cba16ff866b7c5e87745017688629339a20859cdc666a",
+      "cached_object_sha256": "4de4b9b827725ac891491a5eb1c418a389e5192fc383316cb5d63d82362a4c0c"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.ExactTypesPasch",
+      "source_sha256": "d6f1b8ee70bf041b003e415b7fbffd01522f2d9316ca21754d3eb17d1798055d",
+      "cached_object_sha256": "12684c341584d7a2b4d7ca51b602144c4affcd92ac0ee7c70c4fc4536ee03e6c"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.ExactTypesPaschReplacement",
+      "source_sha256": "7e36fcbbaac037bfdc6600d8dc5c45f9acc67480721430856ab0a740678d1374",
+      "cached_object_sha256": "ba77c2f60fefccf389fef2be6fa70505765e9a48bb7ef16e9d8e897c191cf79b"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.FiniteSymmetrization",
+      "source_sha256": "123cc638730df428dd236603278e40ac95672f1d97dc736ea1518b39b38a0a90",
+      "cached_object_sha256": "17b7d7faf7fbb19717ccf78fc49780bca5e8d29d23da740b9f6a132064c02c98"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Five",
+      "source_sha256": "e5b2d72d47ec1f5b044389f38cff8b03f5667aa895bf927ef92a6b08587f5275",
+      "cached_object_sha256": "17b5f5fcfbefa404487357c7da2dec589adedcd33f554cc64a3645831a45e939"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Four",
+      "source_sha256": "1dc1ac044e087891c49ce4354f09d2aee46c9f18d5788b0a97279b325f72fdb0",
+      "cached_object_sha256": "882b83ad26c04d801c8f2f5128f6eb0ba032173f3d16cabfc542954b97850d03"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.GroupLatinIntercalates",
+      "source_sha256": "4e6275306a36df2ab2d5d238027e613308cf0612f12763cfe3cf77c1378cbd5f",
+      "cached_object_sha256": "d6b4726806ff41d57e2733323f2d8cef782186438266dded3b01c3ae7560a615"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Hinge",
+      "source_sha256": "dd145a18a994690165f176f348fa4460987b400bc76347c4e52021cbd8bc77d9",
+      "cached_object_sha256": "95a63c51bb7a9790cee188d5d2c20a548df8b8df2244d12411168140d41f2287"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Host",
+      "source_sha256": "8be62eed02d55317e2c2a6cee8126efd3b6fa4d8f67941f60914d70c40810131",
+      "cached_object_sha256": "9195b7f54dd6855980f80de6bde362a1cc981d149c3ba0c626a51cbcb2c58b66"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.LatinCompletionReplacement",
+      "source_sha256": "30be7e89bf1b76ce805ecd95d2a15dbe5832c5238bd6afda17f68826bb627ec1",
+      "cached_object_sha256": "155f847c8be7a39797458f43eb06adbf12ad2e0ffb4b8685cb8a7eb12fdeba6a"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.LatinIntercalateCounting",
+      "source_sha256": "b227c0e17494df946a91cd2ff8e8ee99642231f5bb9bdea12af5ac0b9f37c353",
+      "cached_object_sha256": "723d7231f8c4788e7fe3bdb3c2daf90f6c1d773d3b125ea0488cc882f1958e47"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.LatinIntercalateTransport",
+      "source_sha256": "cb57d8717dc3567430f55b20085c0f1450879ae806acafa6d5a52a9e1a5f83ec",
+      "cached_object_sha256": "9e1a7b811873d0038fb2de1ee3896d07a1b5c7e492b0c996d420b1d0cb08a03a"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.LatinIsotopyProbabilities",
+      "source_sha256": "fbca23f7773124d491ae4f4ba7a1aedf02c6c245ab1fbb5fad965fc47243804f",
+      "cached_object_sha256": "f7702ae921b191093b5f11a4f8284f26747eef56e3805dcfead8fda7cc1333e9"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.LatinMixedAverage",
+      "source_sha256": "673b7df17b20b28573450d8b38ad86ef2c806cef7598a5b1aec5acf8112a7190",
+      "cached_object_sha256": "7d5d249d83840318708aa80e27e8e10fcb227dcbb975f4c615c2fe645242a5ca"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.LatinMixedBudget",
+      "source_sha256": "37cad22d300ad7e93b9ae071f32ede4fc70a62eef7ac5aaf5b11950cec081812",
+      "cached_object_sha256": "552c50a1bf227544966cc7f16b59a587d66bd54a64cb473cbd3b304ed973a2aa"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.LatinPackingFrequencies",
+      "source_sha256": "d30afaf57e6d30fb58bfb94263449edf74e8cc1c3286635648d82c26ae609ce2",
+      "cached_object_sha256": "a76ea55cdbc08c61744380ef6a5a0595b27637cf4f4be095e08469b79c068133"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.LatinPackingGeometry",
+      "source_sha256": "5aa5a303a715be493edbc946d27d9ecca743d59e1c8f8efd7649f55717d603d2",
+      "cached_object_sha256": "49d82a93b516b7ab4b583df2575a2ac9c680a4e5147d1f6e20930cf1659c3e46"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.LatinPackingPaschCount",
+      "source_sha256": "35cfdd168263b351cd01ae59546a814006644f99befa0aa2876898c12759e740",
+      "cached_object_sha256": "839f9aa7eef3ba577c4a6cee7a548893fe6accf29d580b38aad000dd9547977f"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.LatinPaschConfigurationSplit",
+      "source_sha256": "682cdf8fc8e0331989e3ba019494537c56448dd32e05e884e35f38b7a6b21e4f",
+      "cached_object_sha256": "22f210779634beea5d172dcd11ec57f069631cae792087656433bafdbcf732c5"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.LatinReplacement",
+      "source_sha256": "51683938af59c39d2d6a5a65c3c7b7d48796fba51e571a9c8c44dca42c043e7c",
+      "cached_object_sha256": "502cc0ae79b1fc29944ba1c0bf98453c8f5c91aca6248de38a9961bbbdce7e22"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Lattice",
+      "source_sha256": "d64f22625b05187de41682be20344a8277348eb4da5dd7755d3f35e6f316673e",
+      "cached_object_sha256": "767ae9270603962b6deb9e2486f278b1d3e7f2a026a5f9a01e868cbcf875b799"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Main",
+      "source_sha256": "e701dccd1a68f37878f41fa9a68ba497e7033be52c06023082c9144d02bfb803",
+      "cached_object_sha256": "a03eaddf4a8cbe2f34f3b2abf49cc84fbbbbba88901d007ec7e9f875b2679277"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Monitored",
+      "source_sha256": "2a71f623ef724ab60e4fbddc22552783df6f9113719e10663117a2c35860f258",
+      "cached_object_sha256": "d1c99cf0c68910cb8163cbfc4f02dc3e814a0d3c67a0d1c58b8ea512bbe1ff01"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PaschPartiteParity",
+      "source_sha256": "0a4e5c1eb9e318815a1862ebfc0b225fa29da87a358d9a27140e703ce6fd6038",
+      "cached_object_sha256": "913143dcdfc18d74de3cf97d27efae1ec9653bc2eecaa86692c7e42bf87c289f"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Pattern.Cone",
+      "source_sha256": "fbba6ce294c79058da4561c3b13ab69e24fe4c27e788716982a3828218168cfe",
+      "cached_object_sha256": "65875bccec2af180762d6ad0507253b14ebbba109a35365a6fb2ba0c4244a915"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Pattern.CutBound",
+      "source_sha256": "16f54ac2cf328daf0126941811fcaac9d24d5c7ce5156c29fcd2ff64698c1907",
+      "cached_object_sha256": "09ffd46b71f38774bc07b9d7f5e799a943eb96dcb99000144766caec54ba4d21"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Pattern.Exists",
+      "source_sha256": "7414972798ebd78e14a02b8b80fe96be8b65c69d7a3956dc8cf3bcdca43ff0f9",
+      "cached_object_sha256": "6cc00030af525ef13b22b4e6498cb80cc994bdc27fda3f9ffa377b2e0a0cded5"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Pattern.ExistsMain",
+      "source_sha256": "963fdd445dc31f7c3b0d1c696e226d84edc496edc5ec41fbf2e923b68460cd3e",
+      "cached_object_sha256": "58a2e475fdae0f1fd7946208032f95febaf666874d26170cf4ee6eeae19b2ccf"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Pattern.Hilton",
+      "source_sha256": "a13216301f60dab12bdaa33ae1b08aa2c27050a56415197a1ff018f47449007a",
+      "cached_object_sha256": "8ebb7a253bdb5b3c3bb0bf7a8d4d0f482e18bc3f8c8647bf2159ed6cf84babf1"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Pattern.Main",
+      "source_sha256": "8408a3541d4ebddc4fea460b3e5ea1f571f0c3db368b510cebaaff0d7de7955d",
+      "cached_object_sha256": "7a19c6f90239b330292a7fda174897728e361a403ff2b3dd666227560fb7f131"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Pattern.Outline",
+      "source_sha256": "fbbc19b9cab89f54cd77212ec4c19330577dcacbdb00862aa2f38a0b5732e94f",
+      "cached_object_sha256": "5c96bd440f6b5d750bb4ce5ccdc8ff332db63cda058c00ed5c1606a5f65a4256"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Pattern.Split",
+      "source_sha256": "f11f2a3c2e97388ab2172518a7f5805928f771c32bb3d86f754ec4aeb3cd4b7f",
+      "cached_object_sha256": "5b9cd163091e0c539da9f75c68aab9a731fd41772cd10f03c10b440217e67b89"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Pattern.Spread",
+      "source_sha256": "bc29e451540a068ebb9b2773d7c583d3f5375900652683255c17fd99ee7a31bc",
+      "cached_object_sha256": "d5d0b31adc1c7271e6a8f95efbdcd3dc97ef676ef2707fc61ca160e27acf7b32"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Pattern.Tour",
+      "source_sha256": "3dd7257b9ce6e09942f1349e9c7fd0d39a3c3a75885e5e4905060d14ee7ad3a4",
+      "cached_object_sha256": "d5917955420221e91f65a890b352e22beb1489f0b795692f8895a01a41f384d2"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.ActualOutline",
+      "source_sha256": "3621b44dc1a13a950fc6388cdec0cbd3fdc7878025ab6a09cf197bc91745f0b3",
+      "cached_object_sha256": "4f821315b579b384e804ad0eb03c077ef19df3c9d4ced93a5e8324534783c2c9"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.AllocationSplit",
+      "source_sha256": "8618a33ce602f157940cfc3ff7f3d82583e3417020c51c0d34f2a9b7e4e25ac8",
+      "cached_object_sha256": "3c20850ed9e413de1925dcb0b8e08bc5e51291679d23d67df8109e736d004992"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.CoreBounds",
+      "source_sha256": "3246588f3eb4118481cd0374c18d510530615b160bda5861284054eb36dcff83",
+      "cached_object_sha256": "e711626aba8feb55f3d014f106bd7d5a0d1fba0de7b8f08199b75554cf8a71ce"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.CrossAssembly",
+      "source_sha256": "30571a51f9c093d92f9a20b3da8cfc4aa37518bb75a363f01059c0b9dfd877bc",
+      "cached_object_sha256": "61bbb75d10ba5264d020ee4de0474af2f4c3f2c7b379a302a8a2316f52eab0bd"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.CrossTypeCounts",
+      "source_sha256": "faa6349910d1b6651d3d53487dc8047ee220a6b6c0c9079ccd5772b5682e4c1f",
+      "cached_object_sha256": "312dc5966722f51a048fe81c533e6a14dd1d72950b65ca17b72323a56a5c12c8"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.CycleResidues",
+      "source_sha256": "b60b684beaa38e11dce94f0cd730100c30a5716091565d85da763ae235f98d34",
+      "cached_object_sha256": "0e6892ec4c6f9859a02b2208e161a458c8060cec09d9e90248e0ef28a4fa0f1a"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.FixedClassEntropy",
+      "source_sha256": "6165669efc326e8eb8f1a35af171d474b671efb7fa068511da4e1b6304632af3",
+      "cached_object_sha256": "cd995242983ad73e832ebc366129448ddd418ae2fcbd804b0074cbc004a0b91f"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.FixedClassPatterns",
+      "source_sha256": "200ac432ab9f9ba0da7de7abf6dc7e66a6561e5ba442658507427c027fb5dafd",
+      "cached_object_sha256": "fdafeee998bf062c5ddb5ce0091a1f36ab1e2f255d073116bf6d4cf3ca9c7588"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.FixedCoreCounting",
+      "source_sha256": "433029a9ed829dd3f170722068523b0f8ea06309719c45ec7bc24c8928e6d4bf",
+      "cached_object_sha256": "ac5675b43f1ad97ab03b6ddba59b1676153512598257a78dbb40165de00413d4"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.FlattenedSetup",
+      "source_sha256": "687d2ef55c0bb6e2b848646ceb6875101f547f4bd65bb450ad04e479bbb41c23",
+      "cached_object_sha256": "ec7777752ebd10fc1d4fafaba90600e2eb34008c10e3094d46737ca248f99f97"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.GroupEntropyAssembly",
+      "source_sha256": "52a3583ea7bfa1e42e10686fc8d2ada75fd39ee0e4df801092cf744e0063bfe3",
+      "cached_object_sha256": "55f46315b6812d98849664ec9657b68cf5a657845ee7d68adc5f611e90b2a2f8"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.HiltonExact",
+      "source_sha256": "a07e87455aee2041be33d5cb8ef3ef0df715a97f05aa64c51a0cb23d711aab62",
+      "cached_object_sha256": "6f03227002d4b76561abf0b62875a1137e0178ef6a43a845f41bbb2a6a6c8a20"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.ModularResidual",
+      "source_sha256": "e59cbd1dbdd4aca7dfb3c45e5640e04820ee81a58556db59e8be82b3d7ae0ce2",
+      "cached_object_sha256": "63d59acd79a5a7eebfa0d2b142c988986a9c12f53665b100cdabb5e31edb82ef"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.ModularTypes",
+      "source_sha256": "5b1a70d0fe1f435c138d94d830f75145d67e85fb8a9af30201ca65dfbf93c135",
+      "cached_object_sha256": "44c1fbf7ce69ed219a576d43fc759e6f619eef09185d5a2026fe3fe3e37704ff"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.OptimalPrescribed",
+      "source_sha256": "3a3288e255337a043ec6355835733634adac70f2e48ad35d6c07c053e5c83a70",
+      "cached_object_sha256": "11550992e2b2b934aceba95ecb2e560328ad4087279a41aea69415684e1e9391"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.OutlineEntropy",
+      "source_sha256": "3c2f10a7d953db2dae2219097481401f7d4965aad56f65fe02bfdb0b221af682",
+      "cached_object_sha256": "3369ad316777e69e48d68916d662154164eaabd8f4760ea71a82ffe1686c7766"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.OutlineSymmetry",
+      "source_sha256": "ab2da91a7123761f6cfb93886fbbb3f78e52ab9e34d0b9a7f5d4b2dc5302dea5",
+      "cached_object_sha256": "ec5533af9f60705cb686da2e8fc66930e5261fcd30961d7ae29a891a9454d2b4"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.PackingAttachment",
+      "source_sha256": "f50b09f37aae102749959eaef4edf29748088241f3265635c155a82b4057d873",
+      "cached_object_sha256": "610c3e60f1f9cedb147c18729febaffd2e20f3a4f0f58f36a2c50818d3cf8c2e"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.QuotaDivision",
+      "source_sha256": "421d0143258009e9dae8a80003b81768059f4a0fd058db6a037cddba2dcf6ebe",
+      "cached_object_sha256": "2f23bee4329323434581c73e492b988cb2dd2030e2c969ef80a0cb422e8fe74f"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.ReferenceCross",
+      "source_sha256": "071e73efee6287b7d5f5a8e704df47340bd7e29092ce470fa6ac19b7fbc490f2",
+      "cached_object_sha256": "29287c09039e5f9b67ad3d8036ab68ec3f63f891a139f50fc88da0349280092d"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.RegularEntropy",
+      "source_sha256": "a0776daf627a06d07280e2464fd1f16183ce195549596b6e69f56a450f3cbb75",
+      "cached_object_sha256": "cfe5ae10011ac2b9f02e8faa5b2817067972b4c2b1a75a9a61ba7f0592ac6b19"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.RegularFactorizations",
+      "source_sha256": "69290a5b058e620c0c5388a114ec2006e23eb2467d3e5d22bc170ce74b58898c",
+      "cached_object_sha256": "6612344c3f4830a76868bc5b4b4f00a413f2284a85074d1eeb8d66e7b133b211"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.ReservedCore",
+      "source_sha256": "fbf2432a89278173b075b601ae621344c8b0bebd6a646723205275cfea8e8ac7",
+      "cached_object_sha256": "bdc2f29c5fc8f055a45471d55e020a78115cd7a4290eb9563b052366945717cb"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.ReserveTrades",
+      "source_sha256": "ce633aaf1d6506050a3eb395a1e9b5131df5fb343158de659f061ab58aaae42a",
+      "cached_object_sha256": "891f9621974ee321ce2c264feaf334a20e5926eed767e5281e60fe200aa30f23"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.ResidualQuotas",
+      "source_sha256": "60d56da5f6d8c19504e5c947e4e310b56d4bee067dba5c43c8548e8461017eec",
+      "cached_object_sha256": "27e4568349e484df626e0aacc125ded6bb7f949a356758481992f8136a6859ec"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.SharpPrescribed",
+      "source_sha256": "f7a8ba9533701921f4413bcd7e0d9554f046e94291fbbe2a9f58c05fe9b689a3",
+      "cached_object_sha256": "b16729999b2dbe901e48b9202db76fb7332b21182cf66cfdb61ff4440538fbcc"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.SparseHostCompletion",
+      "source_sha256": "5edbd9f5dedb19c9de60d84261beef4bea0555ec57f8e730f5113d44050fe6dc",
+      "cached_object_sha256": "a031dc75d367a37d63b10900983b711eb8ca8ba9b405143fe421024f2b9159b2"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.TargetSeedData",
+      "source_sha256": "620ba6ac3e5583bc0bd93c98e58553fdd06c460abfaee449fc6801c57c5f850b",
+      "cached_object_sha256": "31efd4056f0202ea488ee1c0454446217e7fc7632e15cd7d6c101a2d99a90b9a"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.TournamentSplit",
+      "source_sha256": "f35e369d932445e2716b6be82e8c537b19e1768ad32091d0d72a89b0de91df64",
+      "cached_object_sha256": "d775d6b22f0e625d4ad6aca774aea6cfdc02a7bf5a886782c38c04b62b041b74"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.PrescribedCounting.VariableCross",
+      "source_sha256": "73f6945a5dc4856b4dd2dd59c5dfc578ebb922d3cb0519355ef8311fbbb057ad",
+      "cached_object_sha256": "81661ada0b4cdf81e507ecf946110c669f066c443de4ce3d72b437ebc7439ec9"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.ReservedCopies",
+      "source_sha256": "ca6c64a29783e8f0362bcc47308c803c96b95ee02d532b78b186ff3ef0c9a29b",
+      "cached_object_sha256": "6a33725f4135cfdf5bf8c09bd8276e397354d818149e3099672a70f728320f6c"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.ReservedSpectrum",
+      "source_sha256": "7ed7ac6dbdae66241bcddbd4cb178527a512a8584858502b24e0b879bf1c367e",
+      "cached_object_sha256": "9e36c45ed5e9644af16c7d08e9edd48fe3e73038695ff864151178090bec1378"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.ResidualHinge",
+      "source_sha256": "349449e82811ee48dcf9d418a7512799952b4d97b9a0bd94caa14c06a44082df",
+      "cached_object_sha256": "bbeba29892c922d4a851787d8788912812b7436199caa93d699debe2934189a7"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.ResidualLattice",
+      "source_sha256": "520fc441a6eddb5e1121cdad52ce0ff70741c1847bb136cd210a5089051679a8",
+      "cached_object_sha256": "cf5c843aa4db07015e0af8465dc2530842eeae63d938cdb46150fc88cb6beda1"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.ResidualSeedK",
+      "source_sha256": "9ec7ff07cccd3debdb8379cdf33fad0729bc0ed215759504949d9d06007b38e7",
+      "cached_object_sha256": "ff917909a1404ce36cae9566b7bd7ff56ad7cf82624b2ff00822054b27ae2dc8"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.SpectrumExact",
+      "source_sha256": "fbe4236af5cf13ff97699e73502a7a740628448ab5fcf5e3b0cac588366e727a",
+      "cached_object_sha256": "8ebffc881231466af3bb1b5f327b144e7b945303349069b3be8da823092caef4"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.SpectrumMain",
+      "source_sha256": "b3eac8fa545542ffe89c54183bb2da89677bedc5c527903473f1ce121bfa7847",
+      "cached_object_sha256": "204b9d4cdb998f6f549235a566f2c2ba70d4d54a8d519ddda48aaa130e51b834"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.TransitiveFiniteAverage",
+      "source_sha256": "946180eda520e8ad842bf0f1d885a6ad3fd9d9825d177f37243b203d1e393304",
+      "cached_object_sha256": "ab82f426c9aea6e9e5fae4bdbedbc4395863c690df67121820d7ba9028193b57"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.TwoTorsionProducts",
+      "source_sha256": "33effeeede12530b05b903317502db78a5313855e6be49bfee695a1b60923aa4",
+      "cached_object_sha256": "96ba563a77eb26e5d9167a1fd93ab4c1716c7a6d06072769738b1ba3cd07b080"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.TypeIdentities",
+      "source_sha256": "3278ae37cf86b6ea3ef398256267e6d7036a53e126dcddc860334efc9073326a",
+      "cached_object_sha256": "3c1e4c6bb72922f7dae523ba257586a817129778749ccd620c9d0bc943770ccb"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.AbsorptionCore",
+      "source_sha256": "be5442c23535ec9347be8c1f0ce52ccc7a595f23da9722ad42a59ad49de51897",
+      "cached_object_sha256": "afc2851ee1b0b0c6fd5d613a523a6f821aa57913e966d9160ad60631e9de0345"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.Assembly",
+      "source_sha256": "3ce8bbf7b4de05f494460e1a48567259d193e4b40e7792f674b2cefe396b9b61",
+      "cached_object_sha256": "97c535ed667a3cb95f872346fd8fba72b70eb93d422623613fd01e08a2593ed4"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.AssemblyBounds",
+      "source_sha256": "201b4397fb067bf91d422738c008423eff70f9c3268b1fa8cdb2e52b2a84834c",
+      "cached_object_sha256": "ad76c06090c5c94f4da43a8afb28b0127fbcd003796c3936be486df07288ed78"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.BalancedThreePattern",
+      "source_sha256": "4665d552f6c75a7b8e6ab909e77a5459209f66d8e33ea45453c9d40c49fce633",
+      "cached_object_sha256": "2590dfc0364ff97856726f84a3afbd8527c93447c342d8a49e4994b94da7c4b0"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.Cross",
+      "source_sha256": "7accc7b49397d921c7c98ade16f976c4ca0f4d981e87ad84e59af0cf108a138d",
+      "cached_object_sha256": "9e4ced41254f0df492052f0f98658ef2c4434151e7954f594c414752c460b1b4"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.ExplicitAbsorptionCore",
+      "source_sha256": "42dde3f5d06227ceb017f18aab0e183faac314d4e72abe760188bbe7187e4a39",
+      "cached_object_sha256": "b80419907bd193e9c4ce9ce24f133732d77e7922991b96d6027e592c7664f24a"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.ExplicitCounting",
+      "source_sha256": "687d7de5372607a9af32a22640ca02a38cda46f0c4b606e9a599da612b551c87",
+      "cached_object_sha256": "0dbefe47e69c28b958ca79972cb91eb7d9f7acad3f7cb4accb5b258d1609beba"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.FiniteLoads",
+      "source_sha256": "5535c1c7a352369e6b9d3e17ffc4975cbeea575aef40b39f8bbd557877e529e9",
+      "cached_object_sha256": "062e0c4843cf216c5579c34c936c908f1c5c6c96e4833d3744b7bb82bbb2cfc0"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.Geometry",
+      "source_sha256": "8c12d58b1969209948179f6a8057d9e40762140412ae80a6a14fa46c057ff035",
+      "cached_object_sha256": "38bf196a299fd0684ebe94d03cd9755d21b1b9c82ca157cffa6b60ec1331a176"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.GlobalSeed",
+      "source_sha256": "55495e414b4de17bdb014d9918c0f7f495deb445c0a23560699d318ea4699df0",
+      "cached_object_sha256": "8f6534d5acc28806041c2464e8b9a8b51e2d0625c6b0f30405659236daf65938"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.KernelSeed",
+      "source_sha256": "dcbaa1bf8c1095a2843b06c6d0eecf49a100f41c82500a9876daa58417c6b0b9",
+      "cached_object_sha256": "b584e8b8eba434734e7565f535903aea45c7218776fbd0ff433c8efdd7ed8a5b"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.LocalBalance",
+      "source_sha256": "cf8a17117fed5c900e1c7ffcf398f3d743de563773d4a7760b44a80d842a8cd5",
+      "cached_object_sha256": "fa734af8fd36c8a5ec10a91604796bcf94bcb793f292594aa8d9dfece33a9887"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.LocalCompatibility",
+      "source_sha256": "747ad1dceccb5fdaa4c196db8f6b9e3faa032d011bc034c0dc656e12fb4b0241",
+      "cached_object_sha256": "263c6aea9d2ed04176f2911bf6817f44c6148e7d885862cf51900a7615027b4b"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.NearFull",
+      "source_sha256": "826b3dc13e09a52385a8ee7208201d4ae90c0929ab6d241f2f539171bd5ad17b",
+      "cached_object_sha256": "f76b4fb12630ebd12db7e7b48e6f5c199c182d94ebdc8e032a5c3be1877d7563"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.NearFullReserve",
+      "source_sha256": "eabd041053c91e9e15b63ed9f931c3850a1ed19c4d323cf47e39dba6e67de70a",
+      "cached_object_sha256": "a8b7eadaad892c8ad80afac15832a9e58d417dcb029969278ed323a2c3c884d8"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.OptimalWeights",
+      "source_sha256": "747a2a4101526676651a4373eeb6667f03d4d9e08b17ee49c8357f370809a45c",
+      "cached_object_sha256": "08ff4eef790b80438a0a5fe9ea009e4bf796c63244f220cbbd611612c1120e31"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.OptimizedLocalSeed",
+      "source_sha256": "2e64a30f02c14198277458c0e9e8290f1ed1756f3f33be806e0bb20107bf8bd5",
+      "cached_object_sha256": "a0a75a2aaa9000401c87c592ff4bb6535a8adf467f8620ea11cace10b277f821"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.PieceCounts",
+      "source_sha256": "5190e308164c394f1cd9d6a4622fb97bbacc28f846aa3d63d42ac5124e6442b7",
+      "cached_object_sha256": "1e24e83c9005189ec6ceb5bab0cc512a730cb0e98a889e344aebe0add3e38c65"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.PieceGeometry",
+      "source_sha256": "9c87d4e76ed6ba5632b77e2eb575a29c33e8ebfffcf2565ed95107e72aecc418",
+      "cached_object_sha256": "23a1e2e0f27365c14f26e918b0f8fb47be79c7743056c5650668c4962c69fad1"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.Placement",
+      "source_sha256": "2dad20d379428b245a938a98bd9c0eef45f9f4d4b56392d57ab60f3860ea14c6",
+      "cached_object_sha256": "ccada388cdbbc05b45f4eee09d82a1b8fbd7cf9501e11807599627f6fe2d1790"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.PreparedGeometry",
+      "source_sha256": "333b45bae46c2f025156d8fdb0438ca9ad998c05bf64551e2b1e95c51fc8b343",
+      "cached_object_sha256": "6679867de0751742fd3fafb4836ef1bff0383e67914c69922aaa96dfca0ff8b4"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.PreparedSeed",
+      "source_sha256": "c5dfaa02e9d50725e3dc14bb65dc103296b859b52d9396f3878f16a8b4aa8f83",
+      "cached_object_sha256": "817ca1cdb6346652d77699c69189f3c406c739c64c7f779ca6f3603502aaf37b"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.Quantitative",
+      "source_sha256": "aeb3bace577e37d5fa76887287bf1a45b41e67add0b2dd877505a1e036c8eb16",
+      "cached_object_sha256": "c9c9ce15b9a12e1e9128941d0b1d024be17aa560a0581273d2b42afbfcce4cfc"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.Reserve",
+      "source_sha256": "94182c6b7e672ebbabef29696fe3e62988cf1bafd1ab58868a488fdf1ebaecae",
+      "cached_object_sha256": "656873922785dbc34c99f7265ba613e5788c884950672ad77d2513b67f555b27"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.ReserveHinge",
+      "source_sha256": "7db69d793cdb21e100d928c45d56b0d4034191e7ffdc21f34ed78a09a383c5d8",
+      "cached_object_sha256": "043b94944887d3cb0c280ece6696f55918e2c9edf7cc270daf73fd46da1743ad"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.ReserveLattice",
+      "source_sha256": "c72a7ff81a733d0e0f01404dbc181c73c01ea2ba89c31fe62d4d075569716c2f",
+      "cached_object_sha256": "7e00e6922f18212fe834c39cc082048e20d27b9fbf758e064405830fc7ba841a"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.ReserveSize",
+      "source_sha256": "4099ca9146f910f18caf58e523aef8c11fa6b0320deb06342c91eec59446d304",
+      "cached_object_sha256": "483895458d330c8b26e72a5b47f1ccf238f7d6cbdcae5953472ce366d84199d2"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.ResidualSeed",
+      "source_sha256": "b7a963200fb299d5819afd8af26513ef6e23caa14963a7da0c88f274ca2ccc89",
+      "cached_object_sha256": "e59daddc0ed12503bab04758ebf2a6ae2b651f923d9a5e095d336900b338bd44"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.RobustSeed",
+      "source_sha256": "49c894c359d3a1064b1e006dad34eabb11778a47c2c336474673a17dfa72c634",
+      "cached_object_sha256": "76b7887bb56904c8db4b81e9488e1ba7ed5e360728990bcc284aa55369592b73"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.RootedLoads",
+      "source_sha256": "1b23506c0bc26d117e455e9d8acaeb4e5fddb64ec3e5cba3d4de3f80d677779b",
+      "cached_object_sha256": "8283a43e37a8fb5e8a51bd823d667443dca0b59c3db2f7367836efe7b26015b1"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.SeedCorrection",
+      "source_sha256": "0db37799059b954175b483484d23a3f462473778d541ec6932484e8d892e59c6",
+      "cached_object_sha256": "43fc9196da1a3c75d9493ab66b43ce20b327de82e091f08083aeb5e682b9a13a"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.SeedDefect",
+      "source_sha256": "2328fa7dfb3ab903bccdce453ad140fc97f828a72529322623bbc646fdf12c34",
+      "cached_object_sha256": "a979d9cf72c33391be56d575504f5d939209aac961ecad204fd89fc9a877efa1"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.SeedDiscrepancy",
+      "source_sha256": "821a6ee3ef89df1ef868b6f44b029747f9666ebd444a55291cfab8050bdebf36",
+      "cached_object_sha256": "c147cae92a5617fdbbb1222124c164f283b64bf701bff9566d31c13f0ea9b698"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.SeedParameters",
+      "source_sha256": "2705ca70cb1c452bcc18acbb740262513d6ff293943c5d6f76d0e0023bee664f",
+      "cached_object_sha256": "3cf59e1e1ae2cf1a11367d011fff586ea7bfb6f341c04b0a47f342e74d567bdc"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.SharpAsymptotic",
+      "source_sha256": "159340a571cf64a28316b293384e4d7c8daaa2d9c4c3510187be73bc7c95d524",
+      "cached_object_sha256": "f56d14f8838cbce925b04c21dbc7c71c3ac94242868d8b00680d4c0d7e760877"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.SharpCounting",
+      "source_sha256": "d7c6ff973c1c380fcc565e73b67424bbfe14c4d817af187490dba8d355a6e42b",
+      "cached_object_sha256": "a9c6976c134370b8e52052079502295de9c0fbb854a76d789acea2a9841d5250"
+    },
+    {
+      "module": "CDRBicolour.KBicolor.Wilson.TypeKernel",
+      "source_sha256": "d17398b37dd6d34887cf9a95f43868f35627afc8da2b6dafc0747ba0aa3db5ad",
+      "cached_object_sha256": "3f7acd8854db083e609e0a8de6b2a87e7b3aa1193a087dc5f01d42535c6d3dc0"
+    },
+    {
+      "module": "CDRBicolour.Palomar.GaleHoffman",
+      "source_sha256": "4591b41209bb3a24d4a1aa5a6e0990e9887e9bb204748e6715a5db4e34dea939",
+      "cached_object_sha256": "88f6252495504cf78cee7f1238186e46a9d49f0a579001b807512ce4a952331b"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.Arith",
+      "source_sha256": "acb12ac4a623bd81204147b9d6e5cb6d7f05dcbfa2f2721ba900c8e20034df27",
+      "cached_object_sha256": "e5da858f232738c416f47d0b297223639ab1b4dddf305acc4bc3ce1a43e81df8"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.ArithLemmas",
+      "source_sha256": "705c345043a612a9f45b7dbc5dcded0ca478fe4ca9da7f54474b8cdd64c7a2e7",
+      "cached_object_sha256": "ae08757b01ab04ef808ebfbd27f4fb4619a75337c37844a673d02c5b617e688e"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.ArithMain",
+      "source_sha256": "2c9d0b6f87e721f357873e097f406f5849407b687e4461fb30ca4a42e51a2963",
+      "cached_object_sha256": "7eefaec483b0e60c1ea52dd04006d05c6dd878e3ff137d1969f8dc85ae5c3b57"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.AxisSixInput",
+      "source_sha256": "d83bc8b78ff468cf38c9499e5913937f5bef004d13c203b97d44876c6b0e48f3",
+      "cached_object_sha256": "58e2d929b2b3e1bce631f55a2bac532883961cef4f64d490e87f00810481cea0"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.AxisTwoInput",
+      "source_sha256": "94c2dc91f63f2a725a53b79da549eaa4897b8eb26f27d8edd273c42c85cb793a",
+      "cached_object_sha256": "625afe01f4206b73ac57ae0dc63cd1f5ed675f4adaa97eddab29019fed60e471"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.Bridge",
+      "source_sha256": "0f9dc168e5c3e0e0f8b583b11a257b8fd5baabcc39cd565fdb3a85891c5d81a0",
+      "cached_object_sha256": "547a38cd879e71403ccbb4ac7a03388e53d35ad97e2207334c245e1c5b98dac3"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.CapSix",
+      "source_sha256": "ac5b4f62e0c655ee5821aa47894ca3e8bd4a3992512d14656a3bc591c93e0e5e",
+      "cached_object_sha256": "4d40b3c56bf3ba8d6ae3c85d8c118445e6d768ea66c28b7ec931e258caf00ea9"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.CapTwo",
+      "source_sha256": "e27a4030ecaeab537c04d8415b2022afe9b852e5c960c26cd1ccddbcb938b101",
+      "cached_object_sha256": "7151231c2d762b1f088dc1b3c5fdb7aba9ba08c95917cd24e61f99059ab2d1fc"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.Defs",
+      "source_sha256": "8903fe5ff372f3e088a1e56df48e6389fb376c3638eb8e38b24e2efbbb9297d8",
+      "cached_object_sha256": "6f0f047ed28184cbdb0946c118abc8bdb698f543fe896f83ad08a2478e67f789"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.Four",
+      "source_sha256": "dad412c16f14734f3ac10a5db9e76663993cc05342db1c3bca5e5bed81061b8d",
+      "cached_object_sha256": "3b9d22c30c17957965fa266e7eec815a5e0b61670666981c8642e26af1e752ef"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.FourSeed70",
+      "source_sha256": "d37a911175fb5d37c312678799b1b1bc0001f1b22a6f01fd158e2824a64f62aa",
+      "cached_object_sha256": "cf9e0af18760c9274457f638774decf262671e12de109912a6524510e9f0423b"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.FourSeedGale",
+      "source_sha256": "66f812d59cdb32b817d103d29dd6096b6a675d83922c0856ab0f8dcb19419e3c",
+      "cached_object_sha256": "0277ee0d071094c0b79c7d95d89ad371adbcf801418ae78f90bfc56be8a189f1"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.GalePalomar",
+      "source_sha256": "4d10975c2753a77591802239b282c47b1b8051289369a03e34c9128e9b7c2d80",
+      "cached_object_sha256": "9c230c23e0c97fcc02432ecbaed805cfc7b99185b7485fe94d4c0835b99317d8"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.Geom",
+      "source_sha256": "3916cd2e5390a2caecdd87254ce77f213e0470fe5a1703975d6689e767e8214f",
+      "cached_object_sha256": "0b50661e233f246f35e70fd07e56a70b66393527f37a1c5540193f9592bd3a60"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.LPSeedExample",
+      "source_sha256": "a60ecd7e1f4f5992c0498b664371c1858625ad3a5e8a99090957be56fce8c469",
+      "cached_object_sha256": "64283b7ff9d158a9eab8722bdf4450e4a775db23ac8c2d0a6d89679902cf321d"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.Main",
+      "source_sha256": "51a1844d45d152e19b2ead42ad8f26fb83ed94dda26863950e65c7334fe62789",
+      "cached_object_sha256": "387394119085bcb51fcfda60834bf0229eda5d389a647ed8f072132472213a54"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.MeridianMain",
+      "source_sha256": "b5e36715bd7c4d1d8c7ea3a4443daf6a1f9b3751fd87287f6ff9cd5c96a87ab0",
+      "cached_object_sha256": "357ced941e60ed56e008b6eb3ac0624dba2cdd608508ffd2a9c0f0cb033238e1"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.Near",
+      "source_sha256": "d7dc935add530b977404fdc007b9256a99143e0509d7c1b151a5fd13acd7f545",
+      "cached_object_sha256": "80f9ba8ae70dbf5d55557aba7c6357bc1b6d11f07afbd7240d50237620506d4e"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.SeedGale",
+      "source_sha256": "c8c8d970ab39776ae1d272727c86c75f518b08c35e9e7c645e11348049a7d58c",
+      "cached_object_sha256": "41a6eceb124bfdcebde214fcbd3f7ded4fe67856ee8ee8064b16b8ba8a8815b8"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.SeedMargin70",
+      "source_sha256": "b23348d72d88aed4890725b75bd91167efa721dca5a8180d20ca91a3952e6393",
+      "cached_object_sha256": "d56cc9b20916fadb49a723fe6b908613614035effa410cb265a5714595d101c5"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.Unconditional",
+      "source_sha256": "c9e483694076b8572021c261894d695ff08c7d105c2782150e9edfd202061872",
+      "cached_object_sha256": "d5a8da2e5ca5764b44b05eaf00de7a3d6914d4caa38c80d679a65104e871ba74"
+    },
+    {
+      "module": "CDRBicolour.PaperIII.UnconditionalArithmetic",
+      "source_sha256": "1fc752c1f2afe6da3e849b98a46a163dbe6e359bc12807f0e2842f140a53d7f5",
+      "cached_object_sha256": "eff43c653b34247efe289addd5b898099ad5f72b9ee83c307a9930041cba42e2"
+    }
+  ],
+  "published_rebuild_audit_sha256": "e2712c21d32fdedc0968b19d13897ddeadf389726e2b7ff528627182bfe645d2",
+  "new_packaged_solution_verified": false,
+  "local_full_rebuild_performed": false,
+  "limitation": "The new imported DSP/Siegel providers and arithmetic adapters still require the exact-commit official Palomar full preflight. The older freeze's axiom results are not attributed to the uncompiled repackaged Solution.",
+  "evidence": [
+    {
+      "path": "evidence/challenge.log",
+      "sha256": "6db776e06809e52ebbf20fbc51bbcdc61017066c0601793055a90f928f9c12b9"
+    },
+    {
+      "path": "evidence/challenge_surface.log",
+      "sha256": "c0e5236e80b5e580fa05c88e64e6086a612c59f784527849f92eaaae77172efe"
+    },
+    {
+      "path": "evidence/freeze_surface.log",
+      "sha256": "eb560ea067e6a6ed3cfa5dce1bb47daf9e00a9fc0558be1d715f8c52373aa530"
+    },
+    {
+      "path": "evidence/CHECK_RECORDS.json",
+      "sha256": "8aa7b4f4eec1e43754728d872f3c266dbc3b4d82e7282a41630b6930c2f49cfa"
+    }
+  ]
+}

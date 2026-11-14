@@ -1,0 +1,54 @@
+name = "cdr_iii_prescribed"
+version = "1.0.0"
+requiresModuleSystem = true
+defaultTargets = ["CDRIIIChallenge", "CDRIIISolution"]
+weakLeanArgs = ["-DmaxHeartbeats=8000000", "-DmaxRecDepth=16384"]
+
+[leanOptions]
+relaxedAutoImplicit = false
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "c55e6e786f49471c72fbddbec5415808896aec1e"
+
+[[require]]
+name = "cdr_bicolour"
+git = "https://github.com/jtraverso/cdr-palomar-kernel"
+rev = "5d1e6fe301e5fc01c92f6145aa34fddfe9c2bd10"
+
+[[require]]
+name = "PhysicalTypedAbsorption"
+git = "https://github.com/jtraverso/physical-typed-absorption"
+rev = "9d36e80d75d81d9eabbfacd370dc4394b54e3d52"
+
+[[require]]
+name = "dsp_ternary"
+git = "https://github.com/jtraverso/duke-schulze-pillot-ternary"
+rev = "21575ff924c98165ea1b451f7cbcc27c016ebd3e"
+
+[[require]]
+name = "gale_hoffman"
+git = "https://github.com/jtraverso/gale-hoffman-feasibility"
+rev = "fa52c29c24edf7e9afdb487df3764affd43c51c7"
+
+[[lean_lib]]
+name = "CDRBicolour"
+globs = ["CDRBicolour.+"]
+
+[[lean_lib]]
+name = "CDRIIIArithmetic"
+globs = ["CDRIIIArithmetic.+"]
+
+[[lean_lib]]
+name = "CDRIII"
+globs = ["CDRIII"]
+
+[[lean_lib]]
+name = "CDRIIIChallenge"
+globs = ["CDRIIIChallenge"]
+
+[[lean_lib]]
+name = "CDRIIISolution"
+globs = ["CDRIIISolution"]
