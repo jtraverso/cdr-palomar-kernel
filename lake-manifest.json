@@ -39,13 +39,16 @@
       "configFile": "lakefile.toml"
     },
     {
-      "type": "path",
-      "scope": "",
+      "type": "git",
+      "url": "https://github.com/jtraverso/vizing",
       "name": "vizing",
+      "scope": "",
+      "subDir": null,
+      "rev": "995a73aa27196ac66f52a3054e6fd6dac3599479",
+      "inputRev": "995a73aa27196ac66f52a3054e6fd6dac3599479",
       "manifestFile": "lake-manifest.json",
-      "inherited": false,
-      "dir": "vendor/vizing-shim",
-      "configFile": "lakefile.toml"
+      "configFile": "lakefile.toml",
+      "inherited": false
     },
     {
       "type": "path",
