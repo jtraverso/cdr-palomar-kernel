@@ -1,0 +1,27 @@
+{
+  "status": "PASS_EXPORT_LAYOUT_STATIC",
+  "checked_utc": "2026-11-15T12:10:23.245591+00:00",
+  "shared_prefixes": [
+    {
+      "prefix": "RequestProject",
+      "packages": [
+        "PhysicalTypedAbsorption",
+        "counting_sts"
+      ],
+      "compiled_root": ".lake/cdr-iii-shared-lean",
+      "result": "PASS_SAME_PREFIX_SAME_COMPILED_ROOT"
+    },
+    {
+      "prefix": "LeanPool",
+      "packages": [
+        "dross",
+        "vizing"
+      ],
+      "compiled_root": ".lake/cdr-iii-shared-lean",
+      "result": "PASS_SAME_PREFIX_SAME_COMPILED_ROOT"
+    }
+  ],
+  "local_full_build": false,
+  "official_export_and_kernel_checks": "Pending remote preflight",
+  "lean_source_hashes_unchanged": true
+}

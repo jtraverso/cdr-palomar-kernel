@@ -73,10 +73,10 @@ dependency: it is supplied by a pinned upstream project instead of this tree.
 
 | Repository | Registered proof-source base | Used configuration revision | Changed files |
 |---|---|---|---|
-| `jtraverso/vizing` | `33b2de836095cf92bc1dec33b6f8787e4036bbc6` | `995a73aa27196ac66f52a3054e6fd6dac3599479` | `lakefile.toml` |
-| `jtraverso/dross-fractional-triangle-decomposition` | `7720b7b591e606d5a56f1d935d8be650dcbf6c6f` | `90e04502005b2f3dc7b8207809d08045db8b4068` | `lakefile.toml` |
-| `jtraverso/counting-steiner-triple-systems` | `52fda83038df7442c576e17edffba591db703cb8` | `dc8f42dd87157cf9fafacfb382f5d154881105c8` | `lakefile.toml` |
-| `jtraverso/physical-typed-absorption` | `9d36e80d75d81d9eabbfacd370dc4394b54e3d52` | `1536d1c75452a135d527d59217adc0408755448b` | `lakefile.toml` |
+| `jtraverso/vizing` | `33b2de836095cf92bc1dec33b6f8787e4036bbc6` | `79dd603708233c5c5335754b90fbbdb4567b6464` | `lakefile.toml` |
+| `jtraverso/dross-fractional-triangle-decomposition` | `7720b7b591e606d5a56f1d935d8be650dcbf6c6f` | `a12dd96d4ba52a9660193d8f0f7298988ec56379` | `lakefile.toml` |
+| `jtraverso/counting-steiner-triple-systems` | `52fda83038df7442c576e17edffba591db703cb8` | `b87fc3f4e8a6b724216e77a2b27145614c019c66` | `lakefile.toml` |
+| `jtraverso/physical-typed-absorption` | `9d36e80d75d81d9eabbfacd370dc4394b54e3d52` | `e69dfe9e5b6dd17563daf1483a6dc3767cad2e8f` | `lakefile.toml` |
 | `jtraverso/cdr-palomar-kernel` | `5d1e6fe301e5fc01c92f6145aa34fddfe9c2bd10` | `52ef4148441d9cdc5d523ca0c73d076ad66ed831` | `lake-manifest.json`, `lakefile.toml` |
 
 These technical branches leave the registered commits and every repository's main
@@ -87,3 +87,13 @@ New CDR III files use the unique `CDRIIILib` module prefix while preserving thei
 `CDRBicolour` declaration namespaces. All 146 original mathematical source bodies
 are unchanged after removing comments and import directives; the relocation and
 import map are recorded in [PROJECT_MODULE_RELOCATION.json](evidence/PROJECT_MODULE_RELOCATION.json).
+
+## Compiled-path interoperability
+
+The counting and absorption inputs share the `RequestProject` prefix; Vizing and
+Dross share `LeanPool`. Lean resolves a prefix from its first compiled search root.
+Their configuration-only revisions therefore write compiled Lean libraries to
+`.lake/cdr-iii-shared-lean` inside the submission workspace. Module ownership is
+still unique, and no Lean source, theorem or hypothesis has changed. Native
+objects and other build files retain their package-specific directories.
+See [PREFLIGHT_EXPORT_CORRECTION.json](evidence/PREFLIGHT_EXPORT_CORRECTION.json).

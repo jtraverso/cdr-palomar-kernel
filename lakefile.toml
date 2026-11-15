@@ -21,7 +21,7 @@ rev = "52ef4148441d9cdc5d523ca0c73d076ad66ed831"
 [[require]]
 name = "PhysicalTypedAbsorption"
 git = "https://github.com/jtraverso/physical-typed-absorption"
-rev = "1536d1c75452a135d527d59217adc0408755448b"
+rev = "e69dfe9e5b6dd17563daf1483a6dc3767cad2e8f"
 
 [[require]]
 name = "dsp_ternary"
@@ -56,12 +56,12 @@ rev = "b85da9ac66e0fb8b9873a8bea0c057f78c9d186c"
 [[require]]
 name = "vizing"
 git = "https://github.com/jtraverso/vizing"
-rev = "995a73aa27196ac66f52a3054e6fd6dac3599479"
+rev = "79dd603708233c5c5335754b90fbbdb4567b6464"
 
 [[require]]
 name = "counting_sts"
 git = "https://github.com/jtraverso/counting-steiner-triple-systems"
-rev = "dc8f42dd87157cf9fafacfb382f5d154881105c8"
+rev = "b87fc3f4e8a6b724216e77a2b27145614c019c66"
 
 [[require]]
 name = "counting_cone"
@@ -70,7 +70,7 @@ path = "compat/counting-cone"
 [[require]]
 name = "dross"
 git = "https://github.com/jtraverso/dross-fractional-triangle-decomposition"
-rev = "90e04502005b2f3dc7b8207809d08045db8b4068"
+rev = "a12dd96d4ba52a9660193d8f0f7298988ec56379"
 
 [[lean_lib]]
 name = "CDRIIILib"
