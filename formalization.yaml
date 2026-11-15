@@ -113,6 +113,10 @@ fidelity:
     immutable registered Git repositories and retains only new CDR modules and
     two explicit arithmetic adapters. Import-only CountingCone compatibility
     modules re-export the registered counting proofs without copying them.
+    Configuration-only descendants of five registered repositories restrict
+    module ownership; their Lean proof sources are byte-identical to the registered
+    versions. New CDR source modules use a unique CDRIIILib prefix, preserving
+    declaration namespaces and mathematical tokens.
     The Solution uses the registered Siegel
     provider via DSP v2 rather than copying the earlier PNTPort analytic proof.
     The quantitative existence threshold remains ineffective. Local statement
@@ -134,18 +138,18 @@ alignment:
   statements:
     - source: "CDR Paper III, Theorem 1.1"
       lean: "CDRBicolour.KBicolor.kbicolour_completion_types_exact"
-      module: "CDRBicolour.KBicolor.CompletionExact"
+      module: "CDRIIILib.KBicolor.CompletionExact"
       status: proved
     - source: "CDR Paper III, Theorem 1.2"
       lean: "CDRBicolour.KBicolor.optimal_prescribed_type_count_of_three_le"
-      module: "CDRBicolour.KBicolor.PrescribedCounting.OptimalPrescribed"
+      module: "CDRIIILib.KBicolor.PrescribedCounting.OptimalPrescribed"
       status: proved
     - source: "CDR Paper III, Theorem 1.3"
       lean: "CDRBicolour.KBicolor.kbicolour_types_exact_many_pasch_counts"
-      module: "CDRBicolour.KBicolor.ExactTypesPasch"
+      module: "CDRIIILib.KBicolor.ExactTypesPasch"
       status: proved
     - source: "CDR Paper III, Theorem 1.4"
       lean: "CDRBicolour.PaperIII.bicolourable_eventually_unconditional"
-      module: "CDRBicolour.PaperIII.Unconditional"
+      module: "CDRIIILib.PaperIII.Unconditional"
       status: proved
 

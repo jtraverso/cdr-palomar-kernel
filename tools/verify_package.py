@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     report = json.loads((ROOT/"evidence/STATIC_PACKAGING_CHECK.json").read_text(encoding="utf-8"))
+    assert report["unique_module_ownership_verified"] is True
     for item in report["sources"]:
         path = ROOT/item["path"]
         assert hashlib.sha256(path.read_bytes()).hexdigest() == item["sha256"],item["path"]

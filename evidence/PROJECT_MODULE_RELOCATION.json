@@ -1,0 +1,884 @@
+{
+  "source_modules_relocated": 145,
+  "declaration_namespaces_changed": false,
+  "comparison": "Every kept original mathematical source has exactly the same non-comment, non-import tokens as the published freeze.",
+  "modules": [
+    {
+      "freeze_path": "CDRBicolour/Absorption/BRIRatio.lean",
+      "packaged_path": "CDRIIILib/Absorption/BRIRatio.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/BRIk.lean",
+      "packaged_path": "CDRIIILib/KBicolor/BRIk.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/BRIkGlue.lean",
+      "packaged_path": "CDRIIILib/KBicolor/BRIkGlue.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Completion.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Completion.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/CompletionExact.lean",
+      "packaged_path": "CDRIIILib/KBicolor/CompletionExact.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Copies.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Copies.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Counting.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Counting.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/CountingConsequencesFinite.lean",
+      "packaged_path": "CDRIIILib/KBicolor/CountingConsequencesFinite.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/DyadicLatinFamily.lean",
+      "packaged_path": "CDRIIILib/KBicolor/DyadicLatinFamily.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/DyadicLatinSize.lean",
+      "packaged_path": "CDRIIILib/KBicolor/DyadicLatinSize.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/ExactMass.lean",
+      "packaged_path": "CDRIIILib/KBicolor/ExactMass.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/ExactSeedK.lean",
+      "packaged_path": "CDRIIILib/KBicolor/ExactSeedK.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/ExactTypesPasch.lean",
+      "packaged_path": "CDRIIILib/KBicolor/ExactTypesPasch.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/ExactTypesPaschReplacement.lean",
+      "packaged_path": "CDRIIILib/KBicolor/ExactTypesPaschReplacement.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/FiniteSymmetrization.lean",
+      "packaged_path": "CDRIIILib/KBicolor/FiniteSymmetrization.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Five.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Five.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Four.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Four.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/GroupLatinIntercalates.lean",
+      "packaged_path": "CDRIIILib/KBicolor/GroupLatinIntercalates.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Hinge.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Hinge.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Host.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Host.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/LatinCompletionReplacement.lean",
+      "packaged_path": "CDRIIILib/KBicolor/LatinCompletionReplacement.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/LatinIntercalateCounting.lean",
+      "packaged_path": "CDRIIILib/KBicolor/LatinIntercalateCounting.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/LatinIntercalateTransport.lean",
+      "packaged_path": "CDRIIILib/KBicolor/LatinIntercalateTransport.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/LatinIsotopyProbabilities.lean",
+      "packaged_path": "CDRIIILib/KBicolor/LatinIsotopyProbabilities.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/LatinMixedAverage.lean",
+      "packaged_path": "CDRIIILib/KBicolor/LatinMixedAverage.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/LatinMixedBudget.lean",
+      "packaged_path": "CDRIIILib/KBicolor/LatinMixedBudget.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/LatinPackingFrequencies.lean",
+      "packaged_path": "CDRIIILib/KBicolor/LatinPackingFrequencies.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/LatinPackingGeometry.lean",
+      "packaged_path": "CDRIIILib/KBicolor/LatinPackingGeometry.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/LatinPackingPaschCount.lean",
+      "packaged_path": "CDRIIILib/KBicolor/LatinPackingPaschCount.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/LatinPaschConfigurationSplit.lean",
+      "packaged_path": "CDRIIILib/KBicolor/LatinPaschConfigurationSplit.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/LatinReplacement.lean",
+      "packaged_path": "CDRIIILib/KBicolor/LatinReplacement.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Lattice.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Lattice.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Main.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Main.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Monitored.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Monitored.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PaschPartiteParity.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PaschPartiteParity.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Cone.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Pattern/Cone.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/CutBound.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Pattern/CutBound.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Exists.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Pattern/Exists.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/ExistsMain.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Pattern/ExistsMain.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Hilton.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Pattern/Hilton.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Main.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Pattern/Main.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Outline.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Pattern/Outline.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Split.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Pattern/Split.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Spread.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Pattern/Spread.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Tour.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Pattern/Tour.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/ActualOutline.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/ActualOutline.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/AllocationSplit.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/AllocationSplit.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/CoreBounds.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/CoreBounds.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/CrossAssembly.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/CrossAssembly.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/CrossTypeCounts.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/CrossTypeCounts.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/CycleResidues.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/CycleResidues.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/FixedClassEntropy.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/FixedClassEntropy.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/FixedClassPatterns.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/FixedClassPatterns.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/FixedCoreCounting.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/FixedCoreCounting.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/FlattenedSetup.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/FlattenedSetup.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/GroupEntropyAssembly.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/GroupEntropyAssembly.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/HiltonExact.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/HiltonExact.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/ModularResidual.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/ModularResidual.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/ModularTypes.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/ModularTypes.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/OptimalPrescribed.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/OptimalPrescribed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/OutlineEntropy.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/OutlineEntropy.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/OutlineSymmetry.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/OutlineSymmetry.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/PackingAttachment.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/PackingAttachment.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/QuotaDivision.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/QuotaDivision.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/ReferenceCross.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/ReferenceCross.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/RegularEntropy.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/RegularEntropy.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/RegularFactorizations.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/RegularFactorizations.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/ReservedCore.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/ReservedCore.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/ReserveTrades.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/ReserveTrades.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/ResidualQuotas.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/ResidualQuotas.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/SharpPrescribed.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/SharpPrescribed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/SparseHostCompletion.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/SparseHostCompletion.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/TargetSeedData.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/TargetSeedData.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/TournamentSplit.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/TournamentSplit.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/VariableCross.lean",
+      "packaged_path": "CDRIIILib/KBicolor/PrescribedCounting/VariableCross.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/ReservedCopies.lean",
+      "packaged_path": "CDRIIILib/KBicolor/ReservedCopies.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/ReservedSpectrum.lean",
+      "packaged_path": "CDRIIILib/KBicolor/ReservedSpectrum.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/ResidualHinge.lean",
+      "packaged_path": "CDRIIILib/KBicolor/ResidualHinge.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/ResidualLattice.lean",
+      "packaged_path": "CDRIIILib/KBicolor/ResidualLattice.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/ResidualSeedK.lean",
+      "packaged_path": "CDRIIILib/KBicolor/ResidualSeedK.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/SpectrumExact.lean",
+      "packaged_path": "CDRIIILib/KBicolor/SpectrumExact.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/SpectrumMain.lean",
+      "packaged_path": "CDRIIILib/KBicolor/SpectrumMain.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/TransitiveFiniteAverage.lean",
+      "packaged_path": "CDRIIILib/KBicolor/TransitiveFiniteAverage.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/TwoTorsionProducts.lean",
+      "packaged_path": "CDRIIILib/KBicolor/TwoTorsionProducts.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/TypeIdentities.lean",
+      "packaged_path": "CDRIIILib/KBicolor/TypeIdentities.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/AbsorptionCore.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/AbsorptionCore.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/Assembly.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/Assembly.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/AssemblyBounds.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/AssemblyBounds.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/BalancedThreePattern.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/BalancedThreePattern.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/Cross.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/Cross.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/ExplicitAbsorptionCore.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/ExplicitAbsorptionCore.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/ExplicitCounting.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/ExplicitCounting.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/FiniteLoads.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/FiniteLoads.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/Geometry.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/Geometry.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/GlobalSeed.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/GlobalSeed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/KernelSeed.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/KernelSeed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/LocalBalance.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/LocalBalance.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/LocalCompatibility.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/LocalCompatibility.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/NearFull.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/NearFull.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/NearFullReserve.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/NearFullReserve.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/OptimalWeights.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/OptimalWeights.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/OptimizedLocalSeed.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/OptimizedLocalSeed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/PieceCounts.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/PieceCounts.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/PieceGeometry.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/PieceGeometry.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/Placement.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/Placement.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/PreparedGeometry.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/PreparedGeometry.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/PreparedSeed.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/PreparedSeed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/Quantitative.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/Quantitative.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/Reserve.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/Reserve.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/ReserveHinge.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/ReserveHinge.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/ReserveLattice.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/ReserveLattice.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/ReserveSize.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/ReserveSize.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/ResidualSeed.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/ResidualSeed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/RobustSeed.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/RobustSeed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/RootedLoads.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/RootedLoads.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/SeedCorrection.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/SeedCorrection.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/SeedDefect.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/SeedDefect.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/SeedDiscrepancy.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/SeedDiscrepancy.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/SeedParameters.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/SeedParameters.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/SharpAsymptotic.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/SharpAsymptotic.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/SharpCounting.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/SharpCounting.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/TypeKernel.lean",
+      "packaged_path": "CDRIIILib/KBicolor/Wilson/TypeKernel.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/Palomar/GaleHoffman.lean",
+      "packaged_path": "CDRIIILib/Palomar/GaleHoffman.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/Arith.lean",
+      "packaged_path": "CDRIIILib/PaperIII/Arith.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/ArithLemmas.lean",
+      "packaged_path": "CDRIIILib/PaperIII/ArithLemmas.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/ArithMain.lean",
+      "packaged_path": "CDRIIILib/PaperIII/ArithMain.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/AxisSixInput.lean",
+      "packaged_path": "CDRIIILib/PaperIII/AxisSixInput.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/AxisTwoInput.lean",
+      "packaged_path": "CDRIIILib/PaperIII/AxisTwoInput.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/Bridge.lean",
+      "packaged_path": "CDRIIILib/PaperIII/Bridge.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/CapSix.lean",
+      "packaged_path": "CDRIIILib/PaperIII/CapSix.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/CapTwo.lean",
+      "packaged_path": "CDRIIILib/PaperIII/CapTwo.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/Defs.lean",
+      "packaged_path": "CDRIIILib/PaperIII/Defs.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/Four.lean",
+      "packaged_path": "CDRIIILib/PaperIII/Four.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/FourSeed70.lean",
+      "packaged_path": "CDRIIILib/PaperIII/FourSeed70.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/FourSeedGale.lean",
+      "packaged_path": "CDRIIILib/PaperIII/FourSeedGale.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/GalePalomar.lean",
+      "packaged_path": "CDRIIILib/PaperIII/GalePalomar.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/Geom.lean",
+      "packaged_path": "CDRIIILib/PaperIII/Geom.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/LPSeedExample.lean",
+      "packaged_path": "CDRIIILib/PaperIII/LPSeedExample.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/Main.lean",
+      "packaged_path": "CDRIIILib/PaperIII/Main.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/MeridianMain.lean",
+      "packaged_path": "CDRIIILib/PaperIII/MeridianMain.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/Near.lean",
+      "packaged_path": "CDRIIILib/PaperIII/Near.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/SeedGale.lean",
+      "packaged_path": "CDRIIILib/PaperIII/SeedGale.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/SeedMargin70.lean",
+      "packaged_path": "CDRIIILib/PaperIII/SeedMargin70.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/Unconditional.lean",
+      "packaged_path": "CDRIIILib/PaperIII/Unconditional.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRBicolour/PaperIII/UnconditionalArithmetic.lean",
+      "packaged_path": "CDRIIILib/PaperIII/UnconditionalArithmetic.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "freeze_path": "CDRIII.lean",
+      "packaged_path": "CDRIII.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    }
+  ],
+  "import_mapping": {
+    "CDRBicolour.Absorption.BRIRatio": "CDRIIILib.Absorption.BRIRatio",
+    "CDRBicolour.KBicolor.BRIk": "CDRIIILib.KBicolor.BRIk",
+    "CDRBicolour.KBicolor.BRIkGlue": "CDRIIILib.KBicolor.BRIkGlue",
+    "CDRBicolour.KBicolor.Completion": "CDRIIILib.KBicolor.Completion",
+    "CDRBicolour.KBicolor.CompletionExact": "CDRIIILib.KBicolor.CompletionExact",
+    "CDRBicolour.KBicolor.Copies": "CDRIIILib.KBicolor.Copies",
+    "CDRBicolour.KBicolor.Counting": "CDRIIILib.KBicolor.Counting",
+    "CDRBicolour.KBicolor.CountingConsequencesFinite": "CDRIIILib.KBicolor.CountingConsequencesFinite",
+    "CDRBicolour.KBicolor.DyadicLatinFamily": "CDRIIILib.KBicolor.DyadicLatinFamily",
+    "CDRBicolour.KBicolor.DyadicLatinSize": "CDRIIILib.KBicolor.DyadicLatinSize",
+    "CDRBicolour.KBicolor.ExactMass": "CDRIIILib.KBicolor.ExactMass",
+    "CDRBicolour.KBicolor.ExactSeedK": "CDRIIILib.KBicolor.ExactSeedK",
+    "CDRBicolour.KBicolor.ExactTypesPasch": "CDRIIILib.KBicolor.ExactTypesPasch",
+    "CDRBicolour.KBicolor.ExactTypesPaschReplacement": "CDRIIILib.KBicolor.ExactTypesPaschReplacement",
+    "CDRBicolour.KBicolor.FiniteSymmetrization": "CDRIIILib.KBicolor.FiniteSymmetrization",
+    "CDRBicolour.KBicolor.Five": "CDRIIILib.KBicolor.Five",
+    "CDRBicolour.KBicolor.Four": "CDRIIILib.KBicolor.Four",
+    "CDRBicolour.KBicolor.GroupLatinIntercalates": "CDRIIILib.KBicolor.GroupLatinIntercalates",
+    "CDRBicolour.KBicolor.Hinge": "CDRIIILib.KBicolor.Hinge",
+    "CDRBicolour.KBicolor.Host": "CDRIIILib.KBicolor.Host",
+    "CDRBicolour.KBicolor.LatinCompletionReplacement": "CDRIIILib.KBicolor.LatinCompletionReplacement",
+    "CDRBicolour.KBicolor.LatinIntercalateCounting": "CDRIIILib.KBicolor.LatinIntercalateCounting",
+    "CDRBicolour.KBicolor.LatinIntercalateTransport": "CDRIIILib.KBicolor.LatinIntercalateTransport",
+    "CDRBicolour.KBicolor.LatinIsotopyProbabilities": "CDRIIILib.KBicolor.LatinIsotopyProbabilities",
+    "CDRBicolour.KBicolor.LatinMixedAverage": "CDRIIILib.KBicolor.LatinMixedAverage",
+    "CDRBicolour.KBicolor.LatinMixedBudget": "CDRIIILib.KBicolor.LatinMixedBudget",
+    "CDRBicolour.KBicolor.LatinPackingFrequencies": "CDRIIILib.KBicolor.LatinPackingFrequencies",
+    "CDRBicolour.KBicolor.LatinPackingGeometry": "CDRIIILib.KBicolor.LatinPackingGeometry",
+    "CDRBicolour.KBicolor.LatinPackingPaschCount": "CDRIIILib.KBicolor.LatinPackingPaschCount",
+    "CDRBicolour.KBicolor.LatinPaschConfigurationSplit": "CDRIIILib.KBicolor.LatinPaschConfigurationSplit",
+    "CDRBicolour.KBicolor.LatinReplacement": "CDRIIILib.KBicolor.LatinReplacement",
+    "CDRBicolour.KBicolor.Lattice": "CDRIIILib.KBicolor.Lattice",
+    "CDRBicolour.KBicolor.Main": "CDRIIILib.KBicolor.Main",
+    "CDRBicolour.KBicolor.Monitored": "CDRIIILib.KBicolor.Monitored",
+    "CDRBicolour.KBicolor.PaschPartiteParity": "CDRIIILib.KBicolor.PaschPartiteParity",
+    "CDRBicolour.KBicolor.Pattern.Cone": "CDRIIILib.KBicolor.Pattern.Cone",
+    "CDRBicolour.KBicolor.Pattern.CutBound": "CDRIIILib.KBicolor.Pattern.CutBound",
+    "CDRBicolour.KBicolor.Pattern.Exists": "CDRIIILib.KBicolor.Pattern.Exists",
+    "CDRBicolour.KBicolor.Pattern.ExistsMain": "CDRIIILib.KBicolor.Pattern.ExistsMain",
+    "CDRBicolour.KBicolor.Pattern.Hilton": "CDRIIILib.KBicolor.Pattern.Hilton",
+    "CDRBicolour.KBicolor.Pattern.Main": "CDRIIILib.KBicolor.Pattern.Main",
+    "CDRBicolour.KBicolor.Pattern.Outline": "CDRIIILib.KBicolor.Pattern.Outline",
+    "CDRBicolour.KBicolor.Pattern.Split": "CDRIIILib.KBicolor.Pattern.Split",
+    "CDRBicolour.KBicolor.Pattern.Spread": "CDRIIILib.KBicolor.Pattern.Spread",
+    "CDRBicolour.KBicolor.Pattern.Tour": "CDRIIILib.KBicolor.Pattern.Tour",
+    "CDRBicolour.KBicolor.PrescribedCounting.ActualOutline": "CDRIIILib.KBicolor.PrescribedCounting.ActualOutline",
+    "CDRBicolour.KBicolor.PrescribedCounting.AllocationSplit": "CDRIIILib.KBicolor.PrescribedCounting.AllocationSplit",
+    "CDRBicolour.KBicolor.PrescribedCounting.CoreBounds": "CDRIIILib.KBicolor.PrescribedCounting.CoreBounds",
+    "CDRBicolour.KBicolor.PrescribedCounting.CrossAssembly": "CDRIIILib.KBicolor.PrescribedCounting.CrossAssembly",
+    "CDRBicolour.KBicolor.PrescribedCounting.CrossTypeCounts": "CDRIIILib.KBicolor.PrescribedCounting.CrossTypeCounts",
+    "CDRBicolour.KBicolor.PrescribedCounting.CycleResidues": "CDRIIILib.KBicolor.PrescribedCounting.CycleResidues",
+    "CDRBicolour.KBicolor.PrescribedCounting.FixedClassEntropy": "CDRIIILib.KBicolor.PrescribedCounting.FixedClassEntropy",
+    "CDRBicolour.KBicolor.PrescribedCounting.FixedClassPatterns": "CDRIIILib.KBicolor.PrescribedCounting.FixedClassPatterns",
+    "CDRBicolour.KBicolor.PrescribedCounting.FixedCoreCounting": "CDRIIILib.KBicolor.PrescribedCounting.FixedCoreCounting",
+    "CDRBicolour.KBicolor.PrescribedCounting.FlattenedSetup": "CDRIIILib.KBicolor.PrescribedCounting.FlattenedSetup",
+    "CDRBicolour.KBicolor.PrescribedCounting.GroupEntropyAssembly": "CDRIIILib.KBicolor.PrescribedCounting.GroupEntropyAssembly",
+    "CDRBicolour.KBicolor.PrescribedCounting.HiltonExact": "CDRIIILib.KBicolor.PrescribedCounting.HiltonExact",
+    "CDRBicolour.KBicolor.PrescribedCounting.ModularResidual": "CDRIIILib.KBicolor.PrescribedCounting.ModularResidual",
+    "CDRBicolour.KBicolor.PrescribedCounting.ModularTypes": "CDRIIILib.KBicolor.PrescribedCounting.ModularTypes",
+    "CDRBicolour.KBicolor.PrescribedCounting.OptimalPrescribed": "CDRIIILib.KBicolor.PrescribedCounting.OptimalPrescribed",
+    "CDRBicolour.KBicolor.PrescribedCounting.OutlineEntropy": "CDRIIILib.KBicolor.PrescribedCounting.OutlineEntropy",
+    "CDRBicolour.KBicolor.PrescribedCounting.OutlineSymmetry": "CDRIIILib.KBicolor.PrescribedCounting.OutlineSymmetry",
+    "CDRBicolour.KBicolor.PrescribedCounting.PackingAttachment": "CDRIIILib.KBicolor.PrescribedCounting.PackingAttachment",
+    "CDRBicolour.KBicolor.PrescribedCounting.QuotaDivision": "CDRIIILib.KBicolor.PrescribedCounting.QuotaDivision",
+    "CDRBicolour.KBicolor.PrescribedCounting.ReferenceCross": "CDRIIILib.KBicolor.PrescribedCounting.ReferenceCross",
+    "CDRBicolour.KBicolor.PrescribedCounting.RegularEntropy": "CDRIIILib.KBicolor.PrescribedCounting.RegularEntropy",
+    "CDRBicolour.KBicolor.PrescribedCounting.RegularFactorizations": "CDRIIILib.KBicolor.PrescribedCounting.RegularFactorizations",
+    "CDRBicolour.KBicolor.PrescribedCounting.ReservedCore": "CDRIIILib.KBicolor.PrescribedCounting.ReservedCore",
+    "CDRBicolour.KBicolor.PrescribedCounting.ReserveTrades": "CDRIIILib.KBicolor.PrescribedCounting.ReserveTrades",
+    "CDRBicolour.KBicolor.PrescribedCounting.ResidualQuotas": "CDRIIILib.KBicolor.PrescribedCounting.ResidualQuotas",
+    "CDRBicolour.KBicolor.PrescribedCounting.SharpPrescribed": "CDRIIILib.KBicolor.PrescribedCounting.SharpPrescribed",
+    "CDRBicolour.KBicolor.PrescribedCounting.SparseHostCompletion": "CDRIIILib.KBicolor.PrescribedCounting.SparseHostCompletion",
+    "CDRBicolour.KBicolor.PrescribedCounting.TargetSeedData": "CDRIIILib.KBicolor.PrescribedCounting.TargetSeedData",
+    "CDRBicolour.KBicolor.PrescribedCounting.TournamentSplit": "CDRIIILib.KBicolor.PrescribedCounting.TournamentSplit",
+    "CDRBicolour.KBicolor.PrescribedCounting.VariableCross": "CDRIIILib.KBicolor.PrescribedCounting.VariableCross",
+    "CDRBicolour.KBicolor.ReservedCopies": "CDRIIILib.KBicolor.ReservedCopies",
+    "CDRBicolour.KBicolor.ReservedSpectrum": "CDRIIILib.KBicolor.ReservedSpectrum",
+    "CDRBicolour.KBicolor.ResidualHinge": "CDRIIILib.KBicolor.ResidualHinge",
+    "CDRBicolour.KBicolor.ResidualLattice": "CDRIIILib.KBicolor.ResidualLattice",
+    "CDRBicolour.KBicolor.ResidualSeedK": "CDRIIILib.KBicolor.ResidualSeedK",
+    "CDRBicolour.KBicolor.SpectrumExact": "CDRIIILib.KBicolor.SpectrumExact",
+    "CDRBicolour.KBicolor.SpectrumMain": "CDRIIILib.KBicolor.SpectrumMain",
+    "CDRBicolour.KBicolor.TransitiveFiniteAverage": "CDRIIILib.KBicolor.TransitiveFiniteAverage",
+    "CDRBicolour.KBicolor.TwoTorsionProducts": "CDRIIILib.KBicolor.TwoTorsionProducts",
+    "CDRBicolour.KBicolor.TypeIdentities": "CDRIIILib.KBicolor.TypeIdentities",
+    "CDRBicolour.KBicolor.Wilson.AbsorptionCore": "CDRIIILib.KBicolor.Wilson.AbsorptionCore",
+    "CDRBicolour.KBicolor.Wilson.Assembly": "CDRIIILib.KBicolor.Wilson.Assembly",
+    "CDRBicolour.KBicolor.Wilson.AssemblyBounds": "CDRIIILib.KBicolor.Wilson.AssemblyBounds",
+    "CDRBicolour.KBicolor.Wilson.BalancedThreePattern": "CDRIIILib.KBicolor.Wilson.BalancedThreePattern",
+    "CDRBicolour.KBicolor.Wilson.Cross": "CDRIIILib.KBicolor.Wilson.Cross",
+    "CDRBicolour.KBicolor.Wilson.ExplicitAbsorptionCore": "CDRIIILib.KBicolor.Wilson.ExplicitAbsorptionCore",
+    "CDRBicolour.KBicolor.Wilson.ExplicitCounting": "CDRIIILib.KBicolor.Wilson.ExplicitCounting",
+    "CDRBicolour.KBicolor.Wilson.FiniteLoads": "CDRIIILib.KBicolor.Wilson.FiniteLoads",
+    "CDRBicolour.KBicolor.Wilson.Geometry": "CDRIIILib.KBicolor.Wilson.Geometry",
+    "CDRBicolour.KBicolor.Wilson.GlobalSeed": "CDRIIILib.KBicolor.Wilson.GlobalSeed",
+    "CDRBicolour.KBicolor.Wilson.KernelSeed": "CDRIIILib.KBicolor.Wilson.KernelSeed",
+    "CDRBicolour.KBicolor.Wilson.LocalBalance": "CDRIIILib.KBicolor.Wilson.LocalBalance",
+    "CDRBicolour.KBicolor.Wilson.LocalCompatibility": "CDRIIILib.KBicolor.Wilson.LocalCompatibility",
+    "CDRBicolour.KBicolor.Wilson.NearFull": "CDRIIILib.KBicolor.Wilson.NearFull",
+    "CDRBicolour.KBicolor.Wilson.NearFullReserve": "CDRIIILib.KBicolor.Wilson.NearFullReserve",
+    "CDRBicolour.KBicolor.Wilson.OptimalWeights": "CDRIIILib.KBicolor.Wilson.OptimalWeights",
+    "CDRBicolour.KBicolor.Wilson.OptimizedLocalSeed": "CDRIIILib.KBicolor.Wilson.OptimizedLocalSeed",
+    "CDRBicolour.KBicolor.Wilson.PieceCounts": "CDRIIILib.KBicolor.Wilson.PieceCounts",
+    "CDRBicolour.KBicolor.Wilson.PieceGeometry": "CDRIIILib.KBicolor.Wilson.PieceGeometry",
+    "CDRBicolour.KBicolor.Wilson.Placement": "CDRIIILib.KBicolor.Wilson.Placement",
+    "CDRBicolour.KBicolor.Wilson.PreparedGeometry": "CDRIIILib.KBicolor.Wilson.PreparedGeometry",
+    "CDRBicolour.KBicolor.Wilson.PreparedSeed": "CDRIIILib.KBicolor.Wilson.PreparedSeed",
+    "CDRBicolour.KBicolor.Wilson.Quantitative": "CDRIIILib.KBicolor.Wilson.Quantitative",
+    "CDRBicolour.KBicolor.Wilson.Reserve": "CDRIIILib.KBicolor.Wilson.Reserve",
+    "CDRBicolour.KBicolor.Wilson.ReserveHinge": "CDRIIILib.KBicolor.Wilson.ReserveHinge",
+    "CDRBicolour.KBicolor.Wilson.ReserveLattice": "CDRIIILib.KBicolor.Wilson.ReserveLattice",
+    "CDRBicolour.KBicolor.Wilson.ReserveSize": "CDRIIILib.KBicolor.Wilson.ReserveSize",
+    "CDRBicolour.KBicolor.Wilson.ResidualSeed": "CDRIIILib.KBicolor.Wilson.ResidualSeed",
+    "CDRBicolour.KBicolor.Wilson.RobustSeed": "CDRIIILib.KBicolor.Wilson.RobustSeed",
+    "CDRBicolour.KBicolor.Wilson.RootedLoads": "CDRIIILib.KBicolor.Wilson.RootedLoads",
+    "CDRBicolour.KBicolor.Wilson.SeedCorrection": "CDRIIILib.KBicolor.Wilson.SeedCorrection",
+    "CDRBicolour.KBicolor.Wilson.SeedDefect": "CDRIIILib.KBicolor.Wilson.SeedDefect",
+    "CDRBicolour.KBicolor.Wilson.SeedDiscrepancy": "CDRIIILib.KBicolor.Wilson.SeedDiscrepancy",
+    "CDRBicolour.KBicolor.Wilson.SeedParameters": "CDRIIILib.KBicolor.Wilson.SeedParameters",
+    "CDRBicolour.KBicolor.Wilson.SharpAsymptotic": "CDRIIILib.KBicolor.Wilson.SharpAsymptotic",
+    "CDRBicolour.KBicolor.Wilson.SharpCounting": "CDRIIILib.KBicolor.Wilson.SharpCounting",
+    "CDRBicolour.KBicolor.Wilson.TypeKernel": "CDRIIILib.KBicolor.Wilson.TypeKernel",
+    "CDRBicolour.Palomar.GaleHoffman": "CDRIIILib.Palomar.GaleHoffman",
+    "CDRBicolour.PaperIII.Arith": "CDRIIILib.PaperIII.Arith",
+    "CDRBicolour.PaperIII.ArithLemmas": "CDRIIILib.PaperIII.ArithLemmas",
+    "CDRBicolour.PaperIII.ArithMain": "CDRIIILib.PaperIII.ArithMain",
+    "CDRBicolour.PaperIII.AxisSixInput": "CDRIIILib.PaperIII.AxisSixInput",
+    "CDRBicolour.PaperIII.AxisTwoInput": "CDRIIILib.PaperIII.AxisTwoInput",
+    "CDRBicolour.PaperIII.Bridge": "CDRIIILib.PaperIII.Bridge",
+    "CDRBicolour.PaperIII.CapSix": "CDRIIILib.PaperIII.CapSix",
+    "CDRBicolour.PaperIII.CapTwo": "CDRIIILib.PaperIII.CapTwo",
+    "CDRBicolour.PaperIII.Defs": "CDRIIILib.PaperIII.Defs",
+    "CDRBicolour.PaperIII.Four": "CDRIIILib.PaperIII.Four",
+    "CDRBicolour.PaperIII.FourSeed70": "CDRIIILib.PaperIII.FourSeed70",
+    "CDRBicolour.PaperIII.FourSeedGale": "CDRIIILib.PaperIII.FourSeedGale",
+    "CDRBicolour.PaperIII.GalePalomar": "CDRIIILib.PaperIII.GalePalomar",
+    "CDRBicolour.PaperIII.Geom": "CDRIIILib.PaperIII.Geom",
+    "CDRBicolour.PaperIII.LPSeedExample": "CDRIIILib.PaperIII.LPSeedExample",
+    "CDRBicolour.PaperIII.Main": "CDRIIILib.PaperIII.Main",
+    "CDRBicolour.PaperIII.MeridianMain": "CDRIIILib.PaperIII.MeridianMain",
+    "CDRBicolour.PaperIII.Near": "CDRIIILib.PaperIII.Near",
+    "CDRBicolour.PaperIII.SeedGale": "CDRIIILib.PaperIII.SeedGale",
+    "CDRBicolour.PaperIII.SeedMargin70": "CDRIIILib.PaperIII.SeedMargin70",
+    "CDRBicolour.PaperIII.Unconditional": "CDRIIILib.PaperIII.Unconditional",
+    "CDRBicolour.PaperIII.UnconditionalArithmetic": "CDRIIILib.PaperIII.UnconditionalArithmetic"
+  }
+}

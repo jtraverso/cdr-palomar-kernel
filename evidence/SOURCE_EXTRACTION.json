@@ -3,888 +3,1467 @@
   "freeze_sha256": "08dcee5b5d67d00d1f561988e8c716c57c92d250ca54270f3d417429fb52e649",
   "kept_sources": [
     {
-      "path": "CDRBicolour/Absorption/BRIRatio.lean",
+      "path": "CDRIIILib/Absorption/BRIRatio.lean",
       "freeze_sha256": "f3b52629dae17591c70a78fe7e48c2254fdb435b163bbaad829b4f4e00bc011e",
       "packaged_sha256": "f3b52629dae17591c70a78fe7e48c2254fdb435b163bbaad829b4f4e00bc011e",
-      "changes": []
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/Absorption/BRIRatio.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/BRIk.lean",
+      "path": "CDRIIILib/KBicolor/BRIk.lean",
       "freeze_sha256": "1c1c7814b1f595008e4dbec25fe086a3e9db2d6f5b2a0d16485c623e4a35e0cd",
-      "packaged_sha256": "cfe5d2f4da6b900cb2c7032c5ed3e70c9fa90faa7fecdb85d1ada3cb7b25b12b",
-      "changes": []
+      "packaged_sha256": "13905a10657b38dd1783948a506228bbea7b17ffd9f3af7d96ada6b38385d9f4",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/BRIk.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/BRIkGlue.lean",
+      "path": "CDRIIILib/KBicolor/BRIkGlue.lean",
       "freeze_sha256": "d14cb047c7b7f67bf44408270f52c7824eabd27df50673c4fce0a37424767f2a",
-      "packaged_sha256": "45a1128b4df655503720bf396ffd2062ce208b0006e84b319503cfb183313f8e",
-      "changes": []
+      "packaged_sha256": "be717acaaa9322f7471aff2c59bbf3a67d9f6441dade57c548ad29ba144618b6",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/BRIkGlue.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Completion.lean",
+      "path": "CDRIIILib/KBicolor/Completion.lean",
       "freeze_sha256": "44e7ef375033fb520cf98248104ac7190a748cebbae320936829ee5f4f0f081e",
-      "packaged_sha256": "44e7ef375033fb520cf98248104ac7190a748cebbae320936829ee5f4f0f081e",
-      "changes": []
+      "packaged_sha256": "c83f15c96724c9a5d7bb5a2effc9897326d0c5bfcb7e25a152a1b41c935b8327",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Completion.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/CompletionExact.lean",
+      "path": "CDRIIILib/KBicolor/CompletionExact.lean",
       "freeze_sha256": "98a8902321316edcd6cd057317f1fa7cfc288a7b38e92c04363734dce1f11ff2",
-      "packaged_sha256": "98a8902321316edcd6cd057317f1fa7cfc288a7b38e92c04363734dce1f11ff2",
-      "changes": []
+      "packaged_sha256": "672613e98edea15846cb069d92c5a600223e8d41131ff76c7bdf881b3bcc76b8",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/CompletionExact.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Copies.lean",
+      "path": "CDRIIILib/KBicolor/Copies.lean",
       "freeze_sha256": "0739fc9f2d05c63afbe96282f57f98f97d7b41274f642e599a5074aa104939f9",
-      "packaged_sha256": "ceecc8d040698f965d102b4bdb86a61bfec8bbcbbb316e403698c9774e3c9d1a",
-      "changes": []
+      "packaged_sha256": "ec4d3d5424c4a93a5d4139cd7752d148dd2e1a820be8c1053929044209d080c4",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Copies.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Counting.lean",
+      "path": "CDRIIILib/KBicolor/Counting.lean",
       "freeze_sha256": "4f95950e869656de214016aa1ac723527d2559603936a1999b1cd80596c380ce",
-      "packaged_sha256": "51ce6f9adf51820ad990923bc09772ad61269984b31c594e384a9911424dea6a",
-      "changes": []
+      "packaged_sha256": "5b221e41c44ab6c930ea6370d09bd9dc3359f44f2d8eb44736cb377b250c7b26",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Counting.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/CountingConsequencesFinite.lean",
+      "path": "CDRIIILib/KBicolor/CountingConsequencesFinite.lean",
       "freeze_sha256": "fe10d0a57f1dcc5065674cc5a01654d277741983902a29b5f747850cec41fb77",
-      "packaged_sha256": "fe10d0a57f1dcc5065674cc5a01654d277741983902a29b5f747850cec41fb77",
-      "changes": []
+      "packaged_sha256": "4c72e6f1ba9bbfa0f803582c37c29a691ffbc40b1bac1ed19f79470e7957385f",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/CountingConsequencesFinite.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/DyadicLatinFamily.lean",
+      "path": "CDRIIILib/KBicolor/DyadicLatinFamily.lean",
       "freeze_sha256": "06f22791e255b3cf2944e182a452670dcf8b61786576951c6caa640c05497112",
-      "packaged_sha256": "06f22791e255b3cf2944e182a452670dcf8b61786576951c6caa640c05497112",
-      "changes": []
+      "packaged_sha256": "8d498cca6c4d16ad1e3eecf56f3817ea6eb6cf27b933f8389936931de7974fa8",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/DyadicLatinFamily.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/DyadicLatinSize.lean",
+      "path": "CDRIIILib/KBicolor/DyadicLatinSize.lean",
       "freeze_sha256": "fc9a8acb39e128222183512dc6ee22715076ab39a3f9eecc2a69ce0d06ed548c",
       "packaged_sha256": "fc9a8acb39e128222183512dc6ee22715076ab39a3f9eecc2a69ce0d06ed548c",
-      "changes": []
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/DyadicLatinSize.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/ExactMass.lean",
+      "path": "CDRIIILib/KBicolor/ExactMass.lean",
       "freeze_sha256": "f7b346b8004dd6eb4c2cb251fc2cd08712e07da8c07c49a3b20882b228463dbf",
-      "packaged_sha256": "72f77309cbb97ae7f61a86f6f293601870aadf4c35926166709284c875ebede6",
-      "changes": []
+      "packaged_sha256": "fcb5f16adabfe8fe29ff976c6fe8544c58cdc03b4f256cc8413a62b5b2749dd4",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/ExactMass.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/ExactSeedK.lean",
+      "path": "CDRIIILib/KBicolor/ExactSeedK.lean",
       "freeze_sha256": "aef463b99217176c9b9cba16ff866b7c5e87745017688629339a20859cdc666a",
-      "packaged_sha256": "aef463b99217176c9b9cba16ff866b7c5e87745017688629339a20859cdc666a",
-      "changes": []
+      "packaged_sha256": "f5b11327c31bf6ba9afdf723d3adde060bf459c5300c681ab1cd3be389b01912",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/ExactSeedK.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/ExactTypesPasch.lean",
+      "path": "CDRIIILib/KBicolor/ExactTypesPasch.lean",
       "freeze_sha256": "d6f1b8ee70bf041b003e415b7fbffd01522f2d9316ca21754d3eb17d1798055d",
-      "packaged_sha256": "d6f1b8ee70bf041b003e415b7fbffd01522f2d9316ca21754d3eb17d1798055d",
-      "changes": []
+      "packaged_sha256": "cb856d11196f7a9e580d7a64198343d45ca18c86f1f4dce9cbca69b0c48d1331",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/ExactTypesPasch.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/ExactTypesPaschReplacement.lean",
+      "path": "CDRIIILib/KBicolor/ExactTypesPaschReplacement.lean",
       "freeze_sha256": "7e36fcbbaac037bfdc6600d8dc5c45f9acc67480721430856ab0a740678d1374",
-      "packaged_sha256": "7e36fcbbaac037bfdc6600d8dc5c45f9acc67480721430856ab0a740678d1374",
-      "changes": []
+      "packaged_sha256": "f6ce1634653bb5b85301b64e6c43f101f2a0c171e3eb439f2c0c5b7e339138a8",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/ExactTypesPaschReplacement.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/FiniteSymmetrization.lean",
+      "path": "CDRIIILib/KBicolor/FiniteSymmetrization.lean",
       "freeze_sha256": "123cc638730df428dd236603278e40ac95672f1d97dc736ea1518b39b38a0a90",
       "packaged_sha256": "123cc638730df428dd236603278e40ac95672f1d97dc736ea1518b39b38a0a90",
-      "changes": []
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/FiniteSymmetrization.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Five.lean",
+      "path": "CDRIIILib/KBicolor/Five.lean",
       "freeze_sha256": "e5b2d72d47ec1f5b044389f38cff8b03f5667aa895bf927ef92a6b08587f5275",
-      "packaged_sha256": "41bca2c8f421724925b6906bfe2e2f52a61f267c040d1d55ded6cef668f64bb3",
-      "changes": []
+      "packaged_sha256": "2803ed1e73fc3676f45ac0fba99aa127a48541e82922bb59f3479e4e487df280",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Five.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Four.lean",
+      "path": "CDRIIILib/KBicolor/Four.lean",
       "freeze_sha256": "1dc1ac044e087891c49ce4354f09d2aee46c9f18d5788b0a97279b325f72fdb0",
-      "packaged_sha256": "103936a4f9fcb8f389c3df1eda55d314a31fb776cfd15cea787d6f064498c410",
-      "changes": []
+      "packaged_sha256": "5fb093c0fa8e490a2113141fd66dfd5fd04857f0757a0f963a717b00233726c4",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Four.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/GroupLatinIntercalates.lean",
+      "path": "CDRIIILib/KBicolor/GroupLatinIntercalates.lean",
       "freeze_sha256": "4e6275306a36df2ab2d5d238027e613308cf0612f12763cfe3cf77c1378cbd5f",
-      "packaged_sha256": "4e6275306a36df2ab2d5d238027e613308cf0612f12763cfe3cf77c1378cbd5f",
-      "changes": []
+      "packaged_sha256": "0b769447ea091f8496fb1fbefa1e809a00f07e4edc5ae35ef33b0133cd2f5072",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/GroupLatinIntercalates.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Hinge.lean",
+      "path": "CDRIIILib/KBicolor/Hinge.lean",
       "freeze_sha256": "dd145a18a994690165f176f348fa4460987b400bc76347c4e52021cbd8bc77d9",
-      "packaged_sha256": "1a5c0d7a04b9b82cf4ab5c9566e54dd349372ca233108822e5dffb81353374ed",
-      "changes": []
+      "packaged_sha256": "3b171128f1ff3c04af9f532ca8601b8620e775d91459d613400e0636602fd024",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Hinge.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Host.lean",
+      "path": "CDRIIILib/KBicolor/Host.lean",
       "freeze_sha256": "8be62eed02d55317e2c2a6cee8126efd3b6fa4d8f67941f60914d70c40810131",
       "packaged_sha256": "8be62eed02d55317e2c2a6cee8126efd3b6fa4d8f67941f60914d70c40810131",
-      "changes": []
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Host.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/LatinCompletionReplacement.lean",
+      "path": "CDRIIILib/KBicolor/LatinCompletionReplacement.lean",
       "freeze_sha256": "30be7e89bf1b76ce805ecd95d2a15dbe5832c5238bd6afda17f68826bb627ec1",
-      "packaged_sha256": "30be7e89bf1b76ce805ecd95d2a15dbe5832c5238bd6afda17f68826bb627ec1",
-      "changes": []
+      "packaged_sha256": "3c5bc38eb6b48f2b76d5b9154143da96b38911b2826948cee70d0ac0b57ab79e",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/LatinCompletionReplacement.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/LatinIntercalateCounting.lean",
+      "path": "CDRIIILib/KBicolor/LatinIntercalateCounting.lean",
       "freeze_sha256": "b227c0e17494df946a91cd2ff8e8ee99642231f5bb9bdea12af5ac0b9f37c353",
       "packaged_sha256": "a5d29f88c3930daad76d741bff4d7d8de865b168c8c75d8654f204a0732f00f0",
       "changes": [
-        "redirect import CDRBicolour.KBicolor.PaperIIISupport.ApplicationsLatinPaschIntercalates to RequestProject.TypedTriangle.ApplicationsLatinPaschIntercalates"
-      ]
+        "redirect import CDRBicolour.KBicolor.PaperIIISupport.ApplicationsLatinPaschIntercalates to RequestProject.TypedTriangle.ApplicationsLatinPaschIntercalates",
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/LatinIntercalateCounting.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/LatinIntercalateTransport.lean",
+      "path": "CDRIIILib/KBicolor/LatinIntercalateTransport.lean",
       "freeze_sha256": "cb57d8717dc3567430f55b20085c0f1450879ae806acafa6d5a52a9e1a5f83ec",
-      "packaged_sha256": "cb57d8717dc3567430f55b20085c0f1450879ae806acafa6d5a52a9e1a5f83ec",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/KBicolor/LatinIsotopyProbabilities.lean",
-      "freeze_sha256": "fbca23f7773124d491ae4f4ba7a1aedf02c6c245ab1fbb5fad965fc47243804f",
-      "packaged_sha256": "fbca23f7773124d491ae4f4ba7a1aedf02c6c245ab1fbb5fad965fc47243804f",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/KBicolor/LatinMixedAverage.lean",
-      "freeze_sha256": "673b7df17b20b28573450d8b38ad86ef2c806cef7598a5b1aec5acf8112a7190",
-      "packaged_sha256": "673b7df17b20b28573450d8b38ad86ef2c806cef7598a5b1aec5acf8112a7190",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/KBicolor/LatinMixedBudget.lean",
-      "freeze_sha256": "37cad22d300ad7e93b9ae071f32ede4fc70a62eef7ac5aaf5b11950cec081812",
-      "packaged_sha256": "37cad22d300ad7e93b9ae071f32ede4fc70a62eef7ac5aaf5b11950cec081812",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/KBicolor/LatinPackingFrequencies.lean",
-      "freeze_sha256": "d30afaf57e6d30fb58bfb94263449edf74e8cc1c3286635648d82c26ae609ce2",
-      "packaged_sha256": "d30afaf57e6d30fb58bfb94263449edf74e8cc1c3286635648d82c26ae609ce2",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/KBicolor/LatinPackingGeometry.lean",
-      "freeze_sha256": "5aa5a303a715be493edbc946d27d9ecca743d59e1c8f8efd7649f55717d603d2",
-      "packaged_sha256": "5aa5a303a715be493edbc946d27d9ecca743d59e1c8f8efd7649f55717d603d2",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/KBicolor/LatinPackingPaschCount.lean",
-      "freeze_sha256": "35cfdd168263b351cd01ae59546a814006644f99befa0aa2876898c12759e740",
-      "packaged_sha256": "678bc59578e87e86a1e40b682b851d512edcbec33bca770a1cb2a1b15b9e21f7",
+      "packaged_sha256": "2a343da3e88a1d15b3836fa7cfe32b98ec065361a24a6389cb7827ab4bba2b98",
       "changes": [
-        "redirect import CDRBicolour.KBicolor.PaperIIISupport.ApplicationsLatinPaschIntercalates to RequestProject.TypedTriangle.ApplicationsLatinPaschIntercalates"
-      ]
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/LatinIntercalateTransport.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/LatinPaschConfigurationSplit.lean",
+      "path": "CDRIIILib/KBicolor/LatinIsotopyProbabilities.lean",
+      "freeze_sha256": "fbca23f7773124d491ae4f4ba7a1aedf02c6c245ab1fbb5fad965fc47243804f",
+      "packaged_sha256": "60dba9756af0e5dd47a51da5f98f2f6429ec2df19c6220bd3708fc833a857763",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/LatinIsotopyProbabilities.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/KBicolor/LatinMixedAverage.lean",
+      "freeze_sha256": "673b7df17b20b28573450d8b38ad86ef2c806cef7598a5b1aec5acf8112a7190",
+      "packaged_sha256": "a135d0d26ef0342dcb06d7a9870ee4b264495643230ffae7df1efa1956c5f641",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/LatinMixedAverage.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/KBicolor/LatinMixedBudget.lean",
+      "freeze_sha256": "37cad22d300ad7e93b9ae071f32ede4fc70a62eef7ac5aaf5b11950cec081812",
+      "packaged_sha256": "8e57ec29b13db92495be7d18117c1457b158c91f87a8036ae4b9e51a0b5a210a",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/LatinMixedBudget.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/KBicolor/LatinPackingFrequencies.lean",
+      "freeze_sha256": "d30afaf57e6d30fb58bfb94263449edf74e8cc1c3286635648d82c26ae609ce2",
+      "packaged_sha256": "49b514f5fc14bcdf9cade3d88e902116c3e55235ba8b91de40b22d57bc201483",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/LatinPackingFrequencies.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/KBicolor/LatinPackingGeometry.lean",
+      "freeze_sha256": "5aa5a303a715be493edbc946d27d9ecca743d59e1c8f8efd7649f55717d603d2",
+      "packaged_sha256": "8446b9c153c7454f80e2f7aeea568a6404cfb6c59b551b3c214234509a321456",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/LatinPackingGeometry.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/KBicolor/LatinPackingPaschCount.lean",
+      "freeze_sha256": "35cfdd168263b351cd01ae59546a814006644f99befa0aa2876898c12759e740",
+      "packaged_sha256": "295c3e156e03aa9b9198c53b5fe93bd106d7119fe7fc37138f193690db88f96a",
+      "changes": [
+        "redirect import CDRBicolour.KBicolor.PaperIIISupport.ApplicationsLatinPaschIntercalates to RequestProject.TypedTriangle.ApplicationsLatinPaschIntercalates",
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/LatinPackingPaschCount.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/KBicolor/LatinPaschConfigurationSplit.lean",
       "freeze_sha256": "682cdf8fc8e0331989e3ba019494537c56448dd32e05e884e35f38b7a6b21e4f",
-      "packaged_sha256": "682cdf8fc8e0331989e3ba019494537c56448dd32e05e884e35f38b7a6b21e4f",
-      "changes": []
+      "packaged_sha256": "cf2907a0c6c2f66fa3f7d9c5241c2558dc948ef9349200a2a495502d259a2390",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/LatinPaschConfigurationSplit.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/LatinReplacement.lean",
+      "path": "CDRIIILib/KBicolor/LatinReplacement.lean",
       "freeze_sha256": "51683938af59c39d2d6a5a65c3c7b7d48796fba51e571a9c8c44dca42c043e7c",
-      "packaged_sha256": "51683938af59c39d2d6a5a65c3c7b7d48796fba51e571a9c8c44dca42c043e7c",
-      "changes": []
+      "packaged_sha256": "93158c01c087f94305fb46804f2e0444884cfda3b95a7dfc187e9be4af75e6ec",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/LatinReplacement.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Lattice.lean",
+      "path": "CDRIIILib/KBicolor/Lattice.lean",
       "freeze_sha256": "d64f22625b05187de41682be20344a8277348eb4da5dd7755d3f35e6f316673e",
-      "packaged_sha256": "c1fefa40fed0c65266ce65f8d5cc3781d9fc926b653964f4cb66de14fe11bfec",
-      "changes": []
+      "packaged_sha256": "a0cbcd5fda5152abb98431bda699ffe6486fc7e924ee05cad56dc29029b4bb3a",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Lattice.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Main.lean",
+      "path": "CDRIIILib/KBicolor/Main.lean",
       "freeze_sha256": "e701dccd1a68f37878f41fa9a68ba497e7033be52c06023082c9144d02bfb803",
-      "packaged_sha256": "acb442735a061d823f69bb056858db31c9e219dd47264d443eda2ce1a611ca16",
-      "changes": []
+      "packaged_sha256": "c01b65dce9e9590023945fe5c30c8193672cbe64a505276b4bed87ababae5238",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Main.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Monitored.lean",
+      "path": "CDRIIILib/KBicolor/Monitored.lean",
       "freeze_sha256": "2a71f623ef724ab60e4fbddc22552783df6f9113719e10663117a2c35860f258",
-      "packaged_sha256": "ae24d397109327ee5ce22dc40a743c79495a5d1a935bd54c20dbe72b2b558229",
-      "changes": []
+      "packaged_sha256": "86c1ee7df803e89b03655706045da7d2b004ff38978149ef196937e89ec08321",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Monitored.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PaschPartiteParity.lean",
+      "path": "CDRIIILib/KBicolor/PaschPartiteParity.lean",
       "freeze_sha256": "0a4e5c1eb9e318815a1862ebfc0b225fa29da87a358d9a27140e703ce6fd6038",
       "packaged_sha256": "0a4e5c1eb9e318815a1862ebfc0b225fa29da87a358d9a27140e703ce6fd6038",
-      "changes": []
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PaschPartiteParity.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Pattern/Cone.lean",
+      "path": "CDRIIILib/KBicolor/Pattern/Cone.lean",
       "freeze_sha256": "fbba6ce294c79058da4561c3b13ab69e24fe4c27e788716982a3828218168cfe",
       "packaged_sha256": "fbba6ce294c79058da4561c3b13ab69e24fe4c27e788716982a3828218168cfe",
-      "changes": []
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Cone.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Pattern/CutBound.lean",
+      "path": "CDRIIILib/KBicolor/Pattern/CutBound.lean",
       "freeze_sha256": "16f54ac2cf328daf0126941811fcaac9d24d5c7ce5156c29fcd2ff64698c1907",
-      "packaged_sha256": "16f54ac2cf328daf0126941811fcaac9d24d5c7ce5156c29fcd2ff64698c1907",
-      "changes": []
+      "packaged_sha256": "227d9cc0a4f63d7ff741c16df4512557f5168516ef56aea48523de05dc767c62",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/CutBound.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Pattern/Exists.lean",
+      "path": "CDRIIILib/KBicolor/Pattern/Exists.lean",
       "freeze_sha256": "7414972798ebd78e14a02b8b80fe96be8b65c69d7a3956dc8cf3bcdca43ff0f9",
-      "packaged_sha256": "7414972798ebd78e14a02b8b80fe96be8b65c69d7a3956dc8cf3bcdca43ff0f9",
-      "changes": []
+      "packaged_sha256": "1d4051efeb40fccd6d026a1ac6343829a1a3cfe22c42546a277c3dbf0a4429f2",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Exists.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Pattern/ExistsMain.lean",
+      "path": "CDRIIILib/KBicolor/Pattern/ExistsMain.lean",
       "freeze_sha256": "963fdd445dc31f7c3b0d1c696e226d84edc496edc5ec41fbf2e923b68460cd3e",
-      "packaged_sha256": "963fdd445dc31f7c3b0d1c696e226d84edc496edc5ec41fbf2e923b68460cd3e",
-      "changes": []
+      "packaged_sha256": "d020f9ea12a7b78c04e26d56aa8799c1223354d28d6b7112e59ed39a722ab735",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/ExistsMain.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Pattern/Hilton.lean",
+      "path": "CDRIIILib/KBicolor/Pattern/Hilton.lean",
       "freeze_sha256": "a13216301f60dab12bdaa33ae1b08aa2c27050a56415197a1ff018f47449007a",
-      "packaged_sha256": "a13216301f60dab12bdaa33ae1b08aa2c27050a56415197a1ff018f47449007a",
-      "changes": []
+      "packaged_sha256": "1994a2039e43bba76563089a62abc566cad8578f97fa528cc15e3e658dc26b01",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Hilton.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Pattern/Main.lean",
+      "path": "CDRIIILib/KBicolor/Pattern/Main.lean",
       "freeze_sha256": "8408a3541d4ebddc4fea460b3e5ea1f571f0c3db368b510cebaaff0d7de7955d",
-      "packaged_sha256": "8408a3541d4ebddc4fea460b3e5ea1f571f0c3db368b510cebaaff0d7de7955d",
-      "changes": []
+      "packaged_sha256": "2fd1a87a505e969d311b14e02b24368c2dd99bcdf42a1c4fd5fdb11d7daafa77",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Main.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Pattern/Outline.lean",
+      "path": "CDRIIILib/KBicolor/Pattern/Outline.lean",
       "freeze_sha256": "fbbc19b9cab89f54cd77212ec4c19330577dcacbdb00862aa2f38a0b5732e94f",
-      "packaged_sha256": "fbbc19b9cab89f54cd77212ec4c19330577dcacbdb00862aa2f38a0b5732e94f",
-      "changes": []
+      "packaged_sha256": "a1847b486fa3129c6a904fffed254435562f6c58e422be35a7d5c4551400aae6",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Outline.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Pattern/Split.lean",
+      "path": "CDRIIILib/KBicolor/Pattern/Split.lean",
       "freeze_sha256": "f11f2a3c2e97388ab2172518a7f5805928f771c32bb3d86f754ec4aeb3cd4b7f",
       "packaged_sha256": "f11f2a3c2e97388ab2172518a7f5805928f771c32bb3d86f754ec4aeb3cd4b7f",
-      "changes": []
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Split.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Pattern/Spread.lean",
+      "path": "CDRIIILib/KBicolor/Pattern/Spread.lean",
       "freeze_sha256": "bc29e451540a068ebb9b2773d7c583d3f5375900652683255c17fd99ee7a31bc",
       "packaged_sha256": "bc29e451540a068ebb9b2773d7c583d3f5375900652683255c17fd99ee7a31bc",
-      "changes": []
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Spread.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Pattern/Tour.lean",
+      "path": "CDRIIILib/KBicolor/Pattern/Tour.lean",
       "freeze_sha256": "3dd7257b9ce6e09942f1349e9c7fd0d39a3c3a75885e5e4905060d14ee7ad3a4",
-      "packaged_sha256": "3dd7257b9ce6e09942f1349e9c7fd0d39a3c3a75885e5e4905060d14ee7ad3a4",
-      "changes": []
+      "packaged_sha256": "f7c847b9ca3149ef881fc9ecfa8425bec20d8afd1e567b0b3d9db6b76f38f17a",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Pattern/Tour.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/ActualOutline.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/ActualOutline.lean",
       "freeze_sha256": "3621b44dc1a13a950fc6388cdec0cbd3fdc7878025ab6a09cf197bc91745f0b3",
-      "packaged_sha256": "3621b44dc1a13a950fc6388cdec0cbd3fdc7878025ab6a09cf197bc91745f0b3",
-      "changes": []
+      "packaged_sha256": "49c6d2a601bed87951d52ecc0138769e4180d8292f42885c64031bc1948b1edc",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/ActualOutline.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/AllocationSplit.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/AllocationSplit.lean",
       "freeze_sha256": "8618a33ce602f157940cfc3ff7f3d82583e3417020c51c0d34f2a9b7e4e25ac8",
-      "packaged_sha256": "8618a33ce602f157940cfc3ff7f3d82583e3417020c51c0d34f2a9b7e4e25ac8",
-      "changes": []
+      "packaged_sha256": "793cd09811971e3d674307f0c666bcdc4fdad75e64268cfed6d1c0bc88533277",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/AllocationSplit.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/CoreBounds.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/CoreBounds.lean",
       "freeze_sha256": "3246588f3eb4118481cd0374c18d510530615b160bda5861284054eb36dcff83",
-      "packaged_sha256": "3246588f3eb4118481cd0374c18d510530615b160bda5861284054eb36dcff83",
-      "changes": []
+      "packaged_sha256": "8586522bfde8b5e8ecaafe59dfde426e9bcb36d60f2529a77f666ff96a705384",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/CoreBounds.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/CrossAssembly.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/CrossAssembly.lean",
       "freeze_sha256": "30571a51f9c093d92f9a20b3da8cfc4aa37518bb75a363f01059c0b9dfd877bc",
-      "packaged_sha256": "30571a51f9c093d92f9a20b3da8cfc4aa37518bb75a363f01059c0b9dfd877bc",
-      "changes": []
+      "packaged_sha256": "510adf806e4b5b00d9dd349a339b43ba8c2ad588c159b92661755be887ecdb2a",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/CrossAssembly.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/CrossTypeCounts.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/CrossTypeCounts.lean",
       "freeze_sha256": "faa6349910d1b6651d3d53487dc8047ee220a6b6c0c9079ccd5772b5682e4c1f",
-      "packaged_sha256": "faa6349910d1b6651d3d53487dc8047ee220a6b6c0c9079ccd5772b5682e4c1f",
-      "changes": []
+      "packaged_sha256": "375b09cb649dd1e29d24f6b0280656bd7784a4c44dbdbac15c5745e4c3668dd4",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/CrossTypeCounts.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/CycleResidues.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/CycleResidues.lean",
       "freeze_sha256": "b60b684beaa38e11dce94f0cd730100c30a5716091565d85da763ae235f98d34",
       "packaged_sha256": "b60b684beaa38e11dce94f0cd730100c30a5716091565d85da763ae235f98d34",
-      "changes": []
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/CycleResidues.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/FixedClassEntropy.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/FixedClassEntropy.lean",
       "freeze_sha256": "6165669efc326e8eb8f1a35af171d474b671efb7fa068511da4e1b6304632af3",
-      "packaged_sha256": "6165669efc326e8eb8f1a35af171d474b671efb7fa068511da4e1b6304632af3",
-      "changes": []
+      "packaged_sha256": "f94209ea054023f8bb97cce1e482bb7274eca967edfa4893669edbd07f574481",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/FixedClassEntropy.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/FixedClassPatterns.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/FixedClassPatterns.lean",
       "freeze_sha256": "200ac432ab9f9ba0da7de7abf6dc7e66a6561e5ba442658507427c027fb5dafd",
-      "packaged_sha256": "200ac432ab9f9ba0da7de7abf6dc7e66a6561e5ba442658507427c027fb5dafd",
-      "changes": []
+      "packaged_sha256": "4be95de7f29bfb8cf6de4793574004b047eab73a92fde07b3b7ba7c294478123",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/FixedClassPatterns.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/FixedCoreCounting.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/FixedCoreCounting.lean",
       "freeze_sha256": "433029a9ed829dd3f170722068523b0f8ea06309719c45ec7bc24c8928e6d4bf",
-      "packaged_sha256": "433029a9ed829dd3f170722068523b0f8ea06309719c45ec7bc24c8928e6d4bf",
-      "changes": []
+      "packaged_sha256": "3c96f5871988e2d53425cc7eb864280470dbd5175090cd32ac682638312dad2c",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/FixedCoreCounting.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/FlattenedSetup.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/FlattenedSetup.lean",
       "freeze_sha256": "687d2ef55c0bb6e2b848646ceb6875101f547f4bd65bb450ad04e479bbb41c23",
-      "packaged_sha256": "687d2ef55c0bb6e2b848646ceb6875101f547f4bd65bb450ad04e479bbb41c23",
-      "changes": []
+      "packaged_sha256": "c5c7944068d7da82b13313a3e7ada4d7f82f06561e4b0507587c9ad90c9a7e73",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/FlattenedSetup.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/GroupEntropyAssembly.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/GroupEntropyAssembly.lean",
       "freeze_sha256": "52a3583ea7bfa1e42e10686fc8d2ada75fd39ee0e4df801092cf744e0063bfe3",
-      "packaged_sha256": "52a3583ea7bfa1e42e10686fc8d2ada75fd39ee0e4df801092cf744e0063bfe3",
-      "changes": []
+      "packaged_sha256": "6f0934091d497c61272d4c1677d21b1fd04ae27c0280b276d7f2c00d956739a9",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/GroupEntropyAssembly.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/HiltonExact.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/HiltonExact.lean",
       "freeze_sha256": "a07e87455aee2041be33d5cb8ef3ef0df715a97f05aa64c51a0cb23d711aab62",
-      "packaged_sha256": "a07e87455aee2041be33d5cb8ef3ef0df715a97f05aa64c51a0cb23d711aab62",
-      "changes": []
+      "packaged_sha256": "47d871897a322aacb20e973e070d267aa3f685fcae836680632a6068430fe662",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/HiltonExact.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/ModularResidual.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/ModularResidual.lean",
       "freeze_sha256": "e59cbd1dbdd4aca7dfb3c45e5640e04820ee81a58556db59e8be82b3d7ae0ce2",
-      "packaged_sha256": "e59cbd1dbdd4aca7dfb3c45e5640e04820ee81a58556db59e8be82b3d7ae0ce2",
-      "changes": []
+      "packaged_sha256": "e058ec78272742cc632a0a7d9abd9eb1d4267a6d782a52175415326967fc5129",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/ModularResidual.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/ModularTypes.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/ModularTypes.lean",
       "freeze_sha256": "5b1a70d0fe1f435c138d94d830f75145d67e85fb8a9af30201ca65dfbf93c135",
-      "packaged_sha256": "5b1a70d0fe1f435c138d94d830f75145d67e85fb8a9af30201ca65dfbf93c135",
-      "changes": []
+      "packaged_sha256": "2e95cafc7b1f368fd83cd1fbe7844def155217367bfc095a777ca5b2c64122c1",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/ModularTypes.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/OptimalPrescribed.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/OptimalPrescribed.lean",
       "freeze_sha256": "3a3288e255337a043ec6355835733634adac70f2e48ad35d6c07c053e5c83a70",
-      "packaged_sha256": "3a3288e255337a043ec6355835733634adac70f2e48ad35d6c07c053e5c83a70",
-      "changes": []
+      "packaged_sha256": "0c9b2a2835e4ef0318bf9c533c165087f686baf86938b23d38d9461c0585244a",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/OptimalPrescribed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/OutlineEntropy.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/OutlineEntropy.lean",
       "freeze_sha256": "3c2f10a7d953db2dae2219097481401f7d4965aad56f65fe02bfdb0b221af682",
-      "packaged_sha256": "3c2f10a7d953db2dae2219097481401f7d4965aad56f65fe02bfdb0b221af682",
-      "changes": []
+      "packaged_sha256": "15374cc28fb3cb23d45032ed3f836c4b08bd3ec24d1ca875c1a382972ee45374",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/OutlineEntropy.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/OutlineSymmetry.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/OutlineSymmetry.lean",
       "freeze_sha256": "ab2da91a7123761f6cfb93886fbbb3f78e52ab9e34d0b9a7f5d4b2dc5302dea5",
-      "packaged_sha256": "ab2da91a7123761f6cfb93886fbbb3f78e52ab9e34d0b9a7f5d4b2dc5302dea5",
-      "changes": []
+      "packaged_sha256": "cc0cae0db40b140e1b2b33ba0215ac10e37e1a281498f0170d7282f7f23c0208",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/OutlineSymmetry.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/PackingAttachment.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/PackingAttachment.lean",
       "freeze_sha256": "f50b09f37aae102749959eaef4edf29748088241f3265635c155a82b4057d873",
-      "packaged_sha256": "f50b09f37aae102749959eaef4edf29748088241f3265635c155a82b4057d873",
-      "changes": []
+      "packaged_sha256": "6d24e854e97f112543132630d39f944ad4efd02e07dadd69a9aa7b471420546f",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/PackingAttachment.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/QuotaDivision.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/QuotaDivision.lean",
       "freeze_sha256": "421d0143258009e9dae8a80003b81768059f4a0fd058db6a037cddba2dcf6ebe",
-      "packaged_sha256": "421d0143258009e9dae8a80003b81768059f4a0fd058db6a037cddba2dcf6ebe",
-      "changes": []
+      "packaged_sha256": "fd271ba465564725fd07fafa8758e0a6ea3f427942fe9eb188272e5f526afaba",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/QuotaDivision.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/ReferenceCross.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/ReferenceCross.lean",
       "freeze_sha256": "071e73efee6287b7d5f5a8e704df47340bd7e29092ce470fa6ac19b7fbc490f2",
-      "packaged_sha256": "071e73efee6287b7d5f5a8e704df47340bd7e29092ce470fa6ac19b7fbc490f2",
-      "changes": []
+      "packaged_sha256": "4cad1f4ec353a6a6fa7e5fc3dfabd0b6f0dfa8343e08e2f4f845cd18dfed7d40",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/ReferenceCross.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/RegularEntropy.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/RegularEntropy.lean",
       "freeze_sha256": "a0776daf627a06d07280e2464fd1f16183ce195549596b6e69f56a450f3cbb75",
-      "packaged_sha256": "a0776daf627a06d07280e2464fd1f16183ce195549596b6e69f56a450f3cbb75",
-      "changes": []
+      "packaged_sha256": "799ccd64657b14abeb503f936b1bfee85b3d7e6b6e32ca5536cc525856a23935",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/RegularEntropy.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/RegularFactorizations.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/RegularFactorizations.lean",
       "freeze_sha256": "69290a5b058e620c0c5388a114ec2006e23eb2467d3e5d22bc170ce74b58898c",
       "packaged_sha256": "69290a5b058e620c0c5388a114ec2006e23eb2467d3e5d22bc170ce74b58898c",
-      "changes": []
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/RegularFactorizations.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/ReservedCore.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/ReservedCore.lean",
       "freeze_sha256": "fbf2432a89278173b075b601ae621344c8b0bebd6a646723205275cfea8e8ac7",
-      "packaged_sha256": "fbf2432a89278173b075b601ae621344c8b0bebd6a646723205275cfea8e8ac7",
-      "changes": []
+      "packaged_sha256": "b75672cf019edd31b157410705ab322f89af87cfd05c1c0ecd7245b175210e05",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/ReservedCore.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/ReserveTrades.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/ReserveTrades.lean",
       "freeze_sha256": "ce633aaf1d6506050a3eb395a1e9b5131df5fb343158de659f061ab58aaae42a",
-      "packaged_sha256": "ce633aaf1d6506050a3eb395a1e9b5131df5fb343158de659f061ab58aaae42a",
-      "changes": []
+      "packaged_sha256": "6db80aa2291dff270e2f27e12da4dde5ee2ca71f42c726661d1d846506f90da1",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/ReserveTrades.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/ResidualQuotas.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/ResidualQuotas.lean",
       "freeze_sha256": "60d56da5f6d8c19504e5c947e4e310b56d4bee067dba5c43c8548e8461017eec",
-      "packaged_sha256": "60d56da5f6d8c19504e5c947e4e310b56d4bee067dba5c43c8548e8461017eec",
-      "changes": []
+      "packaged_sha256": "0e5117555f2f5dc3d319329b34bbbf0901dab38bded8b7117e08b9048b3d8822",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/ResidualQuotas.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/SharpPrescribed.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/SharpPrescribed.lean",
       "freeze_sha256": "f7a8ba9533701921f4413bcd7e0d9554f046e94291fbbe2a9f58c05fe9b689a3",
-      "packaged_sha256": "f7a8ba9533701921f4413bcd7e0d9554f046e94291fbbe2a9f58c05fe9b689a3",
-      "changes": []
+      "packaged_sha256": "ee91a8f82353ec0efe44d97b40cf45621abe27cb624f1bec29ca7a443ecdc780",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/SharpPrescribed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/SparseHostCompletion.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/SparseHostCompletion.lean",
       "freeze_sha256": "5edbd9f5dedb19c9de60d84261beef4bea0555ec57f8e730f5113d44050fe6dc",
-      "packaged_sha256": "5edbd9f5dedb19c9de60d84261beef4bea0555ec57f8e730f5113d44050fe6dc",
-      "changes": []
+      "packaged_sha256": "a97698bfd315be7f2c658ffa8e60a1726674e3d82ec770c7f9fa6e430f359339",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/SparseHostCompletion.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/TargetSeedData.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/TargetSeedData.lean",
       "freeze_sha256": "620ba6ac3e5583bc0bd93c98e58553fdd06c460abfaee449fc6801c57c5f850b",
-      "packaged_sha256": "620ba6ac3e5583bc0bd93c98e58553fdd06c460abfaee449fc6801c57c5f850b",
-      "changes": []
+      "packaged_sha256": "a5c2ed44ba83721254d7485ef45dfab1b90c931c9a4d73ec95998c86beb90389",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/TargetSeedData.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/TournamentSplit.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/TournamentSplit.lean",
       "freeze_sha256": "f35e369d932445e2716b6be82e8c537b19e1768ad32091d0d72a89b0de91df64",
-      "packaged_sha256": "f35e369d932445e2716b6be82e8c537b19e1768ad32091d0d72a89b0de91df64",
-      "changes": []
+      "packaged_sha256": "1a0d0f4ca7a0fc63b285e8fdd5a469f8a265a643c1c6ba504d1cf0eadc6f0165",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/TournamentSplit.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/PrescribedCounting/VariableCross.lean",
+      "path": "CDRIIILib/KBicolor/PrescribedCounting/VariableCross.lean",
       "freeze_sha256": "73f6945a5dc4856b4dd2dd59c5dfc578ebb922d3cb0519355ef8311fbbb057ad",
-      "packaged_sha256": "73f6945a5dc4856b4dd2dd59c5dfc578ebb922d3cb0519355ef8311fbbb057ad",
-      "changes": []
+      "packaged_sha256": "18058be388ac38fb3efead3130b8e73fea23f353f6e2a7aba5ddb37b73208d08",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/PrescribedCounting/VariableCross.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/ReservedCopies.lean",
+      "path": "CDRIIILib/KBicolor/ReservedCopies.lean",
       "freeze_sha256": "ca6c64a29783e8f0362bcc47308c803c96b95ee02d532b78b186ff3ef0c9a29b",
-      "packaged_sha256": "ca6c64a29783e8f0362bcc47308c803c96b95ee02d532b78b186ff3ef0c9a29b",
-      "changes": []
+      "packaged_sha256": "627d859b5a12f1e1b2c9998bbcd425da3146d621b40aa0f7b0dd4779dfd562b9",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/ReservedCopies.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/ReservedSpectrum.lean",
+      "path": "CDRIIILib/KBicolor/ReservedSpectrum.lean",
       "freeze_sha256": "7ed7ac6dbdae66241bcddbd4cb178527a512a8584858502b24e0b879bf1c367e",
-      "packaged_sha256": "7ed7ac6dbdae66241bcddbd4cb178527a512a8584858502b24e0b879bf1c367e",
-      "changes": []
+      "packaged_sha256": "00b4da26bef7f81d1c1a2d04e4687d53d66dca51a2a6a4f2178c876b94958c5a",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/ReservedSpectrum.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/ResidualHinge.lean",
+      "path": "CDRIIILib/KBicolor/ResidualHinge.lean",
       "freeze_sha256": "349449e82811ee48dcf9d418a7512799952b4d97b9a0bd94caa14c06a44082df",
-      "packaged_sha256": "349449e82811ee48dcf9d418a7512799952b4d97b9a0bd94caa14c06a44082df",
-      "changes": []
+      "packaged_sha256": "233dadf82d4561e177f57e36b0bd6b77f86fa730fa47e0e6de329f107e6d86d1",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/ResidualHinge.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/ResidualLattice.lean",
+      "path": "CDRIIILib/KBicolor/ResidualLattice.lean",
       "freeze_sha256": "520fc441a6eddb5e1121cdad52ce0ff70741c1847bb136cd210a5089051679a8",
-      "packaged_sha256": "fd8e2dcccee6e09f49230fa2bb06dc1babfb108dab917c7caff459fc3c842c94",
-      "changes": []
+      "packaged_sha256": "564569fd5fcd0a82ed8a4cc5c22c87efedb62b42657dbfb9fab4ee0f013b6236",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/ResidualLattice.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/ResidualSeedK.lean",
+      "path": "CDRIIILib/KBicolor/ResidualSeedK.lean",
       "freeze_sha256": "9ec7ff07cccd3debdb8379cdf33fad0729bc0ed215759504949d9d06007b38e7",
-      "packaged_sha256": "1dbe13c8b2f56319a854aa21a9801ec6527d2e3764a7520f2890a50260fd167f",
-      "changes": []
+      "packaged_sha256": "fc2a01a549a6894ac09a4d80bc896aa65f51fe55d04d6da1d61fd7c6d60a4ab4",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/ResidualSeedK.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/SpectrumExact.lean",
+      "path": "CDRIIILib/KBicolor/SpectrumExact.lean",
       "freeze_sha256": "fbe4236af5cf13ff97699e73502a7a740628448ab5fcf5e3b0cac588366e727a",
-      "packaged_sha256": "ca9ad511dd30450a9bb84e47777c7b70f080731a234cd8071f0f2c8435a22db8",
-      "changes": []
+      "packaged_sha256": "96e89338cb139354129dd0d2f3720c1e1229528820cecaecf39aa53dc61628b1",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/SpectrumExact.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/SpectrumMain.lean",
+      "path": "CDRIIILib/KBicolor/SpectrumMain.lean",
       "freeze_sha256": "b3eac8fa545542ffe89c54183bb2da89677bedc5c527903473f1ce121bfa7847",
-      "packaged_sha256": "b3eac8fa545542ffe89c54183bb2da89677bedc5c527903473f1ce121bfa7847",
-      "changes": []
+      "packaged_sha256": "10b0301ae1e99455233e2af30e730af783c7a507a2442da419db28dd04cb4e54",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/SpectrumMain.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/TransitiveFiniteAverage.lean",
+      "path": "CDRIIILib/KBicolor/TransitiveFiniteAverage.lean",
       "freeze_sha256": "946180eda520e8ad842bf0f1d885a6ad3fd9d9825d177f37243b203d1e393304",
-      "packaged_sha256": "946180eda520e8ad842bf0f1d885a6ad3fd9d9825d177f37243b203d1e393304",
-      "changes": []
+      "packaged_sha256": "458bdbd91b28454e8608b17f75733d4f2917692213926e7ab98ea599fd2c17c2",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/TransitiveFiniteAverage.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/TwoTorsionProducts.lean",
+      "path": "CDRIIILib/KBicolor/TwoTorsionProducts.lean",
       "freeze_sha256": "33effeeede12530b05b903317502db78a5313855e6be49bfee695a1b60923aa4",
       "packaged_sha256": "33effeeede12530b05b903317502db78a5313855e6be49bfee695a1b60923aa4",
-      "changes": []
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/TwoTorsionProducts.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/TypeIdentities.lean",
+      "path": "CDRIIILib/KBicolor/TypeIdentities.lean",
       "freeze_sha256": "3278ae37cf86b6ea3ef398256267e6d7036a53e126dcddc860334efc9073326a",
-      "packaged_sha256": "ad5581fddd6335145760597168ddb908ee98a9c32c85a50316de7757397dde1b",
-      "changes": []
+      "packaged_sha256": "0da7e53112b9c7a2b429c6cc47f92f91e40557558eb006474e22f57e52105313",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/TypeIdentities.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/AbsorptionCore.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/AbsorptionCore.lean",
       "freeze_sha256": "be5442c23535ec9347be8c1f0ce52ccc7a595f23da9722ad42a59ad49de51897",
-      "packaged_sha256": "be5442c23535ec9347be8c1f0ce52ccc7a595f23da9722ad42a59ad49de51897",
-      "changes": []
+      "packaged_sha256": "1e4784cb2ede3b57744d1819c2fbe011ac2eabed57c8d5b7b84c83cdb7163ef9",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/AbsorptionCore.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/Assembly.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/Assembly.lean",
       "freeze_sha256": "3ce8bbf7b4de05f494460e1a48567259d193e4b40e7792f674b2cefe396b9b61",
-      "packaged_sha256": "3ce8bbf7b4de05f494460e1a48567259d193e4b40e7792f674b2cefe396b9b61",
-      "changes": []
+      "packaged_sha256": "09150157e113ccc6ee300053527b34d37d4b1e8883d8eedcc783bbdc56db859e",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/Assembly.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/AssemblyBounds.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/AssemblyBounds.lean",
       "freeze_sha256": "201b4397fb067bf91d422738c008423eff70f9c3268b1fa8cdb2e52b2a84834c",
-      "packaged_sha256": "201b4397fb067bf91d422738c008423eff70f9c3268b1fa8cdb2e52b2a84834c",
-      "changes": []
+      "packaged_sha256": "d70a079b3d31b43b6947046bedeb93f29ee546c17d584bce07792955fac6cecb",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/AssemblyBounds.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/BalancedThreePattern.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/BalancedThreePattern.lean",
       "freeze_sha256": "4665d552f6c75a7b8e6ab909e77a5459209f66d8e33ea45453c9d40c49fce633",
-      "packaged_sha256": "4665d552f6c75a7b8e6ab909e77a5459209f66d8e33ea45453c9d40c49fce633",
-      "changes": []
+      "packaged_sha256": "85178f2925a508c22dafc115737cd19267096702361ca5489b201ab95fd18a0f",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/BalancedThreePattern.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/Cross.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/Cross.lean",
       "freeze_sha256": "7accc7b49397d921c7c98ade16f976c4ca0f4d981e87ad84e59af0cf108a138d",
-      "packaged_sha256": "2accb46f4fe0cd1d9f69c378b2fda6134592a84dc1c3f90725f381c3c655fc03",
-      "changes": []
+      "packaged_sha256": "bb0acb19c9ce1cc82aa0b896e0f525e008fcb9116d649898a4ddf729c2fb8beb",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/Cross.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/ExplicitAbsorptionCore.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/ExplicitAbsorptionCore.lean",
       "freeze_sha256": "42dde3f5d06227ceb017f18aab0e183faac314d4e72abe760188bbe7187e4a39",
-      "packaged_sha256": "872b5454cb590a8d8d8681ed48d6a113544601ab20fcce740e7627efc5dc4617",
-      "changes": []
+      "packaged_sha256": "17441d312975a827a4221e1931d7ca7b0a84d9d33b635981716f23bdac0994ae",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/ExplicitAbsorptionCore.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/ExplicitCounting.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/ExplicitCounting.lean",
       "freeze_sha256": "687d7de5372607a9af32a22640ca02a38cda46f0c4b606e9a599da612b551c87",
-      "packaged_sha256": "ca7c9b8cbaa730e150872d5cd17ab5efbe3534f0ac96aa0b53ca5d5d8e1b25fd",
-      "changes": []
+      "packaged_sha256": "0a3ce6280f6008c6887b14a88b4ddc89875619407db4e89a3e4c2c7c01b177cb",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/ExplicitCounting.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/FiniteLoads.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/FiniteLoads.lean",
       "freeze_sha256": "5535c1c7a352369e6b9d3e17ffc4975cbeea575aef40b39f8bbd557877e529e9",
-      "packaged_sha256": "5535c1c7a352369e6b9d3e17ffc4975cbeea575aef40b39f8bbd557877e529e9",
-      "changes": []
+      "packaged_sha256": "b542c06a53411a1dff6bcb9cf6e9cd14162153c60f6057def3ed636e80bff501",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/FiniteLoads.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/Geometry.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/Geometry.lean",
       "freeze_sha256": "8c12d58b1969209948179f6a8057d9e40762140412ae80a6a14fa46c057ff035",
-      "packaged_sha256": "8c12d58b1969209948179f6a8057d9e40762140412ae80a6a14fa46c057ff035",
-      "changes": []
+      "packaged_sha256": "4de1205d43cbe0613671b53e8bb542da4cec4bfbd894fb9c21ff21ffd0e1eb3f",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/Geometry.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/GlobalSeed.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/GlobalSeed.lean",
       "freeze_sha256": "55495e414b4de17bdb014d9918c0f7f495deb445c0a23560699d318ea4699df0",
-      "packaged_sha256": "55495e414b4de17bdb014d9918c0f7f495deb445c0a23560699d318ea4699df0",
-      "changes": []
+      "packaged_sha256": "91b6600bb1433e7254f253afce864efc4c1d8474f5fe88d86a6cc8aa66b8bd18",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/GlobalSeed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/KernelSeed.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/KernelSeed.lean",
       "freeze_sha256": "dcbaa1bf8c1095a2843b06c6d0eecf49a100f41c82500a9876daa58417c6b0b9",
-      "packaged_sha256": "dcbaa1bf8c1095a2843b06c6d0eecf49a100f41c82500a9876daa58417c6b0b9",
-      "changes": []
+      "packaged_sha256": "12d02dca978a99bba3bbbfffe87bf53fe360fcfd17dc097c3d2881d6e58c613c",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/KernelSeed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/LocalBalance.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/LocalBalance.lean",
       "freeze_sha256": "cf8a17117fed5c900e1c7ffcf398f3d743de563773d4a7760b44a80d842a8cd5",
-      "packaged_sha256": "cf8a17117fed5c900e1c7ffcf398f3d743de563773d4a7760b44a80d842a8cd5",
-      "changes": []
+      "packaged_sha256": "b6982df2ad8ede3166c9b40048b945ab2f67ef27cb4fee83e4221a21416b6369",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/LocalBalance.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/LocalCompatibility.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/LocalCompatibility.lean",
       "freeze_sha256": "747ad1dceccb5fdaa4c196db8f6b9e3faa032d011bc034c0dc656e12fb4b0241",
-      "packaged_sha256": "747ad1dceccb5fdaa4c196db8f6b9e3faa032d011bc034c0dc656e12fb4b0241",
-      "changes": []
+      "packaged_sha256": "76923674e1f0de398cb92d03592061a3def4d12f28fad05e5367eb48dbf7bd95",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/LocalCompatibility.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/NearFull.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/NearFull.lean",
       "freeze_sha256": "826b3dc13e09a52385a8ee7208201d4ae90c0929ab6d241f2f539171bd5ad17b",
-      "packaged_sha256": "826b3dc13e09a52385a8ee7208201d4ae90c0929ab6d241f2f539171bd5ad17b",
-      "changes": []
+      "packaged_sha256": "01a5cbb33d34af12bedb55b640a561d6df2caaf12fa7b0b26ee1744acc246f17",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/NearFull.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/NearFullReserve.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/NearFullReserve.lean",
       "freeze_sha256": "eabd041053c91e9e15b63ed9f931c3850a1ed19c4d323cf47e39dba6e67de70a",
-      "packaged_sha256": "eabd041053c91e9e15b63ed9f931c3850a1ed19c4d323cf47e39dba6e67de70a",
-      "changes": []
+      "packaged_sha256": "2a0a5a68026bc3d9832a4043b712d1aa615000e511fe107074110db390474670",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/NearFullReserve.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/OptimalWeights.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/OptimalWeights.lean",
       "freeze_sha256": "747a2a4101526676651a4373eeb6667f03d4d9e08b17ee49c8357f370809a45c",
-      "packaged_sha256": "747a2a4101526676651a4373eeb6667f03d4d9e08b17ee49c8357f370809a45c",
-      "changes": []
+      "packaged_sha256": "a314297686dd77771346deac7f3ed3ee760fa46b512e7e7bc0f7a1bc0b830eb1",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/OptimalWeights.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/OptimizedLocalSeed.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/OptimizedLocalSeed.lean",
       "freeze_sha256": "2e64a30f02c14198277458c0e9e8290f1ed1756f3f33be806e0bb20107bf8bd5",
-      "packaged_sha256": "2e64a30f02c14198277458c0e9e8290f1ed1756f3f33be806e0bb20107bf8bd5",
-      "changes": []
+      "packaged_sha256": "aedc466e46a1bb07a16b7118c4fbea04a371bbdfe5c44be39786ee3f43473c4d",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/OptimizedLocalSeed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/PieceCounts.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/PieceCounts.lean",
       "freeze_sha256": "5190e308164c394f1cd9d6a4622fb97bbacc28f846aa3d63d42ac5124e6442b7",
-      "packaged_sha256": "5190e308164c394f1cd9d6a4622fb97bbacc28f846aa3d63d42ac5124e6442b7",
-      "changes": []
+      "packaged_sha256": "da6a5f88ae1bddfd6fab3d428eccef52db292169b18a2af4f6b579b42fc44439",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/PieceCounts.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/PieceGeometry.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/PieceGeometry.lean",
       "freeze_sha256": "9c87d4e76ed6ba5632b77e2eb575a29c33e8ebfffcf2565ed95107e72aecc418",
-      "packaged_sha256": "9c87d4e76ed6ba5632b77e2eb575a29c33e8ebfffcf2565ed95107e72aecc418",
-      "changes": []
+      "packaged_sha256": "b6c7f2536a6c977da486fbd21a550165567f1b16bf0bd1b58b375ff3ef6b98a5",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/PieceGeometry.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/Placement.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/Placement.lean",
       "freeze_sha256": "2dad20d379428b245a938a98bd9c0eef45f9f4d4b56392d57ab60f3860ea14c6",
-      "packaged_sha256": "2dad20d379428b245a938a98bd9c0eef45f9f4d4b56392d57ab60f3860ea14c6",
-      "changes": []
+      "packaged_sha256": "c1a876e2a3d9a375fe2a1c44d614aaa147d99764561a8356dc2fa7d2f12f52ab",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/Placement.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/PreparedGeometry.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/PreparedGeometry.lean",
       "freeze_sha256": "333b45bae46c2f025156d8fdb0438ca9ad998c05bf64551e2b1e95c51fc8b343",
-      "packaged_sha256": "333b45bae46c2f025156d8fdb0438ca9ad998c05bf64551e2b1e95c51fc8b343",
-      "changes": []
+      "packaged_sha256": "e0bb697aef83568c731af9c43556b3f8df686139561692dd70ae6cffc423b39e",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/PreparedGeometry.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/PreparedSeed.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/PreparedSeed.lean",
       "freeze_sha256": "c5dfaa02e9d50725e3dc14bb65dc103296b859b52d9396f3878f16a8b4aa8f83",
-      "packaged_sha256": "c5dfaa02e9d50725e3dc14bb65dc103296b859b52d9396f3878f16a8b4aa8f83",
-      "changes": []
+      "packaged_sha256": "d160096b50bc5fad23b34f3ee4312eb7569bbc4f74bb9e1f6a6bb44edbd47877",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/PreparedSeed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/Quantitative.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/Quantitative.lean",
       "freeze_sha256": "aeb3bace577e37d5fa76887287bf1a45b41e67add0b2dd877505a1e036c8eb16",
-      "packaged_sha256": "aeb3bace577e37d5fa76887287bf1a45b41e67add0b2dd877505a1e036c8eb16",
-      "changes": []
+      "packaged_sha256": "234e273bd79e68d6218c044591ce08cc2666b73f029b8b47395aff2e21149ae1",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/Quantitative.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/Reserve.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/Reserve.lean",
       "freeze_sha256": "94182c6b7e672ebbabef29696fe3e62988cf1bafd1ab58868a488fdf1ebaecae",
-      "packaged_sha256": "94182c6b7e672ebbabef29696fe3e62988cf1bafd1ab58868a488fdf1ebaecae",
-      "changes": []
+      "packaged_sha256": "63f50b3dbd9897c27a7cdbd6767631206fb6ece009d0b76563df6a12855223d3",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/Reserve.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/ReserveHinge.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/ReserveHinge.lean",
       "freeze_sha256": "7db69d793cdb21e100d928c45d56b0d4034191e7ffdc21f34ed78a09a383c5d8",
-      "packaged_sha256": "7db69d793cdb21e100d928c45d56b0d4034191e7ffdc21f34ed78a09a383c5d8",
-      "changes": []
+      "packaged_sha256": "d6178d9d0bd7935b521965d76d7b2e53bf79d586dda08e538d2b0bdf1d25623a",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/ReserveHinge.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/ReserveLattice.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/ReserveLattice.lean",
       "freeze_sha256": "c72a7ff81a733d0e0f01404dbc181c73c01ea2ba89c31fe62d4d075569716c2f",
-      "packaged_sha256": "c72a7ff81a733d0e0f01404dbc181c73c01ea2ba89c31fe62d4d075569716c2f",
-      "changes": []
+      "packaged_sha256": "184099463604bd7fad27b00cb756217513212f1ad3c4278f60372461a89b02ec",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/ReserveLattice.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/ReserveSize.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/ReserveSize.lean",
       "freeze_sha256": "4099ca9146f910f18caf58e523aef8c11fa6b0320deb06342c91eec59446d304",
-      "packaged_sha256": "4099ca9146f910f18caf58e523aef8c11fa6b0320deb06342c91eec59446d304",
-      "changes": []
+      "packaged_sha256": "c0b1c44bac0ec425b4564a9419ae5ce65f721b37ead6c320a38b3a53e331cbb4",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/ReserveSize.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/ResidualSeed.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/ResidualSeed.lean",
       "freeze_sha256": "b7a963200fb299d5819afd8af26513ef6e23caa14963a7da0c88f274ca2ccc89",
-      "packaged_sha256": "b7a963200fb299d5819afd8af26513ef6e23caa14963a7da0c88f274ca2ccc89",
-      "changes": []
+      "packaged_sha256": "48a2e8deeb80d20ba0f80fa4f5d456a64a461abf8d7f5758a369b1e4d9624c0c",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/ResidualSeed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/RobustSeed.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/RobustSeed.lean",
       "freeze_sha256": "49c894c359d3a1064b1e006dad34eabb11778a47c2c336474673a17dfa72c634",
-      "packaged_sha256": "49c894c359d3a1064b1e006dad34eabb11778a47c2c336474673a17dfa72c634",
-      "changes": []
+      "packaged_sha256": "b95033f5cb735a6919771beacd2e2016d187e3f878eb50f719f5e19e4e77e0bc",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/RobustSeed.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/RootedLoads.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/RootedLoads.lean",
       "freeze_sha256": "1b23506c0bc26d117e455e9d8acaeb4e5fddb64ec3e5cba3d4de3f80d677779b",
-      "packaged_sha256": "1b23506c0bc26d117e455e9d8acaeb4e5fddb64ec3e5cba3d4de3f80d677779b",
-      "changes": []
+      "packaged_sha256": "efa0dc645ff9f6fd5f68d264f71f853cd3c06a1d1029d63d2e5887ad07a882f4",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/RootedLoads.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/SeedCorrection.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/SeedCorrection.lean",
       "freeze_sha256": "0db37799059b954175b483484d23a3f462473778d541ec6932484e8d892e59c6",
-      "packaged_sha256": "0db37799059b954175b483484d23a3f462473778d541ec6932484e8d892e59c6",
-      "changes": []
+      "packaged_sha256": "362d78d1e74f936a4be1ac69bdb831c7944f995fefd8932447e5953cbae8370c",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/SeedCorrection.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/SeedDefect.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/SeedDefect.lean",
       "freeze_sha256": "2328fa7dfb3ab903bccdce453ad140fc97f828a72529322623bbc646fdf12c34",
-      "packaged_sha256": "2328fa7dfb3ab903bccdce453ad140fc97f828a72529322623bbc646fdf12c34",
-      "changes": []
+      "packaged_sha256": "fc78c9d0f6dc2c699fb4d273a950ec424b8b5b244f044f08fd0c2feae561698f",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/SeedDefect.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/SeedDiscrepancy.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/SeedDiscrepancy.lean",
       "freeze_sha256": "821a6ee3ef89df1ef868b6f44b029747f9666ebd444a55291cfab8050bdebf36",
-      "packaged_sha256": "821a6ee3ef89df1ef868b6f44b029747f9666ebd444a55291cfab8050bdebf36",
-      "changes": []
+      "packaged_sha256": "c34ba377d11e18db8ed172ab4466912cd0c33d0298202e4a3842e3031d33d439",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/SeedDiscrepancy.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/SeedParameters.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/SeedParameters.lean",
       "freeze_sha256": "2705ca70cb1c452bcc18acbb740262513d6ff293943c5d6f76d0e0023bee664f",
-      "packaged_sha256": "2705ca70cb1c452bcc18acbb740262513d6ff293943c5d6f76d0e0023bee664f",
-      "changes": []
+      "packaged_sha256": "ba78dca24cc443be95a9c9406c571145797d3956e0d65d58970747e2677356ae",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/SeedParameters.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/SharpAsymptotic.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/SharpAsymptotic.lean",
       "freeze_sha256": "159340a571cf64a28316b293384e4d7c8daaa2d9c4c3510187be73bc7c95d524",
-      "packaged_sha256": "159340a571cf64a28316b293384e4d7c8daaa2d9c4c3510187be73bc7c95d524",
-      "changes": []
+      "packaged_sha256": "a25ced9ef3c8e05d0898cb86fdf3791ca614dd97dd94982b547d55252353edcb",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/SharpAsymptotic.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/SharpCounting.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/SharpCounting.lean",
       "freeze_sha256": "d7c6ff973c1c380fcc565e73b67424bbfe14c4d817af187490dba8d355a6e42b",
-      "packaged_sha256": "d7c6ff973c1c380fcc565e73b67424bbfe14c4d817af187490dba8d355a6e42b",
-      "changes": []
+      "packaged_sha256": "a4d5e8f059402b3ed4ee85519a7782784658f4814da14327275caf8e123a4472",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/SharpCounting.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/KBicolor/Wilson/TypeKernel.lean",
+      "path": "CDRIIILib/KBicolor/Wilson/TypeKernel.lean",
       "freeze_sha256": "d17398b37dd6d34887cf9a95f43868f35627afc8da2b6dafc0747ba0aa3db5ad",
-      "packaged_sha256": "d17398b37dd6d34887cf9a95f43868f35627afc8da2b6dafc0747ba0aa3db5ad",
-      "changes": []
+      "packaged_sha256": "29008321541d3845331fd4f1d38ebd6d98e278cee42f1056b5e7714811b14bd1",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/KBicolor/Wilson/TypeKernel.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/Palomar/GaleHoffman.lean",
+      "path": "CDRIIILib/Palomar/GaleHoffman.lean",
       "freeze_sha256": "4591b41209bb3a24d4a1aa5a6e0990e9887e9bb204748e6715a5db4e34dea939",
-      "packaged_sha256": "4591b41209bb3a24d4a1aa5a6e0990e9887e9bb204748e6715a5db4e34dea939",
-      "changes": []
+      "packaged_sha256": "da9e6fac675530bcc38174ee8646bab9b0a2fc6fa4246ebcfb80de97faa7cc67",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/Palomar/GaleHoffman.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/PaperIII/Arith.lean",
+      "path": "CDRIIILib/PaperIII/Arith.lean",
       "freeze_sha256": "acb12ac4a623bd81204147b9d6e5cb6d7f05dcbfa2f2721ba900c8e20034df27",
-      "packaged_sha256": "acb12ac4a623bd81204147b9d6e5cb6d7f05dcbfa2f2721ba900c8e20034df27",
-      "changes": []
+      "packaged_sha256": "9f7ad4f59cf5a6af352f93222fe2be5c1dc506cb65a92c648743f687b229c2cc",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/Arith.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/PaperIII/ArithLemmas.lean",
+      "path": "CDRIIILib/PaperIII/ArithLemmas.lean",
       "freeze_sha256": "705c345043a612a9f45b7dbc5dcded0ca478fe4ca9da7f54474b8cdd64c7a2e7",
-      "packaged_sha256": "705c345043a612a9f45b7dbc5dcded0ca478fe4ca9da7f54474b8cdd64c7a2e7",
-      "changes": []
+      "packaged_sha256": "46535d8f07e3c343db8255305bd384c88636d417de93f441f6012a19102cc843",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/ArithLemmas.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/PaperIII/ArithMain.lean",
+      "path": "CDRIIILib/PaperIII/ArithMain.lean",
       "freeze_sha256": "2c9d0b6f87e721f357873e097f406f5849407b687e4461fb30ca4a42e51a2963",
-      "packaged_sha256": "2c9d0b6f87e721f357873e097f406f5849407b687e4461fb30ca4a42e51a2963",
-      "changes": []
+      "packaged_sha256": "5633d083c68f7c66f2246bc58603157d9434cf69df32f7edc1f755b64866308b",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/ArithMain.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/PaperIII/AxisSixInput.lean",
+      "path": "CDRIIILib/PaperIII/AxisSixInput.lean",
       "freeze_sha256": "d83bc8b78ff468cf38c9499e5913937f5bef004d13c203b97d44876c6b0e48f3",
-      "packaged_sha256": "d83bc8b78ff468cf38c9499e5913937f5bef004d13c203b97d44876c6b0e48f3",
-      "changes": []
+      "packaged_sha256": "6df9ae301680db41edb9342f61893dfb4df4bd852b89f6d97089aee575c7fe60",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/AxisSixInput.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/PaperIII/AxisTwoInput.lean",
+      "path": "CDRIIILib/PaperIII/AxisTwoInput.lean",
       "freeze_sha256": "94c2dc91f63f2a725a53b79da549eaa4897b8eb26f27d8edd273c42c85cb793a",
-      "packaged_sha256": "94c2dc91f63f2a725a53b79da549eaa4897b8eb26f27d8edd273c42c85cb793a",
-      "changes": []
+      "packaged_sha256": "05e14cb6dd37f82b36cc839a8a6bf565c6d4cb0165153754be59697dda88035b",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/AxisTwoInput.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/PaperIII/Bridge.lean",
+      "path": "CDRIIILib/PaperIII/Bridge.lean",
       "freeze_sha256": "0f9dc168e5c3e0e0f8b583b11a257b8fd5baabcc39cd565fdb3a85891c5d81a0",
-      "packaged_sha256": "0f9dc168e5c3e0e0f8b583b11a257b8fd5baabcc39cd565fdb3a85891c5d81a0",
-      "changes": []
+      "packaged_sha256": "c9b1545f3ad34510d9e351a8a2197f0ff930a65e4f7003e46c736694e922dde1",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/Bridge.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/PaperIII/CapSix.lean",
+      "path": "CDRIIILib/PaperIII/CapSix.lean",
       "freeze_sha256": "ac5b4f62e0c655ee5821aa47894ca3e8bd4a3992512d14656a3bc591c93e0e5e",
-      "packaged_sha256": "ac5b4f62e0c655ee5821aa47894ca3e8bd4a3992512d14656a3bc591c93e0e5e",
-      "changes": []
+      "packaged_sha256": "dcb776549e670b78185a3daa423a001e5d3a2be2628e9743c12fb036da3bbd9f",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/CapSix.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/PaperIII/CapTwo.lean",
+      "path": "CDRIIILib/PaperIII/CapTwo.lean",
       "freeze_sha256": "e27a4030ecaeab537c04d8415b2022afe9b852e5c960c26cd1ccddbcb938b101",
-      "packaged_sha256": "e27a4030ecaeab537c04d8415b2022afe9b852e5c960c26cd1ccddbcb938b101",
-      "changes": []
+      "packaged_sha256": "3129e8d2a467ac70aa0dee54529e1a09607b6be5951671d7b1960099f631bf78",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/CapTwo.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
-      "path": "CDRBicolour/PaperIII/Defs.lean",
+      "path": "CDRIIILib/PaperIII/Defs.lean",
       "freeze_sha256": "8903fe5ff372f3e088a1e56df48e6389fb376c3638eb8e38b24e2efbbb9297d8",
       "packaged_sha256": "8903fe5ff372f3e088a1e56df48e6389fb376c3638eb8e38b24e2efbbb9297d8",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/PaperIII/Four.lean",
-      "freeze_sha256": "dad412c16f14734f3ac10a5db9e76663993cc05342db1c3bca5e5bed81061b8d",
-      "packaged_sha256": "fef72003b16cc58a690a37287d42e6deba41de6b6d7fdeee0a21ea53e2372e98",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/PaperIII/FourSeed70.lean",
-      "freeze_sha256": "d37a911175fb5d37c312678799b1b1bc0001f1b22a6f01fd158e2824a64f62aa",
-      "packaged_sha256": "d37a911175fb5d37c312678799b1b1bc0001f1b22a6f01fd158e2824a64f62aa",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/PaperIII/FourSeedGale.lean",
-      "freeze_sha256": "66f812d59cdb32b817d103d29dd6096b6a675d83922c0856ab0f8dcb19419e3c",
-      "packaged_sha256": "66f812d59cdb32b817d103d29dd6096b6a675d83922c0856ab0f8dcb19419e3c",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/PaperIII/GalePalomar.lean",
-      "freeze_sha256": "4d10975c2753a77591802239b282c47b1b8051289369a03e34c9128e9b7c2d80",
-      "packaged_sha256": "4d10975c2753a77591802239b282c47b1b8051289369a03e34c9128e9b7c2d80",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/PaperIII/Geom.lean",
-      "freeze_sha256": "3916cd2e5390a2caecdd87254ce77f213e0470fe5a1703975d6689e767e8214f",
-      "packaged_sha256": "7c02d3a300594e938f141cc82acaba74b532f00626f7abb5af08f42379a1b04a",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/PaperIII/LPSeedExample.lean",
-      "freeze_sha256": "a60ecd7e1f4f5992c0498b664371c1858625ad3a5e8a99090957be56fce8c469",
-      "packaged_sha256": "a60ecd7e1f4f5992c0498b664371c1858625ad3a5e8a99090957be56fce8c469",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/PaperIII/Main.lean",
-      "freeze_sha256": "51a1844d45d152e19b2ead42ad8f26fb83ed94dda26863950e65c7334fe62789",
-      "packaged_sha256": "51a1844d45d152e19b2ead42ad8f26fb83ed94dda26863950e65c7334fe62789",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/PaperIII/MeridianMain.lean",
-      "freeze_sha256": "b5e36715bd7c4d1d8c7ea3a4443daf6a1f9b3751fd87287f6ff9cd5c96a87ab0",
-      "packaged_sha256": "b5e36715bd7c4d1d8c7ea3a4443daf6a1f9b3751fd87287f6ff9cd5c96a87ab0",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/PaperIII/Near.lean",
-      "freeze_sha256": "d7dc935add530b977404fdc007b9256a99143e0509d7c1b151a5fd13acd7f545",
-      "packaged_sha256": "919f1cf45315be665fcdb417e837d82564732f84daa3463033c230aacd1abef1",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/PaperIII/SeedGale.lean",
-      "freeze_sha256": "c8c8d970ab39776ae1d272727c86c75f518b08c35e9e7c645e11348049a7d58c",
-      "packaged_sha256": "e600a33a3d9132f1510a7ec41ef2e6069f5b4a34f0eeef45844fb31f6dea81ed",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/PaperIII/SeedMargin70.lean",
-      "freeze_sha256": "b23348d72d88aed4890725b75bd91167efa721dca5a8180d20ca91a3952e6393",
-      "packaged_sha256": "b23348d72d88aed4890725b75bd91167efa721dca5a8180d20ca91a3952e6393",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/PaperIII/Unconditional.lean",
-      "freeze_sha256": "c9e483694076b8572021c261894d695ff08c7d105c2782150e9edfd202061872",
-      "packaged_sha256": "c9e483694076b8572021c261894d695ff08c7d105c2782150e9edfd202061872",
-      "changes": []
-    },
-    {
-      "path": "CDRBicolour/PaperIII/UnconditionalArithmetic.lean",
-      "freeze_sha256": "1fc752c1f2afe6da3e849b98a46a163dbe6e359bc12807f0e2842f140a53d7f5",
-      "packaged_sha256": "c4b3c6d4a9003b9548757ecc1215c4f4ec27db8d92c6908b19f1e4527dad9e0f",
       "changes": [
-        "redirect import ThreeSquaresLib.ThreeSquaresDenseProof to CDRIIIArithmetic.Dense"
-      ]
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/Defs.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/PaperIII/Four.lean",
+      "freeze_sha256": "dad412c16f14734f3ac10a5db9e76663993cc05342db1c3bca5e5bed81061b8d",
+      "packaged_sha256": "63ca7e2f3183ca03443d3f2ef9844cba2917368e41600ebc291a1d4b5ad1e636",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/Four.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/PaperIII/FourSeed70.lean",
+      "freeze_sha256": "d37a911175fb5d37c312678799b1b1bc0001f1b22a6f01fd158e2824a64f62aa",
+      "packaged_sha256": "31c7acdbf3a54a23131a9a88953fff350e2bc17ffedc8d73abda0bfe692d9dbb",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/FourSeed70.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/PaperIII/FourSeedGale.lean",
+      "freeze_sha256": "66f812d59cdb32b817d103d29dd6096b6a675d83922c0856ab0f8dcb19419e3c",
+      "packaged_sha256": "9ce45423f7d13787a2a7e16b0b488ba647aac0efb1a701466fdc69750db2a116",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/FourSeedGale.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/PaperIII/GalePalomar.lean",
+      "freeze_sha256": "4d10975c2753a77591802239b282c47b1b8051289369a03e34c9128e9b7c2d80",
+      "packaged_sha256": "5de1e2d9c1f9bdff795b1d01036983a8149acbb2eaf7e467ec8e807da4787a50",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/GalePalomar.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/PaperIII/Geom.lean",
+      "freeze_sha256": "3916cd2e5390a2caecdd87254ce77f213e0470fe5a1703975d6689e767e8214f",
+      "packaged_sha256": "50c0d1d59ac464c9fa17c01857d5d7648c419acf61812062e08fdcc3f073bb35",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/Geom.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/PaperIII/LPSeedExample.lean",
+      "freeze_sha256": "a60ecd7e1f4f5992c0498b664371c1858625ad3a5e8a99090957be56fce8c469",
+      "packaged_sha256": "b6fbe4b82f743cce3a1f5cee309dfe96d45291fdcaa00840d16b1121b9144cc0",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/LPSeedExample.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/PaperIII/Main.lean",
+      "freeze_sha256": "51a1844d45d152e19b2ead42ad8f26fb83ed94dda26863950e65c7334fe62789",
+      "packaged_sha256": "af42334a950a3d3c50df87a068631134726f65bcb42c5d087e1790e5ea22b1b3",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/Main.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/PaperIII/MeridianMain.lean",
+      "freeze_sha256": "b5e36715bd7c4d1d8c7ea3a4443daf6a1f9b3751fd87287f6ff9cd5c96a87ab0",
+      "packaged_sha256": "2875f19f629af205edde403131cff3b7de41d7df5c69d65efb39c8e78d9e9ead",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/MeridianMain.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/PaperIII/Near.lean",
+      "freeze_sha256": "d7dc935add530b977404fdc007b9256a99143e0509d7c1b151a5fd13acd7f545",
+      "packaged_sha256": "f5bf72ed5d402d66495a479c7b82a050a9f98baa2444e1ed097fa67e09ba3dbb",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/Near.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/PaperIII/SeedGale.lean",
+      "freeze_sha256": "c8c8d970ab39776ae1d272727c86c75f518b08c35e9e7c645e11348049a7d58c",
+      "packaged_sha256": "c3e9f2077dbd99fbdc49176d001c77c100b886adf4b92327d4f5a6f78c18839d",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/SeedGale.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/PaperIII/SeedMargin70.lean",
+      "freeze_sha256": "b23348d72d88aed4890725b75bd91167efa721dca5a8180d20ca91a3952e6393",
+      "packaged_sha256": "3e42037c24e58ee634f53843b6c5c396de5f34384966425e23a9661dba9450e5",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/SeedMargin70.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/PaperIII/Unconditional.lean",
+      "freeze_sha256": "c9e483694076b8572021c261894d695ff08c7d105c2782150e9edfd202061872",
+      "packaged_sha256": "83698a65b69dbcddd0cfccab765c56d11051f93729fa8cfc4f218c4cf026d96f",
+      "changes": [
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/Unconditional.lean",
+      "mathematical_tokens_unchanged_except_imports": true
+    },
+    {
+      "path": "CDRIIILib/PaperIII/UnconditionalArithmetic.lean",
+      "freeze_sha256": "1fc752c1f2afe6da3e849b98a46a163dbe6e359bc12807f0e2842f140a53d7f5",
+      "packaged_sha256": "ab853e62790e58c58efe3fb0aba866670ecd0886d4fbf24b76b5d233cd474b08",
+      "changes": [
+        "redirect import ThreeSquaresLib.ThreeSquaresDenseProof to CDRIIIArithmetic.Dense",
+        "Move source module to unique CDRIIILib prefix; keep mathematical declaration namespaces"
+      ],
+      "freeze_path": "CDRBicolour/PaperIII/UnconditionalArithmetic.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     },
     {
       "path": "CDRIII.lean",
       "freeze_sha256": "457504f77dd6060df75049479f00b3dfd23c550547a880a35c15675182eeca60",
-      "packaged_sha256": "dc03f9cd894debae615670fec780c24b33f729b87afeff405face6206c26597d",
+      "packaged_sha256": "cfa88cb724379a448bd7eceffcef16aa4cb10140e075bd04b31ea70cf79d7fa6",
       "changes": [
         "add required copyright header"
-      ]
+      ],
+      "freeze_path": "CDRIII.lean",
+      "mathematical_tokens_unchanged_except_imports": true
     }
   ],
   "adapters": [

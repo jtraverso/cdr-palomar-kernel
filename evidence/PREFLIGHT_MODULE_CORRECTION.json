@@ -1,0 +1,8 @@
+{
+  "previous_commit": "e64d202b2620cab5daac14756d92526a1b5c3d9e",
+  "previous_run": "https://github.com/jtraverso/cdr-palomar-kernel/actions/runs/43652926338",
+  "diagnostic": "Solution build failed while multiple libraries claimed the same module prefixes, including nonexistent files.",
+  "correction": "Give new CDR modules a unique CDRIIILib prefix; narrow five dependencies' module-ownership configurations without changing any Lean source.",
+  "mathematical_hypotheses_changed": false,
+  "local_full_build_performed": false
+}

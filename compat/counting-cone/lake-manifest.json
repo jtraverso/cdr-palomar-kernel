@@ -8,8 +8,8 @@
       "name": "counting_sts",
       "scope": "",
       "subDir": null,
-      "rev": "52fda83038df7442c576e17edffba591db703cb8",
-      "inputRev": "52fda83038df7442c576e17edffba591db703cb8",
+      "rev": "dc8f42dd87157cf9fafacfb382f5d154881105c8",
+      "inputRev": "dc8f42dd87157cf9fafacfb382f5d154881105c8",
       "manifestFile": "lake-manifest.json",
       "configFile": "lakefile.toml",
       "inherited": false

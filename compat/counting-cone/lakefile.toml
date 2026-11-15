@@ -5,7 +5,7 @@ requiresModuleSystem = true
 [[require]]
 name = "counting_sts"
 git = "https://github.com/jtraverso/counting-steiner-triple-systems"
-rev = "52fda83038df7442c576e17edffba591db703cb8"
+rev = "dc8f42dd87157cf9fafacfb382f5d154881105c8"
 
 [[lean_lib]]
 name = "CountingCone"

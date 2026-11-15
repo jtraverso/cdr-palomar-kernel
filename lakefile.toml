@@ -16,12 +16,12 @@ rev = "c55e6e786f49471c72fbddbec5415808896aec1e"
 [[require]]
 name = "cdr_bicolour"
 git = "https://github.com/jtraverso/cdr-palomar-kernel"
-rev = "5d1e6fe301e5fc01c92f6145aa34fddfe9c2bd10"
+rev = "52ef4148441d9cdc5d523ca0c73d076ad66ed831"
 
 [[require]]
 name = "PhysicalTypedAbsorption"
 git = "https://github.com/jtraverso/physical-typed-absorption"
-rev = "9d36e80d75d81d9eabbfacd370dc4394b54e3d52"
+rev = "1536d1c75452a135d527d59217adc0408755448b"
 
 [[require]]
 name = "dsp_ternary"
@@ -56,20 +56,25 @@ rev = "b85da9ac66e0fb8b9873a8bea0c057f78c9d186c"
 [[require]]
 name = "vizing"
 git = "https://github.com/jtraverso/vizing"
-rev = "33b2de836095cf92bc1dec33b6f8787e4036bbc6"
+rev = "995a73aa27196ac66f52a3054e6fd6dac3599479"
 
 [[require]]
 name = "counting_sts"
 git = "https://github.com/jtraverso/counting-steiner-triple-systems"
-rev = "52fda83038df7442c576e17edffba591db703cb8"
+rev = "dc8f42dd87157cf9fafacfb382f5d154881105c8"
 
 [[require]]
 name = "counting_cone"
 path = "compat/counting-cone"
 
+[[require]]
+name = "dross"
+git = "https://github.com/jtraverso/dross-fractional-triangle-decomposition"
+rev = "90e04502005b2f3dc7b8207809d08045db8b4068"
+
 [[lean_lib]]
-name = "CDRBicolour"
-globs = ["CDRBicolour.+"]
+name = "CDRIIILib"
+globs = ["CDRIIILib.+"]
 
 [[lean_lib]]
 name = "CDRIIIArithmetic"
