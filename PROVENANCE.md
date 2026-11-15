@@ -73,10 +73,10 @@ dependency: it is supplied by a pinned upstream project instead of this tree.
 
 | Repository | Registered proof-source base | Used configuration revision | Changed files |
 |---|---|---|---|
-| `jtraverso/vizing` | `33b2de836095cf92bc1dec33b6f8787e4036bbc6` | `79dd603708233c5c5335754b90fbbdb4567b6464` | `lakefile.toml` |
-| `jtraverso/dross-fractional-triangle-decomposition` | `7720b7b591e606d5a56f1d935d8be650dcbf6c6f` | `a12dd96d4ba52a9660193d8f0f7298988ec56379` | `lakefile.toml` |
-| `jtraverso/counting-steiner-triple-systems` | `52fda83038df7442c576e17edffba591db703cb8` | `b87fc3f4e8a6b724216e77a2b27145614c019c66` | `lakefile.toml` |
-| `jtraverso/physical-typed-absorption` | `9d36e80d75d81d9eabbfacd370dc4394b54e3d52` | `e69dfe9e5b6dd17563daf1483a6dc3767cad2e8f` | `lakefile.toml` |
+| `jtraverso/vizing` | `33b2de836095cf92bc1dec33b6f8787e4036bbc6` | `afe7a3a748bd4e47196225709fd6f3890631028f` | `lakefile.toml` |
+| `jtraverso/dross-fractional-triangle-decomposition` | `7720b7b591e606d5a56f1d935d8be650dcbf6c6f` | `345ba11fad11d1fbba03cc8ad39ac46813a024ae` | `lakefile.toml` |
+| `jtraverso/counting-steiner-triple-systems` | `52fda83038df7442c576e17edffba591db703cb8` | `531a6eae7628f9a2c12fb8d2b12c6a3b8c2f475f` | `lakefile.toml` |
+| `jtraverso/physical-typed-absorption` | `9d36e80d75d81d9eabbfacd370dc4394b54e3d52` | `05076a49312503e83bbb51d7ab5140146d7cd28c` | `lakefile.toml` |
 | `jtraverso/cdr-palomar-kernel` | `5d1e6fe301e5fc01c92f6145aa34fddfe9c2bd10` | `52ef4148441d9cdc5d523ca0c73d076ad66ed831` | `lake-manifest.json`, `lakefile.toml` |
 
 These technical branches leave the registered commits and every repository's main
@@ -93,7 +93,7 @@ import map are recorded in [PROJECT_MODULE_RELOCATION.json](evidence/PROJECT_MOD
 The counting and absorption inputs share the `RequestProject` prefix; Vizing and
 Dross share `LeanPool`. Lean resolves a prefix from its first compiled search root.
 Their configuration-only revisions therefore write compiled Lean libraries to
-`.lake/cdr-iii-shared-lean` inside the submission workspace. Module ownership is
+`.lake/build/lib/lean` inside the submission workspace. Module ownership is
 still unique, and no Lean source, theorem or hypothesis has changed. Native
 objects and other build files retain their package-specific directories.
 See [PREFLIGHT_EXPORT_CORRECTION.json](evidence/PREFLIGHT_EXPORT_CORRECTION.json).

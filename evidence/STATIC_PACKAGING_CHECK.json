@@ -77,7 +77,7 @@
     {
       "name": "dross",
       "type": "git",
-      "commit": "a12dd96d4ba52a9660193d8f0f7298988ec56379",
+      "commit": "345ba11fad11d1fbba03cc8ad39ac46813a024ae",
       "dir": null
     },
     {
@@ -89,13 +89,13 @@
     {
       "name": "counting_sts",
       "type": "git",
-      "commit": "b87fc3f4e8a6b724216e77a2b27145614c019c66",
+      "commit": "531a6eae7628f9a2c12fb8d2b12c6a3b8c2f475f",
       "dir": null
     },
     {
       "name": "vizing",
       "type": "git",
-      "commit": "79dd603708233c5c5335754b90fbbdb4567b6464",
+      "commit": "afe7a3a748bd4e47196225709fd6f3890631028f",
       "dir": null
     },
     {
@@ -137,7 +137,7 @@
     {
       "name": "PhysicalTypedAbsorption",
       "type": "git",
-      "commit": "e69dfe9e5b6dd17563daf1483a6dc3767cad2e8f",
+      "commit": "05076a49312503e83bbb51d7ab5140146d7cd28c",
       "dir": null
     },
     {

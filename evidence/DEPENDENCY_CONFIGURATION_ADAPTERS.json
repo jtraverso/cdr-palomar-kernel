@@ -6,8 +6,8 @@
       "key": "vizing",
       "repository": "jtraverso/vizing",
       "registered_base": "33b2de836095cf92bc1dec33b6f8787e4036bbc6",
-      "commit": "79dd603708233c5c5335754b90fbbdb4567b6464",
-      "branch": "palomar-cdr-iii-export-20261115",
+      "commit": "afe7a3a748bd4e47196225709fd6f3890631028f",
+      "branch": "palomar-cdr-iii-output-20261115",
       "changed_files": [
         "lakefile.toml"
       ],
@@ -35,15 +35,15 @@
           "Solution"
         ]
       },
-      "previous_configuration_commit": "995a73aa27196ac66f52a3054e6fd6dac3599479",
-      "leanLibDir": "../../../../cdr-iii-shared-lean"
+      "previous_configuration_commit": "79dd603708233c5c5335754b90fbbdb4567b6464",
+      "leanLibDir": "../../../../build/lib/lean"
     },
     {
       "key": "dross",
       "repository": "jtraverso/dross-fractional-triangle-decomposition",
       "registered_base": "7720b7b591e606d5a56f1d935d8be650dcbf6c6f",
-      "commit": "a12dd96d4ba52a9660193d8f0f7298988ec56379",
-      "branch": "palomar-cdr-iii-export-20261115",
+      "commit": "345ba11fad11d1fbba03cc8ad39ac46813a024ae",
+      "branch": "palomar-cdr-iii-output-20261115",
       "changed_files": [
         "lakefile.toml"
       ],
@@ -89,15 +89,15 @@
           "Solution"
         ]
       },
-      "previous_configuration_commit": "90e04502005b2f3dc7b8207809d08045db8b4068",
-      "leanLibDir": "../../../../cdr-iii-shared-lean"
+      "previous_configuration_commit": "a12dd96d4ba52a9660193d8f0f7298988ec56379",
+      "leanLibDir": "../../../../build/lib/lean"
     },
     {
       "key": "counting",
       "repository": "jtraverso/counting-steiner-triple-systems",
       "registered_base": "52fda83038df7442c576e17edffba591db703cb8",
-      "commit": "b87fc3f4e8a6b724216e77a2b27145614c019c66",
-      "branch": "palomar-cdr-iii-export-20261115",
+      "commit": "531a6eae7628f9a2c12fb8d2b12c6a3b8c2f475f",
+      "branch": "palomar-cdr-iii-output-20261115",
       "changed_files": [
         "lakefile.toml"
       ],
@@ -175,15 +175,15 @@
           "Solution"
         ]
       },
-      "previous_configuration_commit": "dc8f42dd87157cf9fafacfb382f5d154881105c8",
-      "leanLibDir": "../../../../cdr-iii-shared-lean"
+      "previous_configuration_commit": "b87fc3f4e8a6b724216e77a2b27145614c019c66",
+      "leanLibDir": "../../../../build/lib/lean"
     },
     {
       "key": "absorption",
       "repository": "jtraverso/physical-typed-absorption",
       "registered_base": "9d36e80d75d81d9eabbfacd370dc4394b54e3d52",
-      "commit": "e69dfe9e5b6dd17563daf1483a6dc3767cad2e8f",
-      "branch": "palomar-cdr-iii-export-20261115",
+      "commit": "05076a49312503e83bbb51d7ab5140146d7cd28c",
+      "branch": "palomar-cdr-iii-output-20261115",
       "changed_files": [
         "lakefile.toml"
       ],
@@ -1341,8 +1341,8 @@
           "PaperIIISolution"
         ]
       },
-      "previous_configuration_commit": "1536d1c75452a135d527d59217adc0408755448b",
-      "leanLibDir": "../../../../cdr-iii-shared-lean"
+      "previous_configuration_commit": "e69dfe9e5b6dd17563daf1483a6dc3767cad2e8f",
+      "leanLibDir": "../../../../build/lib/lean"
     },
     {
       "key": "kernel",
@@ -1558,8 +1558,9 @@
     }
   ],
   "shared_compiled_roots": {
-    "relative_to_dependency_buildDir": "../../../../cdr-iii-shared-lean",
-    "resolved_from_project": ".lake/cdr-iii-shared-lean",
-    "reason": "Lean first-root lookup must see all modules with a shared top-level prefix; Lake module ownership alone is insufficient."
+    "relative_to_dependency_buildDir": "../../../../build/lib/lean",
+    "resolved_from_project": ".lake/build/lib/lean",
+    "reason": "Lean first-root lookup must see all modules with a shared top-level prefix; Lake module ownership alone is insufficient.",
+    "inside_verifier_approved_writable_build_leaf": true
   }
 }
